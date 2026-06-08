@@ -73,7 +73,7 @@
   },
   {
     "id": 505,
-    "italian": "Marco e il mio migliore amico",
+    "italian": "Marco è il mio migliore amico",
     "difficulty": "a1",
     "topic": "amicizie"
   },
@@ -115,7 +115,7 @@
   },
   {
     "id": 512,
-    "italian": "Lei e molto simpatica",
+    "italian": "Lei è molto simpatica",
     "difficulty": "a1",
     "topic": "amicizie"
   },
@@ -139,13 +139,13 @@
   },
   {
     "id": 516,
-    "italian": "La mia amica Maria e alta",
+    "italian": "La mia amica Maria è alta",
     "difficulty": "a1",
     "topic": "amicizie"
   },
   {
     "id": 517,
-    "italian": "Lui e gentile con tutti",
+    "italian": "Lui è gentile con tutti",
     "difficulty": "a1",
     "topic": "amicizie"
   },
@@ -193,7 +193,7 @@
   },
   {
     "id": 525,
-    "italian": "Il suo nome e Anna",
+    "italian": "Il suo nome è Anna",
     "difficulty": "a1",
     "topic": "amicizie"
   },
@@ -211,7 +211,7 @@
   },
   {
     "id": 528,
-    "italian": "Lei e una brava persona",
+    "italian": "Lei è una brava persona",
     "difficulty": "a1",
     "topic": "amicizie"
   },
@@ -253,7 +253,7 @@
   },
   {
     "id": 535,
-    "italian": "Lui e il mio compagno di classe",
+    "italian": "Lui è il mio compagno di classe",
     "difficulty": "a1",
     "topic": "amicizie"
   },
@@ -361,7 +361,7 @@
   },
   {
     "id": 543,
-    "italian": "L'appuntamento e alle tre",
+    "italian": "L'appuntamento è alle tre",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -409,7 +409,7 @@
   },
   {
     "id": 551,
-    "italian": "Lei e in ritardo",
+    "italian": "Lei è in ritardo",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -421,7 +421,7 @@
   },
   {
     "id": 553,
-    "italian": "L'appuntamento e stato cancellato",
+    "italian": "L'appuntamento è stato cancellato",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -445,13 +445,13 @@
   },
   {
     "id": 557,
-    "italian": "Noi spostiamo l'appuntamento a lunedi",
+    "italian": "Noi spostiamo l'appuntamento a lunedì",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
   {
     "id": 558,
-    "italian": "Il suo appuntamento e alle quattro",
+    "italian": "Il suo appuntamento è alle quattro",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -481,7 +481,7 @@
   },
   {
     "id": 563,
-    "italian": "L'appuntamento e per le cinque",
+    "italian": "L'appuntamento è per le cinque",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -499,7 +499,7 @@
   },
   {
     "id": 566,
-    "italian": "Lei e in ansia per l'appuntamento",
+    "italian": "Lei è in ansia per l'appuntamento",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -529,19 +529,19 @@
   },
   {
     "id": 571,
-    "italian": "Lei e in sala d'attesa",
+    "italian": "Lei è in sala d'attesa",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
   {
     "id": 572,
-    "italian": "Noi beviamo un caffe insieme",
+    "italian": "Noi beviamo un caffè insieme",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
   {
     "id": 573,
-    "italian": "L'appuntamento e fissato",
+    "italian": "L'appuntamento è fissato",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -583,7 +583,7 @@
   },
   {
     "id": 580,
-    "italian": "Lei e felice di vedermi",
+    "italian": "Lei è felice di vedermi",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -595,7 +595,7 @@
   },
   {
     "id": 582,
-    "italian": "L'appuntamento e breve",
+    "italian": "L'appuntamento è breve",
     "difficulty": "a1",
     "topic": "appuntamenti"
   },
@@ -781,7 +781,7 @@
   },
   {
     "id": 603,
-    "italian": "La banca e chiusa la domenica",
+    "italian": "La banca è chiusa la domenica",
     "difficulty": "a1",
     "topic": "banca"
   },
@@ -901,13 +901,13 @@
   },
   {
     "id": 623,
-    "italian": "Io bevo un caffe",
+    "italian": "Io bevo un caffè",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 624,
-    "italian": "Il caffe e caldo",
+    "italian": "Il caffè è caldo",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -937,7 +937,7 @@
   },
   {
     "id": 629,
-    "italian": "Il bar e aperto",
+    "italian": "Il bar è aperto",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -973,19 +973,19 @@
   },
   {
     "id": 635,
-    "italian": "Il barista prepara il caffe",
+    "italian": "Il barista prepara il caffè",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 636,
-    "italian": "Io prendo un caffe lungo",
+    "italian": "Io prendo un caffè lungo",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 637,
-    "italian": "Tu bevi un caffe amaro",
+    "italian": "Tu bevi un caffè amaro",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1003,13 +1003,13 @@
   },
   {
     "id": 640,
-    "italian": "Lui prende un caffe decaffeinato",
+    "italian": "Lui prende un caffè decaffeinato",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 641,
-    "italian": "Il cappuccino e freddo",
+    "italian": "Il cappuccino è freddo",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1045,19 +1045,19 @@
   },
   {
     "id": 647,
-    "italian": "Il bar e vicino a casa",
+    "italian": "Il bar è vicino a casa",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 648,
-    "italian": "Io voglio un caffe macchiato",
+    "italian": "Io voglio un caffè macchiato",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 649,
-    "italian": "Tu prendi un caffe con panna",
+    "italian": "Tu prendi un caffè con panna",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1069,7 +1069,7 @@
   },
   {
     "id": 651,
-    "italian": "Noi aspettiamo il caffe",
+    "italian": "Noi aspettiamo il caffè",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1081,13 +1081,13 @@
   },
   {
     "id": 653,
-    "italian": "Il caffe costa un euro",
+    "italian": "Il caffè costa un euro",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 654,
-    "italian": "Io prendo un caffe ristretto",
+    "italian": "Io prendo un caffè ristretto",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1111,19 +1111,19 @@
   },
   {
     "id": 658,
-    "italian": "Lui prende un caffe americano",
+    "italian": "Lui prende un caffè americano",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 659,
-    "italian": "Il bar e pieno di gente",
+    "italian": "Il bar è pieno di gente",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 660,
-    "italian": "Io ordino un caffe al banco",
+    "italian": "Io ordino un caffè al banco",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1153,13 +1153,13 @@
   },
   {
     "id": 665,
-    "italian": "Il caffe e buono qui",
+    "italian": "Il caffè è buono qui",
     "difficulty": "a1",
     "topic": "caffe"
   },
   {
     "id": 666,
-    "italian": "Io prendo un caffe corretto",
+    "italian": "Io prendo un caffè corretto",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1189,7 +1189,7 @@
   },
   {
     "id": 671,
-    "italian": "Il bar e sul corso principale",
+    "italian": "Il bar è sul corso principale",
     "difficulty": "a1",
     "topic": "caffe"
   },
@@ -1267,7 +1267,7 @@
   },
   {
     "id": 673,
-    "italian": "La casa e grande",
+    "italian": "La casa è grande",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1297,13 +1297,13 @@
   },
   {
     "id": 678,
-    "italian": "La camera da letto e piccola",
+    "italian": "La camera da letto è piccola",
     "difficulty": "a1",
     "topic": "casa"
   },
   {
     "id": 679,
-    "italian": "Il salotto e luminoso",
+    "italian": "Il salotto è luminoso",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1333,7 +1333,7 @@
   },
   {
     "id": 684,
-    "italian": "Il bagno e nuovo",
+    "italian": "Il bagno è nuovo",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1369,7 +1369,7 @@
   },
   {
     "id": 690,
-    "italian": "La scala e stretta",
+    "italian": "La scala è stretta",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1399,7 +1399,7 @@
   },
   {
     "id": 695,
-    "italian": "La casa e vicino al mare",
+    "italian": "La casa è vicino al mare",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1429,13 +1429,13 @@
   },
   {
     "id": 700,
-    "italian": "Il divano e comodo",
+    "italian": "Il divano è comodo",
     "difficulty": "a1",
     "topic": "casa"
   },
   {
     "id": 701,
-    "italian": "La cucina e moderna",
+    "italian": "La cucina è moderna",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1465,13 +1465,13 @@
   },
   {
     "id": 706,
-    "italian": "Il tetto e rosso",
+    "italian": "Il tetto è rosso",
     "difficulty": "a1",
     "topic": "casa"
   },
   {
     "id": 707,
-    "italian": "La porta e di legno",
+    "italian": "La porta è di legno",
     "difficulty": "a1",
     "topic": "casa"
   },
@@ -1579,7 +1579,7 @@
   },
   {
     "id": 715,
-    "italian": "Il libro e interessante",
+    "italian": "Il libro è interessante",
     "difficulty": "a1",
     "topic": "cultura"
   },
@@ -1609,7 +1609,7 @@
   },
   {
     "id": 720,
-    "italian": "Il concerto e stasera",
+    "italian": "Il concerto è stasera",
     "difficulty": "a1",
     "topic": "cultura"
   },
@@ -1639,7 +1639,7 @@
   },
   {
     "id": 725,
-    "italian": "Il film e bello",
+    "italian": "Il film è bello",
     "difficulty": "a1",
     "topic": "cultura"
   },
@@ -1699,7 +1699,7 @@
   },
   {
     "id": 735,
-    "italian": "La mostra e aperta al pubblico",
+    "italian": "La mostra è aperta al pubblico",
     "difficulty": "a1",
     "topic": "cultura"
   },
@@ -1735,7 +1735,7 @@
   },
   {
     "id": 741,
-    "italian": "La poesia e romantica",
+    "italian": "La poesia è romantica",
     "difficulty": "a1",
     "topic": "cultura"
   },
@@ -1765,7 +1765,7 @@
   },
   {
     "id": 746,
-    "italian": "Il museo e chiuso il lunedi",
+    "italian": "Il museo è chiuso il lunedì",
     "difficulty": "a1",
     "topic": "cultura"
   },
@@ -1891,13 +1891,13 @@
   },
   {
     "id": 755,
-    "italian": "Lui e un medico",
+    "italian": "Lui è un medico",
     "difficulty": "a1",
     "topic": "lavoro"
   },
   {
     "id": 756,
-    "italian": "Io prendo il caffe al lavoro",
+    "italian": "Io prendo il caffè al lavoro",
     "difficulty": "a1",
     "topic": "lavoro"
   },
@@ -1981,7 +1981,7 @@
   },
   {
     "id": 770,
-    "italian": "Lui e molto bravo",
+    "italian": "Lui è molto bravo",
     "difficulty": "a1",
     "topic": "lavoro"
   },
@@ -2071,7 +2071,7 @@
   },
   {
     "id": 785,
-    "italian": "Lui e in pensione",
+    "italian": "Lui è in pensione",
     "difficulty": "a1",
     "topic": "lavoro"
   },
@@ -2173,7 +2173,7 @@
   },
   {
     "id": 790,
-    "italian": "Il mercato e aperto il sabato",
+    "italian": "Il mercato è aperto il sabato",
     "difficulty": "a1",
     "topic": "mercato"
   },
@@ -2233,13 +2233,13 @@
   },
   {
     "id": 800,
-    "italian": "Il mercato e vicino a casa",
+    "italian": "Il mercato è vicino a casa",
     "difficulty": "a1",
     "topic": "mercato"
   },
   {
     "id": 801,
-    "italian": "L'insalata e fresca",
+    "italian": "L'insalata è fresca",
     "difficulty": "a1",
     "topic": "mercato"
   },
@@ -2269,7 +2269,7 @@
   },
   {
     "id": 806,
-    "italian": "La carne e di qualità",
+    "italian": "La carne è di qualità",
     "difficulty": "a1",
     "topic": "mercato"
   },
@@ -2329,7 +2329,7 @@
   },
   {
     "id": 816,
-    "italian": "Il mercato e colorato",
+    "italian": "Il mercato è colorato",
     "difficulty": "a1",
     "topic": "mercato"
   },
@@ -2389,7 +2389,7 @@
   },
   {
     "id": 826,
-    "italian": "Il venditore e simpatico",
+    "italian": "Il venditore è simpatico",
     "difficulty": "a1",
     "topic": "mercato"
   },
@@ -2473,7 +2473,7 @@
   },
   {
     "id": 828,
-    "italian": "Il ristorante e italiano",
+    "italian": "Il ristorante è italiano",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2503,7 +2503,7 @@
   },
   {
     "id": 833,
-    "italian": "Il cameriere e gentile",
+    "italian": "Il cameriere è gentile",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2539,7 +2539,7 @@
   },
   {
     "id": 839,
-    "italian": "Il ristorante e pieno",
+    "italian": "Il ristorante è pieno",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2569,7 +2569,7 @@
   },
   {
     "id": 844,
-    "italian": "Il cibo e buono",
+    "italian": "Il cibo è buono",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2605,7 +2605,7 @@
   },
   {
     "id": 850,
-    "italian": "Io prendo il caffe",
+    "italian": "Io prendo il caffè",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2629,7 +2629,7 @@
   },
   {
     "id": 854,
-    "italian": "Il conto e alto",
+    "italian": "Il conto è alto",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2659,7 +2659,7 @@
   },
   {
     "id": 859,
-    "italian": "Il ristorante e elegante",
+    "italian": "Il ristorante è elegante",
     "difficulty": "a1",
     "topic": "ristorante"
   },
@@ -2857,7 +2857,7 @@
   },
   {
     "id": 882,
-    "italian": "La sala riunioni e grande",
+    "italian": "La sala riunioni è grande",
     "difficulty": "a1",
     "topic": "riunioni"
   },
@@ -2887,7 +2887,7 @@
   },
   {
     "id": 887,
-    "italian": "La riunione e importante",
+    "italian": "La riunione è importante",
     "difficulty": "a1",
     "topic": "riunioni"
   },
@@ -3091,7 +3091,7 @@
   },
   {
     "id": 909,
-    "italian": "Lui e malato",
+    "italian": "Lui è malato",
     "difficulty": "a1",
     "topic": "salute"
   },
@@ -3151,7 +3151,7 @@
   },
   {
     "id": 919,
-    "italian": "Lui e sano",
+    "italian": "Lui è sano",
     "difficulty": "a1",
     "topic": "salute"
   },
@@ -3211,7 +3211,7 @@
   },
   {
     "id": 929,
-    "italian": "Lui e allergico",
+    "italian": "Lui è allergico",
     "difficulty": "a1",
     "topic": "salute"
   },
@@ -3241,7 +3241,7 @@
   },
   {
     "id": 934,
-    "italian": "Il medico e bravo",
+    "italian": "Il medico è bravo",
     "difficulty": "a1",
     "topic": "salute"
   },
@@ -4423,7 +4423,7 @@
   },
   {
     "id": 1084,
-    "italian": "Lei scatta foto alla citta",
+    "italian": "Lei scatta foto alla città",
     "difficulty": "a1",
     "topic": "viaggio"
   },
@@ -4483,7 +4483,7 @@
   },
   {
     "id": 1094,
-    "italian": "Lei visita la citta",
+    "italian": "Lei visita la città",
     "difficulty": "a1",
     "topic": "viaggio"
   },
@@ -4627,7 +4627,7 @@
   },
   {
     "id": 1104,
-    "italian": "Lei si e trasferita in un'altra citta",
+    "italian": "Lei si è trasferita in un'altra città",
     "difficulty": "a2",
     "topic": "amicizie"
   },
@@ -4639,7 +4639,7 @@
   },
   {
     "id": 1106,
-    "italian": "Lui e stato un amico fedele per anni",
+    "italian": "Lui è stato un amico fedele per anni",
     "difficulty": "a2",
     "topic": "amicizie"
   },
@@ -4699,7 +4699,7 @@
   },
   {
     "id": 1116,
-    "italian": "Lei e venuta a trovarmi in ospedale",
+    "italian": "Lei è venuta a trovarmi in ospedale",
     "difficulty": "a2",
     "topic": "amicizie"
   },
@@ -4723,7 +4723,7 @@
   },
   {
     "id": 1120,
-    "italian": "Lei e la persona più gentile che conosco",
+    "italian": "Lei è la persona più gentile che conosco",
     "difficulty": "a2",
     "topic": "amicizie"
   },
@@ -4783,7 +4783,7 @@
   },
   {
     "id": 1130,
-    "italian": "Lui si e arrabbiato per un malinteso",
+    "italian": "Lui si è arrabbiato per un malinteso",
     "difficulty": "a2",
     "topic": "amicizie"
   },
@@ -4886,7 +4886,7 @@
   },
   {
     "id": 1133,
-    "italian": "Lei e arrivata con mezz'ora di ritardo",
+    "italian": "Lei è arrivata con mezz'ora di ritardo",
     "difficulty": "a2",
     "topic": "appuntamenti"
   },
@@ -4922,7 +4922,7 @@
   },
   {
     "id": 1139,
-    "italian": "Lui si e dimenticato del nostro incontro",
+    "italian": "Lui si è dimenticato del nostro incontro",
     "difficulty": "a2",
     "topic": "appuntamenti"
   },
@@ -4952,7 +4952,7 @@
   },
   {
     "id": 1144,
-    "italian": "Lui e stato puntuale per la prima volta",
+    "italian": "Lui è stato puntuale per la prima volta",
     "difficulty": "a2",
     "topic": "appuntamenti"
   },
@@ -5000,7 +5000,7 @@
   },
   {
     "id": 1152,
-    "italian": "L'appuntamento e stato molto produttivo",
+    "italian": "L'appuntamento è stato molto produttivo",
     "difficulty": "a2",
     "topic": "appuntamenti"
   },
@@ -5012,7 +5012,7 @@
   },
   {
     "id": 1154,
-    "italian": "Lui e sembrato molto nervoso",
+    "italian": "Lui è sembrato molto nervoso",
     "difficulty": "a2",
     "topic": "appuntamenti"
   },
@@ -5030,7 +5030,7 @@
   },
   {
     "id": 1157,
-    "italian": "L'appuntamento e iniziato con un caffè",
+    "italian": "L'appuntamento è iniziato con un caffè",
     "difficulty": "a2",
     "topic": "appuntamenti"
   },
@@ -5468,7 +5468,7 @@
   },
   {
     "id": 1265,
-    "italian": "La nostra casa e molto accogliente",
+    "italian": "La nostra casa è molto accogliente",
     "difficulty": "a2",
     "topic": "casa"
   },
@@ -5642,7 +5642,7 @@
   },
   {
     "id": 1299,
-    "italian": "La mostra di Caravaggio e stata un successo",
+    "italian": "La mostra di Caravaggio è stata un successo",
     "difficulty": "a2",
     "topic": "cultura"
   },
@@ -5816,7 +5816,7 @@
   },
   {
     "id": 1334,
-    "italian": "Lui si e dimesso dal suo precedente impiego",
+    "italian": "Lui si è dimesso dal suo precedente impiego",
     "difficulty": "a2",
     "topic": "lavoro"
   },
@@ -6182,7 +6182,7 @@
   },
   {
     "id": 1410,
-    "italian": "Il servizio e stato eccellente",
+    "italian": "Il servizio è stato eccellente",
     "difficulty": "a2",
     "topic": "ristorante"
   },
@@ -6194,7 +6194,7 @@
   },
   {
     "id": 1412,
-    "italian": "Lei si e lamentata del tempo di attesa",
+    "italian": "Lei si è lamentata del tempo di attesa",
     "difficulty": "a2",
     "topic": "ristorante"
   },
@@ -6320,7 +6320,7 @@
   },
   {
     "id": 1442,
-    "italian": "La riunione e durata più del previsto",
+    "italian": "La riunione è durata più del previsto",
     "difficulty": "a2",
     "topic": "riunioni"
   },
@@ -6464,7 +6464,7 @@
   },
   {
     "id": 1478,
-    "italian": "Lui e stato ricoverato in ospedale",
+    "italian": "Lui è stato ricoverato in ospedale",
     "difficulty": "a2",
     "topic": "salute"
   },
@@ -6476,7 +6476,7 @@
   },
   {
     "id": 1480,
-    "italian": "Lei si e ripresa completamente dall'influenza",
+    "italian": "Lei si è ripresa completamente dall'influenza",
     "difficulty": "a2",
     "topic": "salute"
   },
@@ -6488,7 +6488,7 @@
   },
   {
     "id": 1483,
-    "italian": "Lui e allergico al polline",
+    "italian": "Lui è allergico al polline",
     "difficulty": "a2",
     "topic": "salute"
   },
@@ -6788,7 +6788,7 @@
   },
   {
     "id": 1551,
-    "italian": "Il computer si e spento all'improvviso",
+    "italian": "Il computer si è spento all'improvviso",
     "difficulty": "a2",
     "topic": "tecnologia"
   },
@@ -6938,7 +6938,7 @@
   },
   {
     "id": 1586,
-    "italian": "Lei si e iscritta a un corso di yoga",
+    "italian": "Lei si è iscritta a un corso di yoga",
     "difficulty": "a2",
     "topic": "tempo_libero"
   },
@@ -7100,7 +7100,7 @@
   },
   {
     "id": 1623,
-    "italian": "Ho visitato il Colosseo e il Foro Romano",
+    "italian": "Ho visitato il Colosseo è il Foro Romano",
     "difficulty": "a2",
     "topic": "viaggio"
   },
@@ -7184,7 +7184,7 @@
   },
   {
     "id": 1656,
-    "italian": "Lei e l'unica persona di cui mi fidi ciecamente",
+    "italian": "Lei è l'unica persona di cui mi fidi ciecamente",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -7208,13 +7208,13 @@
   },
   {
     "id": 1660,
-    "italian": "Lui e l'amico che mi ha sostenuto nei momenti più difficili",
+    "italian": "Lui è l'amico che mi ha sostenuto nei momenti più difficili",
     "difficulty": "b1",
     "topic": "amicizie"
   },
   {
     "id": 1661,
-    "italian": "Anche se abbiamo discusso, la nostra amicizia e rimasta forte",
+    "italian": "Anche se abbiamo discusso, la nostra amicizia è rimasta forte",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -7238,7 +7238,7 @@
   },
   {
     "id": 1665,
-    "italian": "Lei e stata la prima persona a cui ho raccontato la notizia",
+    "italian": "Lei è stata la prima persona a cui ho raccontato la notizia",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -7256,7 +7256,7 @@
   },
   {
     "id": 1668,
-    "italian": "Nonostante tutto, lui e rimasto un amico leale",
+    "italian": "Nonostante tutto, lui è rimasto un amico leale",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -7274,7 +7274,7 @@
   },
   {
     "id": 1671,
-    "italian": "Anche se non ci vediamo spesso, il nostro legame e forte",
+    "italian": "Anche se non ci vediamo spesso, il nostro legame è forte",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -7358,7 +7358,7 @@
   },
   {
     "id": 1697,
-    "italian": "Nonostante avessi confermato, lui non si e presentato",
+    "italian": "Nonostante avessi confermato, lui non si è presentato",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -7400,7 +7400,7 @@
   },
   {
     "id": 1704,
-    "italian": "Nonostante l'attesa, l'incontro e stato molto produttivo",
+    "italian": "Nonostante l'attesa, l'incontro è stato molto produttivo",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -7610,7 +7610,7 @@
   },
   {
     "id": 1784,
-    "italian": "Nonostante la fila, il servizio e stato veloce",
+    "italian": "Nonostante la fila, il servizio è stato veloce",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -7676,7 +7676,7 @@
   },
   {
     "id": 1827,
-    "italian": "Nonostante i lavori di ristrutturazione, la casa e rimasta abitabile",
+    "italian": "Nonostante i lavori di ristrutturazione, la casa è rimasta abitabile",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -7838,7 +7838,7 @@
   },
   {
     "id": 1876,
-    "italian": "Nonostante la critica, il libro e diventato un bestseller",
+    "italian": "Nonostante la critica, il libro è diventato un bestseller",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -8248,7 +8248,7 @@
   },
   {
     "id": 2038,
-    "italian": "Pur essendo importante, la riunione e stata rimandata",
+    "italian": "Pur essendo importante, la riunione è stata rimandata",
     "difficulty": "b1",
     "topic": "riunioni"
   },
@@ -8272,7 +8272,7 @@
   },
   {
     "id": 2042,
-    "italian": "Nonostante le obiezioni, la proposta e stata accettata",
+    "italian": "Nonostante le obiezioni, la proposta è stata accettata",
     "difficulty": "b1",
     "topic": "riunioni"
   },
@@ -8806,7 +8806,7 @@
   },
   {
     "id": 2251,
-    "italian": "Ho ordinato un caffe al banco stamattina",
+    "italian": "Ho ordinato un caffè al banco stamattina",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8830,7 +8830,7 @@
   },
   {
     "id": 2255,
-    "italian": "Ho chiesto un caffe macchiato freddo",
+    "italian": "Ho chiesto un caffè macchiato freddo",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8842,13 +8842,13 @@
   },
   {
     "id": 2257,
-    "italian": "Abbiamo preso un caffe dopo cena",
+    "italian": "Abbiamo preso un caffè dopo cena",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2258,
-    "italian": "Lui ha assaggiato il caffe napoletano",
+    "italian": "Lui ha assaggiato il caffè napoletano",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8866,19 +8866,19 @@
   },
   {
     "id": 2261,
-    "italian": "Abbiamo gustato un caffe al tavolino",
+    "italian": "Abbiamo gustato un caffè al tavolino",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2262,
-    "italian": "Lui ha offerto un caffe a tutti",
+    "italian": "Lui ha offerto un caffè a tutti",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2263,
-    "italian": "Ho preso un caffe ristretto doppio",
+    "italian": "Ho preso un caffè ristretto doppio",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8890,7 +8890,7 @@
   },
   {
     "id": 2265,
-    "italian": "Abbiamo aspettato il caffe con calma",
+    "italian": "Abbiamo aspettato il caffè con calma",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8914,25 +8914,25 @@
   },
   {
     "id": 2269,
-    "italian": "Abbiamo richiesto un caffe decaffeinato",
+    "italian": "Abbiamo richiesto un caffè decaffeinato",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2270,
-    "italian": "Lui ha consumato un caffe al bancone",
+    "italian": "Lui ha consumato un caffè al bancone",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2271,
-    "italian": "Ho bevuto un caffe amaro senza zucchero",
+    "italian": "Ho bevuto un caffè amaro senza zucchero",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2272,
-    "italian": "Lei ha preso un caffe con ghiaccio",
+    "italian": "Lei ha preso un caffè con ghiaccio",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8944,13 +8944,13 @@
   },
   {
     "id": 2274,
-    "italian": "Lui ha mangiato un biscotto con il caffe",
+    "italian": "Lui ha mangiato un biscotto con il caffè",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2275,
-    "italian": "Ho pagato il caffe con i contanti",
+    "italian": "Ho pagato il caffè con i contanti",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8962,13 +8962,13 @@
   },
   {
     "id": 2277,
-    "italian": "Abbiamo sorseggiato il caffe lentamente",
+    "italian": "Abbiamo sorseggiato il caffè lentamente",
     "difficulty": "a2",
     "topic": "caffe"
   },
   {
     "id": 2278,
-    "italian": "Lui ha chiesto un caffe corretto alla grappa",
+    "italian": "Lui ha chiesto un caffè corretto alla grappa",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8986,7 +8986,7 @@
   },
   {
     "id": 2281,
-    "italian": "Abbiamo parlato davanti a un caffe",
+    "italian": "Abbiamo parlato davanti a un caffè",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -8998,7 +8998,7 @@
   },
   {
     "id": 2283,
-    "italian": "Ho ordinato un caffe da asporto",
+    "italian": "Ho ordinato un caffè da asporto",
     "difficulty": "a2",
     "topic": "caffe"
   },
@@ -10408,25 +10408,25 @@
   },
   {
     "id": 2583,
-    "italian": "Se avessi saputo, avrei ordinato un caffe diverso",
+    "italian": "Se avessi saputo, avrei ordinato un caffè diverso",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2584,
-    "italian": "Nonostante il caffe fosse amaro, l'ho bevuto",
+    "italian": "Nonostante il caffè fosse amaro, l'ho bevuto",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2585,
-    "italian": "Credevo che il bar fosse gia chiuso",
+    "italian": "Credevo che il bar fosse già chiuso",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2586,
-    "italian": "Pur essendo costoso, quel caffe era ottimo",
+    "italian": "Pur essendo costoso, quel caffè era ottimo",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10438,37 +10438,37 @@
   },
   {
     "id": 2588,
-    "italian": "Sarebbe stato meglio prendere un caffe al banco",
+    "italian": "Sarebbe stato meglio prendere un caffè al banco",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2589,
-    "italian": "Se potessi, berrei il caffe tutto il giorno",
+    "italian": "Se potessi, berrei il caffè tutto il giorno",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2590,
-    "italian": "Nonostante la fila, il servizio e stato rapido",
+    "italian": "Nonostante la fila, il servizio è stato rapido",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2591,
-    "italian": "Credevo che il barista avesse gia preparato il caffe",
+    "italian": "Credevo che il barista avesse già preparato il caffè",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2592,
-    "italian": "Avrei voluto che il caffe fosse piu caldo",
+    "italian": "Avrei voluto che il caffè fosse più caldo",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2593,
-    "italian": "Pur avendo fretta, ho aspettato il caffe",
+    "italian": "Pur avendo fretta, ho aspettato il caffè",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10486,7 +10486,7 @@
   },
   {
     "id": 2596,
-    "italian": "Credevo che il cappuccino fosse piu grande",
+    "italian": "Credevo che il cappuccino fosse più grande",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10498,13 +10498,13 @@
   },
   {
     "id": 2598,
-    "italian": "Sarebbe stato bello parlare davanti a un caffe",
+    "italian": "Sarebbe stato bello parlare davanti a un caffè",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2599,
-    "italian": "Se fossi in te, proverei il caffe napoletano",
+    "italian": "Se fossi in te, proverei il caffè napoletano",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10528,7 +10528,7 @@
   },
   {
     "id": 2603,
-    "italian": "Pur non amando il caffe, l'ho bevuto per educazione",
+    "italian": "Pur non amando il caffè, l'ho bevuto per educazione",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10540,7 +10540,7 @@
   },
   {
     "id": 2605,
-    "italian": "Nonostante il prezzo, il caffe era di qualita",
+    "italian": "Nonostante il prezzo, il caffè era di qualita",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10552,7 +10552,7 @@
   },
   {
     "id": 2607,
-    "italian": "Avrei dovuto chiedere un caffe macchiato",
+    "italian": "Avrei dovuto chiedere un caffè macchiato",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10570,25 +10570,25 @@
   },
   {
     "id": 2610,
-    "italian": "Nonostante la fretta, ho gustato il caffe",
+    "italian": "Nonostante la fretta, ho gustato il caffè",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2611,
-    "italian": "Credevo che il locale fosse piu accogliente",
+    "italian": "Credevo che il locale fosse più accogliente",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2612,
-    "italian": "Avrei voluto che il barista fosse piu simpatico",
+    "italian": "Avrei voluto che il barista fosse più simpatico",
     "difficulty": "b1",
     "topic": "caffe"
   },
   {
     "id": 2613,
-    "italian": "Pur bevendo poco caffe, ho ordinato un espresso",
+    "italian": "Pur bevendo poco caffè, ho ordinato un espresso",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10600,7 +10600,7 @@
   },
   {
     "id": 2615,
-    "italian": "Nonostante il caldo, ho bevuto il caffe bollente",
+    "italian": "Nonostante il caldo, ho bevuto il caffè bollente",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10612,7 +10612,7 @@
   },
   {
     "id": 2617,
-    "italian": "Avrei preferito un caffe biologico equosolidale",
+    "italian": "Avrei preferito un caffè biologico equosolidale",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10624,7 +10624,7 @@
   },
   {
     "id": 2619,
-    "italian": "Se fossi stato solo, sarei rimasto di piu",
+    "italian": "Se fossi stato solo, sarei rimasto di più",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10636,7 +10636,7 @@
   },
   {
     "id": 2621,
-    "italian": "Credevo che il caffe fosse piu aromatico",
+    "italian": "Credevo che il caffè fosse più aromatico",
     "difficulty": "b1",
     "topic": "caffe"
   },
@@ -10654,7 +10654,7 @@
   },
   {
     "id": 2624,
-    "italian": "Credevo che il tasso d'interesse fosse piu basso",
+    "italian": "Credevo che il tasso d'interesse fosse più basso",
     "difficulty": "b1",
     "topic": "banca"
   },
@@ -10684,7 +10684,7 @@
   },
   {
     "id": 2629,
-    "italian": "Credevo che la banca fosse piu trasparente",
+    "italian": "Credevo che la banca fosse più trasparente",
     "difficulty": "b1",
     "topic": "banca"
   },
@@ -10714,7 +10714,7 @@
   },
   {
     "id": 2634,
-    "italian": "Credevo che il bonifico fosse gia stato accreditato",
+    "italian": "Credevo che il bonifico fosse già stato accreditato",
     "difficulty": "b1",
     "topic": "banca"
   },
@@ -10732,7 +10732,7 @@
   },
   {
     "id": 2637,
-    "italian": "Se fossi stato piu attento, non avrei perso la carta",
+    "italian": "Se fossi stato più attento, non avrei perso la carta",
     "difficulty": "b1",
     "topic": "banca"
   },
@@ -10804,13 +10804,13 @@
   },
   {
     "id": 2649,
-    "italian": "Credevo che il fido fosse gia stato accordato",
+    "italian": "Credevo che il fido fosse già stato accordato",
     "difficulty": "b1",
     "topic": "banca"
   },
   {
     "id": 2650,
-    "italian": "Avrei voluto che la pratica fosse piu veloce",
+    "italian": "Avrei voluto che la pratica fosse più veloce",
     "difficulty": "b1",
     "topic": "banca"
   },
@@ -10822,13 +10822,13 @@
   },
   {
     "id": 2655,
-    "italian": "Se avessi piu soldi, comprerei una casa indipendente",
+    "italian": "Se avessi più soldi, comprerei una casa indipendente",
     "difficulty": "b1",
     "topic": "casa"
   },
   {
     "id": 2656,
-    "italian": "Nonostante la ristrutturazione, la casa e rimasta fredda",
+    "italian": "Nonostante la ristrutturazione, la casa è rimasta fredda",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -10858,7 +10858,7 @@
   },
   {
     "id": 2661,
-    "italian": "Se potessi, traslocherei in una zona piu tranquilla",
+    "italian": "Se potessi, traslocherei in una zona più tranquilla",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -10870,13 +10870,13 @@
   },
   {
     "id": 2663,
-    "italian": "Credevo che il bagno fosse stato gia ristrutturato",
+    "italian": "Credevo che il bagno fosse stato già ristrutturato",
     "difficulty": "b1",
     "topic": "casa"
   },
   {
     "id": 2664,
-    "italian": "Avrei voluto che la cucina fosse piu spaziosa",
+    "italian": "Avrei voluto che la cucina fosse più spaziosa",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -10918,7 +10918,7 @@
   },
   {
     "id": 2671,
-    "italian": "Se fossi stato piu esigente, avrei trovato di meglio",
+    "italian": "Se fossi stato più esigente, avrei trovato di meglio",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -10930,7 +10930,7 @@
   },
   {
     "id": 2673,
-    "italian": "Credevo che le spese condominiali fossero piu basse",
+    "italian": "Credevo che le spese condominiali fossero più basse",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -10948,7 +10948,7 @@
   },
   {
     "id": 2676,
-    "italian": "Se avessi avuto piu tempo, avrei cercato meglio",
+    "italian": "Se avessi avuto più tempo, avrei cercato meglio",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -10996,7 +10996,7 @@
   },
   {
     "id": 2684,
-    "italian": "Avrei voluto che il soggiorno fosse piu luminoso",
+    "italian": "Avrei voluto che il soggiorno fosse più luminoso",
     "difficulty": "b1",
     "topic": "casa"
   },
@@ -11008,7 +11008,7 @@
   },
   {
     "id": 2686,
-    "italian": "Se avessi studiato di piu, avrei capito il film",
+    "italian": "Se avessi studiato di più, avrei capito il film",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -11020,7 +11020,7 @@
   },
   {
     "id": 2688,
-    "italian": "Credevo che la mostra fosse gia stata prorogata",
+    "italian": "Credevo che la mostra fosse già stata prorogata",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -11038,7 +11038,7 @@
   },
   {
     "id": 2691,
-    "italian": "Credevo che il regista avesse gia vinto un premio",
+    "italian": "Credevo che il regista avesse già vinto un premio",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -11068,7 +11068,7 @@
   },
   {
     "id": 2696,
-    "italian": "Credevo che la poesia fosse piu antica",
+    "italian": "Credevo che la poesia fosse più antica",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -11122,7 +11122,7 @@
   },
   {
     "id": 2705,
-    "italian": "Nonostante il brutto tempo, abbiamo visitato la citta",
+    "italian": "Nonostante il brutto tempo, abbiamo visitato la città",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -11152,13 +11152,13 @@
   },
   {
     "id": 2710,
-    "italian": "Nonostante le recensioni negative, il film mi e piaciuto",
+    "italian": "Nonostante le recensioni negative, il film mi è piaciuto",
     "difficulty": "b1",
     "topic": "cultura"
   },
   {
     "id": 2711,
-    "italian": "Credevo che la biblioteca avesse piu libri antichi",
+    "italian": "Credevo che la biblioteca avesse più libri antichi",
     "difficulty": "b1",
     "topic": "cultura"
   },
@@ -11176,7 +11176,7 @@
   },
   {
     "id": 2714,
-    "italian": "Avrei preferito un lavoro piu creativo e dinamico",
+    "italian": "Avrei preferito un lavoro più creativo e dinamico",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11212,7 +11212,7 @@
   },
   {
     "id": 2720,
-    "italian": "Credevo che il progetto fosse gia stato approvato",
+    "italian": "Credevo che il progetto fosse già stato approvato",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11230,7 +11230,7 @@
   },
   {
     "id": 2723,
-    "italian": "Se avessi studiato di piu, avrei trovato un lavoro migliore",
+    "italian": "Se avessi studiato di più, avrei trovato un lavoro migliore",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11242,7 +11242,7 @@
   },
   {
     "id": 2725,
-    "italian": "Credevo che l'ufficio fosse piu vicino a casa",
+    "italian": "Credevo che l'ufficio fosse più vicino a casa",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11260,7 +11260,7 @@
   },
   {
     "id": 2728,
-    "italian": "Se fossi stato piu determinato, avrei fatto carriera",
+    "italian": "Se fossi stato più determinato, avrei fatto carriera",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11272,13 +11272,13 @@
   },
   {
     "id": 2730,
-    "italian": "Credevo che il team fosse piu affiatato",
+    "italian": "Credevo che il team fosse più affiatato",
     "difficulty": "b1",
     "topic": "lavoro"
   },
   {
     "id": 2731,
-    "italian": "Avrei voluto che la riunione fosse piu produttiva",
+    "italian": "Avrei voluto che la riunione fosse più produttiva",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11332,7 +11332,7 @@
   },
   {
     "id": 2740,
-    "italian": "Credevo che il lavoro stagionale fosse piu pagato",
+    "italian": "Credevo che il lavoro stagionale fosse più pagato",
     "difficulty": "b1",
     "topic": "lavoro"
   },
@@ -11362,7 +11362,7 @@
   },
   {
     "id": 2745,
-    "italian": "Credevo che il mercato chiudesse piu tardi",
+    "italian": "Credevo che il mercato chiudesse più tardi",
     "difficulty": "b1",
     "topic": "mercato"
   },
@@ -11398,7 +11398,7 @@
   },
   {
     "id": 2751,
-    "italian": "Avrei voluto che il fruttivendolo avesse piu scelta",
+    "italian": "Avrei voluto che il fruttivendolo avesse più scelta",
     "difficulty": "b1",
     "topic": "mercato"
   },
@@ -11410,7 +11410,7 @@
   },
   {
     "id": 2753,
-    "italian": "Se avessi saputo, avrei comprato piu pesche",
+    "italian": "Se avessi saputo, avrei comprato più pesche",
     "difficulty": "b1",
     "topic": "mercato"
   },
@@ -11422,7 +11422,7 @@
   },
   {
     "id": 2755,
-    "italian": "Credevo che i prezzi fossero piu convenienti",
+    "italian": "Credevo che i prezzi fossero più convenienti",
     "difficulty": "b1",
     "topic": "mercato"
   },
@@ -11452,13 +11452,13 @@
   },
   {
     "id": 2760,
-    "italian": "Credevo che il formaggio fosse stagionato di piu",
+    "italian": "Credevo che il formaggio fosse stagionato di più",
     "difficulty": "b1",
     "topic": "mercato"
   },
   {
     "id": 2761,
-    "italian": "Avrei voluto che il venditore fosse piu gentile",
+    "italian": "Avrei voluto che il venditore fosse più gentile",
     "difficulty": "b1",
     "topic": "mercato"
   },
@@ -11518,7 +11518,7 @@
   },
   {
     "id": 2771,
-    "italian": "Avrei voluto che ci fossero piu banchi di frutta",
+    "italian": "Avrei voluto che ci fossero più banchi di frutta",
     "difficulty": "b1",
     "topic": "mercato"
   },
@@ -11560,7 +11560,7 @@
   },
   {
     "id": 2778,
-    "italian": "Avrei dovuto lasciare una mancia piu generosa",
+    "italian": "Avrei dovuto lasciare una mancia più generosa",
     "difficulty": "b1",
     "topic": "ristorante"
   },
@@ -11572,13 +11572,13 @@
   },
   {
     "id": 2780,
-    "italian": "Credevo che il menù offrisse piu scelta vegetariana",
+    "italian": "Credevo che il menù offrisse più scelta vegetariana",
     "difficulty": "b1",
     "topic": "ristorante"
   },
   {
     "id": 2781,
-    "italian": "Avrei voluto che il servizio fosse piu attento",
+    "italian": "Avrei voluto che il servizio fosse più attento",
     "difficulty": "b1",
     "topic": "ristorante"
   },
@@ -11596,7 +11596,7 @@
   },
   {
     "id": 2784,
-    "italian": "Nonostante l'attesa, la cena e stata eccellente",
+    "italian": "Nonostante l'attesa, la cena è stata eccellente",
     "difficulty": "b1",
     "topic": "ristorante"
   },
@@ -11620,7 +11620,7 @@
   },
   {
     "id": 2788,
-    "italian": "Se fossi stato il cuoco, avrei aggiunto piu spezie",
+    "italian": "Se fossi stato il cuoco, avrei aggiunto più spezie",
     "difficulty": "b1",
     "topic": "ristorante"
   },
@@ -11638,7 +11638,7 @@
   },
   {
     "id": 2791,
-    "italian": "Avrei voluto che la porzione fosse piu abbondante",
+    "italian": "Avrei voluto che la porzione fosse più abbondante",
     "difficulty": "b1",
     "topic": "ristorante"
   },
@@ -11692,7 +11692,7 @@
   },
   {
     "id": 2800,
-    "italian": "Credevo che il vino della casa fosse piu economico",
+    "italian": "Credevo che il vino della casa fosse più economico",
     "difficulty": "b1",
     "topic": "ristorante"
   },
@@ -11710,7 +11710,7 @@
   },
   {
     "id": 2803,
-    "italian": "Se avessi preparato la presentazione, sarebbe stata piu chiara",
+    "italian": "Se avessi preparato la presentazione, sarebbe stata più chiara",
     "difficulty": "b1",
     "topic": "riunioni"
   },
@@ -11722,13 +11722,13 @@
   },
   {
     "id": 2805,
-    "italian": "Credevo che il direttore avesse gia approvato il progetto",
+    "italian": "Credevo che il direttore avesse già approvato il progetto",
     "difficulty": "b1",
     "topic": "riunioni"
   },
   {
     "id": 2806,
-    "italian": "Avrei preferito una riunione piu breve e focalizzata",
+    "italian": "Avrei preferito una riunione più breve e focalizzata",
     "difficulty": "b1",
     "topic": "riunioni"
   },
@@ -11740,7 +11740,7 @@
   },
   {
     "id": 2808,
-    "italian": "Credevo che il bilancio fosse gia stato approvato",
+    "italian": "Credevo che il bilancio fosse già stato approvato",
     "difficulty": "b1",
     "topic": "riunioni"
   },
@@ -11800,7 +11800,7 @@
   },
   {
     "id": 2818,
-    "italian": "Credevo che il progetto fosse piu avanti",
+    "italian": "Credevo che il progetto fosse più avanti",
     "difficulty": "b1",
     "topic": "riunioni"
   },
@@ -11860,13 +11860,13 @@
   },
   {
     "id": 2828,
-    "italian": "Credevo che il piano fosse stato gia condiviso via email",
+    "italian": "Credevo che il piano fosse stato già condiviso via email",
     "difficulty": "b1",
     "topic": "riunioni"
   },
   {
     "id": 2829,
-    "italian": "Credevo che l'intervento fosse gia programmato",
+    "italian": "Credevo che l'intervento fosse già programmato",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -11878,7 +11878,7 @@
   },
   {
     "id": 2831,
-    "italian": "Avrei dovuto riposarmi di piu dopo l'operazione",
+    "italian": "Avrei dovuto riposarmi di più dopo l'operazione",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -11902,7 +11902,7 @@
   },
   {
     "id": 2835,
-    "italian": "Avrei voluto che il dottore mi visitasse con piu attenzione",
+    "italian": "Avrei voluto che il dottore mi visitasse con più attenzione",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -11920,13 +11920,13 @@
   },
   {
     "id": 2838,
-    "italian": "Nonostante la paura, l'operazione e riuscita bene",
+    "italian": "Nonostante la paura, l'operazione è riuscita bene",
     "difficulty": "b1",
     "topic": "salute"
   },
   {
     "id": 2839,
-    "italian": "Credevo che le analisi fossero gia pronte",
+    "italian": "Credevo che le analisi fossero già pronte",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -11944,7 +11944,7 @@
   },
   {
     "id": 2842,
-    "italian": "Se fossi stato piu attento alla dieta, non avrei problemi",
+    "italian": "Se fossi stato più attento alla dieta, non avrei problemi",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -11962,7 +11962,7 @@
   },
   {
     "id": 2845,
-    "italian": "Avrei voluto che l'ospedale fosse piu vicino a casa",
+    "italian": "Avrei voluto che l'ospedale fosse più vicino a casa",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -11980,7 +11980,7 @@
   },
   {
     "id": 2848,
-    "italian": "Nonostante la terapia intensiva, si e ripreso bene",
+    "italian": "Nonostante la terapia intensiva, si è ripreso bene",
     "difficulty": "b1",
     "topic": "salute"
   },
@@ -12046,7 +12046,7 @@
   },
   {
     "id": 2859,
-    "italian": "Avrei preferito una comunicazione piu privata",
+    "italian": "Avrei preferito una comunicazione più privata",
     "difficulty": "b1",
     "topic": "social"
   },
@@ -12142,7 +12142,7 @@
   },
   {
     "id": 2875,
-    "italian": "Pur essendo social, mi sento piu solo",
+    "italian": "Pur essendo social, mi sento più solo",
     "difficulty": "b1",
     "topic": "social"
   },
@@ -12184,7 +12184,7 @@
   },
   {
     "id": 2882,
-    "italian": "Nonostante le bugie, la notizia e diventata virale",
+    "italian": "Nonostante le bugie, la notizia è diventata virale",
     "difficulty": "b1",
     "topic": "social"
   },
@@ -12238,7 +12238,7 @@
   },
   {
     "id": 2891,
-    "italian": "Se potessi, tornerei a un telefono piu semplice",
+    "italian": "Se potessi, tornerei a un telefono più semplice",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
@@ -12256,7 +12256,7 @@
   },
   {
     "id": 2894,
-    "italian": "Avrei voluto che l'app fosse piu intuitiva",
+    "italian": "Avrei voluto che l'app fosse più intuitiva",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
@@ -12280,13 +12280,13 @@
   },
   {
     "id": 2898,
-    "italian": "Credevo che la batteria durasse di piu",
+    "italian": "Credevo che la batteria durasse di più",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
   {
     "id": 2899,
-    "italian": "Avrei dovuto comprare un modello con piu memoria",
+    "italian": "Avrei dovuto comprare un modello con più memoria",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
@@ -12316,7 +12316,7 @@
   },
   {
     "id": 2904,
-    "italian": "Avrei voluto che l'interfaccia fosse piu chiara",
+    "italian": "Avrei voluto che l'interfaccia fosse più chiara",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
@@ -12370,13 +12370,13 @@
   },
   {
     "id": 2913,
-    "italian": "Credevo che il sito fosse piu sicuro",
+    "italian": "Credevo che il sito fosse più sicuro",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
   {
     "id": 2914,
-    "italian": "Avrei voluto che la configurazione fosse piu semplice",
+    "italian": "Avrei voluto che la configurazione fosse più semplice",
     "difficulty": "b1",
     "topic": "tecnologia"
   },
@@ -12388,7 +12388,7 @@
   },
   {
     "id": 2916,
-    "italian": "Se avessi piu tempo, imparerei a suonare il pianoforte",
+    "italian": "Se avessi più tempo, imparerei a suonare il pianoforte",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
@@ -12418,7 +12418,7 @@
   },
   {
     "id": 2921,
-    "italian": "Avrei voluto che la partita fosse piu emozionante",
+    "italian": "Avrei voluto che la partita fosse più emozionante",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
@@ -12436,13 +12436,13 @@
   },
   {
     "id": 2924,
-    "italian": "Nonostante la folla, il concerto e stato fantastico",
+    "italian": "Nonostante la folla, il concerto è stato fantastico",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
   {
     "id": 2925,
-    "italian": "Credevo che il film fosse piu corto",
+    "italian": "Credevo che il film fosse più corto",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
@@ -12472,19 +12472,19 @@
   },
   {
     "id": 2930,
-    "italian": "Credevo che il romanzo fosse piu avvincente",
+    "italian": "Credevo che il romanzo fosse più avvincente",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
   {
     "id": 2931,
-    "italian": "Avrei voluto che la vacanza durasse di piu",
+    "italian": "Avrei voluto che la vacanza durasse di più",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
   {
     "id": 2932,
-    "italian": "Pur essendo costoso, il corso di ceramica mi e piaciuto",
+    "italian": "Pur essendo costoso, il corso di ceramica mi è piaciuto",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
@@ -12502,7 +12502,7 @@
   },
   {
     "id": 2935,
-    "italian": "Credevo che il gioco da tavolo fosse piu semplice",
+    "italian": "Credevo che il gioco da tavolo fosse più semplice",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
@@ -12520,25 +12520,25 @@
   },
   {
     "id": 2938,
-    "italian": "Se potessi, dedicherei piu tempo ai miei hobby",
+    "italian": "Se potessi, dedicherei più tempo ai miei hobby",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
   {
     "id": 2939,
-    "italian": "Nonostante il vento, la gita in barca e stata piacevole",
+    "italian": "Nonostante il vento, la gita in barca è stata piacevole",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
   {
     "id": 2940,
-    "italian": "Credevo che il parco fosse piu grande",
+    "italian": "Credevo che il parco fosse più grande",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
   {
     "id": 2941,
-    "italian": "Avrei voluto che la cena tra amici durasse di piu",
+    "italian": "Avrei voluto che la cena tra amici durasse di più",
     "difficulty": "b1",
     "topic": "tempo_libero"
   },
@@ -12550,7 +12550,7 @@
   },
   {
     "id": 2943,
-    "italian": "Nonostante il jet lag, ho visitato subito la citta",
+    "italian": "Nonostante il jet lag, ho visitato subito la città",
     "difficulty": "b1",
     "topic": "viaggio"
   },
@@ -12568,13 +12568,13 @@
   },
   {
     "id": 2946,
-    "italian": "Avrei dovuto portare una valigia piu leggera",
+    "italian": "Avrei dovuto portare una valigia più leggera",
     "difficulty": "b1",
     "topic": "viaggio"
   },
   {
     "id": 2947,
-    "italian": "Credevo che il biglietto del treno fosse piu economico",
+    "italian": "Credevo che il biglietto del treno fosse più economico",
     "difficulty": "b1",
     "topic": "viaggio"
   },
@@ -12586,25 +12586,25 @@
   },
   {
     "id": 2949,
-    "italian": "Pur essendo turistica, la citta conservava il suo fascino",
+    "italian": "Pur essendo turistica, la città conservava il suo fascino",
     "difficulty": "b1",
     "topic": "viaggio"
   },
   {
     "id": 2950,
-    "italian": "Se avessi avuto piu tempo, sarei rimasto una settimana",
+    "italian": "Se avessi avuto più tempo, sarei rimasto una settimana",
     "difficulty": "b1",
     "topic": "viaggio"
   },
   {
     "id": 2951,
-    "italian": "Nonostante il maltempo, il viaggio e stato memorabile",
+    "italian": "Nonostante il maltempo, il viaggio è stato memorabile",
     "difficulty": "b1",
     "topic": "viaggio"
   },
   {
     "id": 2952,
-    "italian": "Credevo che l'agriturismo fosse piu rustico",
+    "italian": "Credevo che l'agriturismo fosse più rustico",
     "difficulty": "b1",
     "topic": "viaggio"
   },
@@ -12646,13 +12646,13 @@
   },
   {
     "id": 2959,
-    "italian": "Pur essendo agosto, la citta non era troppo affollata",
+    "italian": "Pur essendo agosto, la città non era troppo affollata",
     "difficulty": "b1",
     "topic": "viaggio"
   },
   {
     "id": 2960,
-    "italian": "Se avessi portato la macchina fotografica, avrei fatto piu foto",
+    "italian": "Se avessi portato la macchina fotografica, avrei fatto più foto",
     "difficulty": "b1",
     "topic": "viaggio"
   },
@@ -12688,7 +12688,7 @@
   },
   {
     "id": 2966,
-    "italian": "Nonostante la fatica, il viaggio e stato indimenticabile",
+    "italian": "Nonostante la fatica, il viaggio è stato indimenticabile",
     "difficulty": "b1",
     "topic": "viaggio"
   },
@@ -12706,7 +12706,7 @@
   },
   {
     "id": 2969,
-    "italian": "Pur essendo stata una vacanza breve, e stata intensa",
+    "italian": "Pur essendo stata una vacanza breve, è stata intensa",
     "difficulty": "b1",
     "topic": "viaggio"
   },
@@ -12718,7 +12718,7 @@
   },
   {
     "id": 2971,
-    "italian": "Credevo che l'incontro fosse gia stato fissato",
+    "italian": "Credevo che l'incontro fosse già stato fissato",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -12730,7 +12730,7 @@
   },
   {
     "id": 2973,
-    "italian": "Nonostante l'attesa, l'incontro e stato produttivo",
+    "italian": "Nonostante l'attesa, l'incontro è stato produttivo",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -12742,7 +12742,7 @@
   },
   {
     "id": 2975,
-    "italian": "Avrei voluto che l'appuntamento durasse di piu",
+    "italian": "Avrei voluto che l'appuntamento durasse di più",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -12772,7 +12772,7 @@
   },
   {
     "id": 2980,
-    "italian": "Avrei dovuto confermare l'appuntamento con piu anticipo",
+    "italian": "Avrei dovuto confermare l'appuntamento con più anticipo",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -12784,7 +12784,7 @@
   },
   {
     "id": 2982,
-    "italian": "Pur essendo in ritardo, la segretaria e stata gentile",
+    "italian": "Pur essendo in ritardo, la segretaria è stata gentile",
     "difficulty": "b1",
     "topic": "appuntamenti"
   },
@@ -12844,7 +12844,7 @@
   },
   {
     "id": 2992,
-    "italian": "Pur vivendo in citta diverse, ci sentiamo ogni settimana",
+    "italian": "Pur vivendo in città diverse, ci sentiamo ogni settimana",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -12856,7 +12856,7 @@
   },
   {
     "id": 2994,
-    "italian": "Sarebbe stato bello vedersi piu spesso",
+    "italian": "Sarebbe stato bello vedersi più spesso",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -12868,7 +12868,7 @@
   },
   {
     "id": 2996,
-    "italian": "Nonostante il litigio, la nostra amicizia e rimasta forte",
+    "italian": "Nonostante il litigio, la nostra amicizia è rimasta forte",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -12910,7 +12910,7 @@
   },
   {
     "id": 3003,
-    "italian": "Avrei dovuto esserti piu vicino in quel momento",
+    "italian": "Avrei dovuto esserti più vicino in quel momento",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -12934,7 +12934,7 @@
   },
   {
     "id": 3007,
-    "italian": "Credevo che la nostra amicizia fosse piu forte di tutto",
+    "italian": "Credevo che la nostra amicizia fosse più forte di tutto",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -12946,7 +12946,7 @@
   },
   {
     "id": 3009,
-    "italian": "Pur essendo lontani, il nostro legame e speciale",
+    "italian": "Pur essendo lontani, il nostro legame è speciale",
     "difficulty": "b1",
     "topic": "amicizie"
   },
@@ -12964,7 +12964,7 @@
   },
   {
     "id": 3012,
-    "italian": "Credevo che tu fossi gia partito per le vacanze",
+    "italian": "Credevo che tu fossi già partito per le vacanze",
     "difficulty": "b1",
     "topic": "amicizie"
   },
