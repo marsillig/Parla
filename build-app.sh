@@ -24,11 +24,24 @@ if [ -f "$ICON_SRC" ]; then
   echo "Icon copied"
 fi
 
-# Copy resource bundle (required for Bundle.module to find phrases.json and images)
+# Copy resource bundle for Bundle.module compatibility
 BUNDLE_PATH="$BUILD_DIR/${APP_NAME}_${APP_NAME}.bundle"
 if [ -d "$BUNDLE_PATH" ]; then
   cp -R "$BUNDLE_PATH" "$RESOURCES_DIR/"
-  echo "Resource bundle copied"
+  echo "Resource bundle copied to Resources/"
+fi
+
+# Copy individual resources directly to Resources/ so Bundle.main can find them
+# This avoids Bundle.module resolution issues when running from .app
+RES_SRC="Sources/App/Resources"
+if [ -d "$RES_SRC" ]; then
+  for f in "$RES_SRC"/*; do
+    filename=$(basename "$f")
+    if [ -f "$f" ]; then
+      cp "$f" "$RESOURCES_DIR/$filename"
+      echo "Copied $filename to Resources/"
+    fi
+  done
 fi
 
 # Create Info.plist
@@ -39,6 +52,8 @@ cat > "$CONTENTS/Info.plist" << EOF
 <dict>
     <key>CFBundleExecutable</key>
     <string>${APP_NAME}</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
     <string>com.parla.app</string>
     <key>CFBundleName</key>

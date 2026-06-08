@@ -7,14 +7,12 @@ struct DictationView: View {
     @State private var submitted = false
     @State private var isRevealed = false
     @State private var slowRate = false
+    @State private var taggedWords: [TaggedWord] = []
     @FocusState private var inputFocused: Bool
 
     var body: some View {
         VStack(spacing: Design.Spacing.lg) {
-            if !engine.isSessionActive && !engine.isFinished {
-                emptyState
-                    .transition(.opacity)
-            } else if engine.isFinished {
+            if engine.isFinished {
                 SessionResultView()
                     .transition(.opacity)
             } else {
@@ -23,23 +21,7 @@ struct DictationView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .animation(.easeInOut(duration: 0.3), value: engine.isSessionActive)
         .animation(.easeInOut(duration: 0.3), value: engine.isFinished)
-    }
-
-    private var emptyState: some View {
-        VStack(spacing: Design.Spacing.md) {
-            Image(systemName: "ear.fill")
-                .font(.system(size: 48))
-                .foregroundColor(Design.Color.accentLight)
-            Text("Pronto per il dettato")
-                .font(.title2.weight(.medium))
-                .foregroundColor(Design.Color.textPrimary)
-            Text("Scegli un livello e un argomento,\npoi premi Avvia")
-                .font(Design.Typography.body)
-                .foregroundColor(Design.Color.textSecondary)
-                .multilineTextAlignment(.center)
-        }
     }
 
     private var sessionContent: some View {
@@ -51,22 +33,33 @@ struct DictationView: View {
 
                 if isRevealed, let phrase = engine.currentPhrase {
                     Text(phrase.italian)
-                        .font(Design.Typography.phraseSmall)
-                        .foregroundColor(Design.Color.textSecondary)
-                        .padding()
+                        .font(Design.Typography.phraseFont)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 24)
+                        .padding(.vertical, 14)
+                        .background(.black.opacity(0.35), in: RoundedRectangle(cornerRadius: Design.Radius.md))
                         .transition(.opacity.combined(with: .scale(scale: 0.95)))
                 }
 
                 if !submitted {
-                    TextField("Scrivi ciò che hai sentito...", text: $userInput)
+                    TextField("", text: $userInput)
                         .textFieldStyle(.plain)
                         .font(.system(size: 18))
+                        .foregroundColor(.white)
                         .padding(Design.Spacing.md)
-                        .background(.white.opacity(0.6), in: RoundedRectangle(cornerRadius: Design.Radius.md))
+                        .background(.black.opacity(0.4), in: RoundedRectangle(cornerRadius: Design.Radius.md))
                         .overlay(
                             RoundedRectangle(cornerRadius: Design.Radius.md)
-                                .stroke(Design.Color.accent.opacity(0.25), lineWidth: 1)
+                                .stroke(.white.opacity(0.15), lineWidth: 1)
                         )
+                        .overlay(alignment: .leading) {
+                            if userInput.isEmpty {
+                                Text("Scrivi ciò che hai sentito...")
+                                    .font(.system(size: 18))
+                                    .foregroundColor(.white.opacity(0.5))
+                                    .padding(.leading, Design.Spacing.md)
+                            }
+                        }
                         .frame(maxWidth: 420)
                         .focused($inputFocused)
                         .disabled(speechService.isSpeaking)
@@ -81,7 +74,7 @@ struct DictationView: View {
                             playCurrentPhrase(rate: slowRate ? 0.3 : 0.45)
                         },
                         onReveal: { isRevealed = true },
-                        onNext: {},
+                        onNext: nextPhrase,
                         onSubmit: submit
                     )
                 } else {
@@ -105,15 +98,17 @@ struct DictationView: View {
     }
 
     private var progressBar: some View {
-        HStack(spacing: 5) {
-            ForEach(0..<engine.phrases.count, id: \.self) { i in
-                Capsule()
-                    .fill(i == engine.currentIndex ? Design.Color.accent :
-                          i < engine.currentIndex ? Design.Color.accent.opacity(0.3) :
-                          Design.Color.textSecondary.opacity(0.15))
-                    .frame(width: i == engine.currentIndex ? 20 : 8, height: 6)
-                    .animation(.spring(duration: 0.4), value: engine.currentIndex)
-            }
+        HStack(spacing: 6) {
+            Text("\(engine.currentIndex + 1)/\(engine.phrases.count)")
+                .font(.system(size: 15, weight: .bold, design: .monospaced))
+                .foregroundColor(.white)
+
+            Text("·")
+                .foregroundColor(.white.opacity(0.5))
+
+            Text("\(engine.completedCount)/\(engine.totalPhrases) completate")
+                .font(.system(size: 13, weight: .medium))
+                .foregroundColor(.white.opacity(0.8))
         }
         .padding(.top, Design.Spacing.sm)
     }
@@ -123,25 +118,22 @@ struct DictationView: View {
             if let lastResult = engine.phraseResults.last {
                 WordHighlightView(wordResults: lastResult.wordResults)
 
+                if !taggedWords.isEmpty {
+                    GrammarBreakdownView(taggedWords: taggedWords)
+                        .transition(.opacity)
+                }
+
                 if !lastResult.isCorrect, let phrase = engine.currentPhrase {
                     VStack(spacing: Design.Spacing.xs) {
                         Text("Corretto:")
                             .font(Design.Typography.caption)
-                            .foregroundColor(Design.Color.textSecondary)
+                            .foregroundColor(.white.opacity(0.85))
                         Text(phrase.italian)
                             .font(Design.Typography.phraseSmall)
-                            .foregroundColor(Design.Color.textPrimary)
+                            .foregroundColor(.white)
                     }
                     .padding(.top, Design.Spacing.xs)
                     .transition(.opacity.combined(with: .move(edge: .bottom)))
-                }
-
-                HStack(spacing: 6) {
-                    Image(systemName: lastResult.isCorrect ? "checkmark.circle.fill" : "xmark.circle.fill")
-                        .foregroundColor(lastResult.isCorrect ? Design.Color.success : Design.Color.error)
-                    Text(lastResult.isCorrect ? "Perfetto!" : "Riprova")
-                        .font(Design.Typography.title)
-                        .foregroundColor(lastResult.isCorrect ? Design.Color.success : Design.Color.warning)
                 }
 
                 HStack(spacing: Design.Spacing.sm) {
@@ -169,6 +161,9 @@ struct DictationView: View {
     private func submit() {
         guard !userInput.trimmingCharacters(in: .whitespaces).isEmpty else { return }
         engine.submitAnswer(userInput)
+        if let phrase = engine.currentPhrase {
+            taggedWords = tagItalianPhrase(phrase.italian)
+        }
         submitted = true
     }
 
@@ -177,6 +172,7 @@ struct DictationView: View {
         userInput = ""
         submitted = false
         isRevealed = false
+        taggedWords = []
         playCurrentPhrase()
     }
 
@@ -186,6 +182,7 @@ struct DictationView: View {
         submitted = false
         isRevealed = false
         slowRate = false
+        taggedWords = []
         if !engine.isFinished {
             playCurrentPhrase()
             inputFocused = false

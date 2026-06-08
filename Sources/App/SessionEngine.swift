@@ -4,6 +4,7 @@ import Foundation
 final class SessionEngine {
     private let phraseStore: PhraseStore
     private let progressStore: ProgressStore
+    let transcriptionService: TranscriptionService
 
     var allTopics: [Topic] {
         phraseStore.allTopics
@@ -18,19 +19,43 @@ final class SessionEngine {
     var isSessionActive: Bool = false
     var selectedDifficulty: Difficulty?
     var selectedTopic: Topic?
-    var sessionCount: Int = 10
+
+    var completedCount: Int {
+        progressStore.completedCount
+    }
+
+    var totalPhrases: Int {
+        phraseStore.phrases(for: selectedDifficulty, topic: selectedTopic).count
+    }
+
+    var remainingCount: Int {
+        max(0, totalPhrases - completedCount)
+    }
 
     init(phraseStore: PhraseStore = PhraseStore(), progressStore: ProgressStore = ProgressStore()) {
         self.phraseStore = phraseStore
         self.progressStore = progressStore
+        self.transcriptionService = TranscriptionService()
     }
 
-    func startSession(count: Int = 10, difficulty: Difficulty? = nil, topic: Topic? = nil, mode: ExerciseMode = .dictation) {
+    func startSession(difficulty: Difficulty? = nil, topic: Topic? = nil, mode: ExerciseMode = .dictation) {
         self.mode = mode
-        self.sessionCount = count
         self.selectedDifficulty = difficulty
         self.selectedTopic = topic
-        phrases = phraseStore.randomPhrases(count: count, difficulty: difficulty, topic: topic)
+
+        let pool = phraseStore.phrases(for: difficulty, topic: topic)
+
+        // Filter out already completed phrases
+        let remaining = pool.filter { !progressStore.isPhraseCompleted(id: $0.id) }
+
+        // If all completed, reset and use full pool
+        if remaining.isEmpty {
+            progressStore.resetCompleted()
+            phrases = pool.shuffled()
+        } else {
+            phrases = remaining.shuffled()
+        }
+
         currentIndex = 0
         phraseResults = []
         isFinished = false
@@ -58,6 +83,11 @@ final class SessionEngine {
         )
 
         phraseResults.append(result)
+
+        // Mark phrase as completed if correct
+        if accuracy == 1.0 {
+            progressStore.markPhraseCompleted(id: phrase.id)
+        }
     }
 
     func retryCurrent() {
@@ -74,6 +104,14 @@ final class SessionEngine {
             isSessionActive = false
             saveResult()
         }
+    }
+
+    func resetToHome() {
+        isSessionActive = false
+        isFinished = false
+        phrases = []
+        currentIndex = 0
+        phraseResults = []
     }
 
     var overallAccuracy: Double {

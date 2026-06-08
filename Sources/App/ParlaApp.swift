@@ -8,10 +8,10 @@ struct ParlaApp: App {
         Window("Parla", id: "main") {
             ContentView()
                 .environment(engine)
-                .frame(minWidth: 720, minHeight: 600, maxHeight: .infinity)
+                .frame(width: 860, height: 660)
+                .fixedSize()
                 .accentColor(Design.Color.accent)
         }
         .windowResizability(.contentSize)
-        .defaultSize(width: 860, height: 660)
     }
 }

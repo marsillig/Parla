@@ -3,9 +3,11 @@ import Foundation
 @Observable
 final class ProgressStore {
     private(set) var results: [SessionResult] = []
+    private(set) var completedPhraseIds: Set<Int> = []
 
     private let defaults = UserDefaults.standard
-    private let key = "parla_session_results"
+    private let resultsKey = "parla_session_results"
+    private let completedKey = "parla_completed_phrases"
 
     init() {
         load()
@@ -13,7 +15,25 @@ final class ProgressStore {
 
     func save(result: SessionResult) {
         results.append(result)
-        persist()
+        persistResults()
+    }
+
+    func markPhraseCompleted(id: Int) {
+        completedPhraseIds.insert(id)
+        persistCompleted()
+    }
+
+    func isPhraseCompleted(id: Int) -> Bool {
+        completedPhraseIds.contains(id)
+    }
+
+    func resetCompleted() {
+        completedPhraseIds = []
+        persistCompleted()
+    }
+
+    var completedCount: Int {
+        completedPhraseIds.count
     }
 
     func recentResults(limit: Int = 20) -> [SessionResult] {
@@ -36,14 +56,23 @@ final class ProgressStore {
     }
 
     private func load() {
-        guard let data = defaults.data(forKey: key),
-              let decoded = try? JSONDecoder().decode([SessionResult].self, from: data)
-        else { return }
-        results = decoded
+        if let data = defaults.data(forKey: resultsKey),
+           let decoded = try? JSONDecoder().decode([SessionResult].self, from: data) {
+            results = decoded
+        }
+        if let data = defaults.data(forKey: completedKey),
+           let decoded = try? JSONDecoder().decode(Set<Int>.self, from: data) {
+            completedPhraseIds = decoded
+        }
     }
 
-    private func persist() {
+    private func persistResults() {
         guard let data = try? JSONEncoder().encode(results) else { return }
-        defaults.set(data, forKey: key)
+        defaults.set(data, forKey: resultsKey)
+    }
+
+    private func persistCompleted() {
+        guard let data = try? JSONEncoder().encode(completedPhraseIds) else { return }
+        defaults.set(data, forKey: completedKey)
     }
 }

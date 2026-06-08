@@ -30,6 +30,7 @@ final class SpeechService: NSObject, @unchecked Sendable {
         utterance.rate = rate
         utterance.pitchMultiplier = 1.0
         utterance.volume = 1.0
+        utterance.preUtteranceDelay = 0.35
         isSpeaking = true
         synthesizer.speak(utterance)
     }

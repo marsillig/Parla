@@ -22,6 +22,9 @@ final class TranscriptionService: @unchecked Sendable {
     private(set) var isLoading = false
 
     func loadModel() async throws {
+        guard !isLoaded else { return }
+        guard !isLoading else { return }
+
         isLoading = true
         defer { isLoading = false }
 

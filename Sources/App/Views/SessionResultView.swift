@@ -73,8 +73,12 @@ struct SessionResultView: View {
             .glassCard(radius: Design.Radius.xxl)
             .padding(.horizontal, 60)
 
-            Button(action: restart) {
-                Label("Nuova sessione", systemImage: "arrow.counterclockwise")
+            Button(action: {
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
+                    engine.resetToHome()
+                }
+            }) {
+                Label("Torna alla home", systemImage: "house.fill")
             }
             .buttonStyle(PrimaryButtonStyle())
             .controlSize(.large)
@@ -99,14 +103,5 @@ struct SessionResultView: View {
                 .font(Design.Typography.body.weight(.semibold))
                 .foregroundColor(Design.Color.textPrimary)
         }
-    }
-
-    private func restart() {
-        engine.startSession(
-            count: engine.sessionCount,
-            difficulty: engine.selectedDifficulty,
-            topic: engine.selectedTopic,
-            mode: engine.mode
-        )
     }
 }
