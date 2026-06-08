@@ -1,0 +1,3538 @@
+[
+  {
+    "id": 1,
+    "italian": "Vorrei un caffè, per favore",
+    "spanish": "Quisiera un café, por favor",
+    "difficulty": "a1",
+    "topic": "caffe",
+    "grammarNote": "Vorrei = condizionale di volere (I would like)"
+  },
+  {
+    "id": 2,
+    "italian": "Il caffè è buono",
+    "spanish": "El café es bueno",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 3,
+    "italian": "Quanto costa un espresso?",
+    "spanish": "¿Cuánto cuesta un espresso?",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 4,
+    "italian": "Un cappuccino, per favore",
+    "spanish": "Un capuchino, por favor",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 5,
+    "italian": "Prendo un cornetto con la marmellata",
+    "spanish": "Tomo un croissant con mermelada",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 6,
+    "italian": "Il bar è vicino alla stazione",
+    "spanish": "El bar está cerca de la estación",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 7,
+    "italian": "Un bicchiere d'acqua, per favore",
+    "spanish": "Un vaso de agua, por favor",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 8,
+    "italian": "Prendo un caffè macchiato",
+    "spanish": "Tomo un café manchado",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 9,
+    "italian": "Quanto costa un cappuccino?",
+    "spanish": "¿Cuánto cuesta un capuchino?",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 10,
+    "italian": "Il caffè è troppo caldo",
+    "spanish": "El café está muy caliente",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 11,
+    "italian": "Vorrei una brioche vuota",
+    "spanish": "Quisiera un brioche vacío",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 12,
+    "italian": "Prendo un tè al limone",
+    "spanish": "Tomo un té con limón",
+    "difficulty": "a1",
+    "topic": "caffe"
+  },
+  {
+    "id": 13,
+    "italian": "Oggi ho preso un caffè al bar nuovo",
+    "spanish": "Hoy tomé un café en el bar nuevo",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 14,
+    "italian": "Ieri sono andato al bar con i colleghi",
+    "spanish": "Ayer fui al bar con los compañeros",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 15,
+    "italian": "Il barista faceva il caffè molto velocemente",
+    "spanish": "El barista hacía el café muy rápidamente",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 16,
+    "italian": "Abbiamo bevuto un aperitivo al bar",
+    "spanish": "Bebimos un aperitivo en el bar",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 17,
+    "italian": "Questo caffè era più buono di quello di ieri",
+    "spanish": "Este café era más bueno que el de ayer",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 18,
+    "italian": "Di solito prendo un cappuccino la mattina",
+    "spanish": "Normalmente tomo un capuchino por la mañana",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 19,
+    "italian": "Ho chiesto un caffè decaffeinato",
+    "spanish": "Pedí un café descafeinado",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 20,
+    "italian": "Il bar chiude alle otto di sera",
+    "spanish": "El bar cierra a las ocho de la tarde",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 21,
+    "italian": "Quando ero in Italia, prendevo il caffè ogni giorno",
+    "spanish": "Cuando estaba en Italia, tomaba café cada día",
+    "difficulty": "a2",
+    "topic": "caffe",
+    "grammarNote": "Prendevo = imperfetto di prendere"
+  },
+  {
+    "id": 22,
+    "italian": "Hanno aperto un nuovo bar qui vicino",
+    "spanish": "Han abierto un bar nuevo aquí cerca",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 23,
+    "italian": "Mentre aspettavo il caffè, ho letto il giornale",
+    "spanish": "Mientras esperaba el café, leí el periódico",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 24,
+    "italian": "Preferivo il bar dove lavorava Marco",
+    "spanish": "Prefería el bar donde trabajaba Marco",
+    "difficulty": "a2",
+    "topic": "caffe"
+  },
+  {
+    "id": 25,
+    "italian": "Il caffè italiano è il migliore del mondo",
+    "spanish": "El café italiano es el mejor del mundo",
+    "difficulty": "b1",
+    "topic": "caffe"
+  },
+  {
+    "id": 26,
+    "italian": "Se potessi, aprirei un bar tutto mio",
+    "spanish": "Si pudiera, abriría un bar propio",
+    "difficulty": "b1",
+    "topic": "caffe",
+    "grammarNote": "Se potessi + condizionale = periodo ipotetico"
+  },
+  {
+    "id": 27,
+    "italian": "Penso che questo sia il miglior espresso della città",
+    "spanish": "Creo que este es el mejor espresso de la ciudad",
+    "difficulty": "b1",
+    "topic": "caffe",
+    "grammarNote": "Penso che sia = congiuntivo presente"
+  },
+  {
+    "id": 28,
+    "italian": "Non mi piace quando il caffè viene servito tiepido",
+    "spanish": "No me gusta cuando el café se sirve tibio",
+    "difficulty": "b1",
+    "topic": "caffe"
+  },
+  {
+    "id": 29,
+    "italian": "Sarebbe meglio provare un blend diverso",
+    "spanish": "Sería mejor probar una mezcla diferente",
+    "difficulty": "b1",
+    "topic": "caffe"
+  },
+  {
+    "id": 30,
+    "italian": "Credo che i prezzi al bar siano aumentati troppo",
+    "spanish": "Creo que los precios del bar han subido demasiado",
+    "difficulty": "b1",
+    "topic": "caffe",
+    "grammarNote": "Credo che siano aumentati = congiuntivo passato"
+  },
+  {
+    "id": 31,
+    "italian": "Non avrei mai immaginato di diventare un barista",
+    "spanish": "Nunca hubiera imaginado convertirme en barista",
+    "difficulty": "b1",
+    "topic": "caffe"
+  },
+  {
+    "id": 32,
+    "italian": "Se avessi saputo, avrei ordinato un marocchino",
+    "spanish": "Si hubiera sabido, habría pedido un marocchino",
+    "difficulty": "b1",
+    "topic": "caffe"
+  },
+  {
+    "id": 33,
+    "italian": "Vorrei prenotare un tavolo per due",
+    "spanish": "Quisiera reservar una mesa para dos",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 34,
+    "italian": "Il conto, per favore",
+    "spanish": "La cuenta, por favor",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 35,
+    "italian": "Cosa mi consiglia?",
+    "spanish": "¿Qué me recomienda?",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 36,
+    "italian": "Vorrei della pasta al pomodoro",
+    "spanish": "Quisiera pasta al tomate",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 37,
+    "italian": "Un bicchiere di vino rosso, per favore",
+    "spanish": "Un vaso de vino tinto, por favor",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 38,
+    "italian": "La pizza è molto buona",
+    "spanish": "La pizza está muy buena",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 39,
+    "italian": "Non mangio la carne",
+    "spanish": "No como carne",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 40,
+    "italian": "Acqua naturale o gassata?",
+    "spanish": "¿Agua natural o con gas?",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 41,
+    "italian": "Il menù, per cortesia",
+    "spanish": "El menú, por favor",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 42,
+    "italian": "Quanto costa questo piatto?",
+    "spanish": "¿Cuánto cuesta este plato?",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 43,
+    "italian": "Sono allergico al lattosio",
+    "spanish": "Soy alérgico a la lactosa",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 44,
+    "italian": "Il dolce è incluso?",
+    "spanish": "¿El postre está incluido?",
+    "difficulty": "a1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 45,
+    "italian": "Ieri sono andato in un ristorante fantastico",
+    "spanish": "Ayer fui a un restaurante fantástico",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 46,
+    "italian": "Abbiamo ordinato una bottiglia di vino bianco",
+    "spanish": "Pedimos una botella de vino blanco",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 47,
+    "italian": "Il cameriere è stato molto gentile",
+    "spanish": "El camarero fue muy amable",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 48,
+    "italian": "La carbonara era fatta benissimo",
+    "spanish": "La carbonara estaba hecha muy bien",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 49,
+    "italian": "Abbiamo aspettato quasi un'ora per il tavolo",
+    "spanish": "Esperamos casi una hora por la mesa",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 50,
+    "italian": "Di solito mangio sempre la stessa cosa",
+    "spanish": "Normalmente como siempre lo mismo",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 51,
+    "italian": "Preferivo il ristorante dove siamo andati la settimana scorsa",
+    "spanish": "Prefería el restaurante donde fuimos la semana pasada",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 52,
+    "italian": "Quando ero studente, mangiavo spesso in pizzeria",
+    "spanish": "Cuando era estudiante, comía a menudo en la pizzería",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 53,
+    "italian": "La pasta era troppo al dente per i miei gusti",
+    "spanish": "La pasta estaba demasiado al dente para mi gusto",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 54,
+    "italian": "Abbiamo condiviso un antipasto misto",
+    "spanish": "Compartimos una entrada mixta",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 55,
+    "italian": "Hanno appena cambiato lo chef del ristorante",
+    "spanish": "Acaban de cambiar al chef del restaurante",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 56,
+    "italian": "Mentre aspettavamo, abbiamo preso un antipasto",
+    "spanish": "Mientras esperábamos, pedimos un entrante",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 57,
+    "italian": "Il locale era pieno e abbiamo aspettato mezz'ora",
+    "spanish": "El local estaba lleno y esperamos media hora",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 58,
+    "italian": "La zuppa era fredda quando l'hanno portata",
+    "spanish": "La sopa estaba fría cuando la trajeron",
+    "difficulty": "a2",
+    "topic": "ristorante"
+  },
+  {
+    "id": 59,
+    "italian": "Mi piacerebbe prenotare un tavolo per due",
+    "spanish": "Me gustaría reservar una mesa para dos",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 60,
+    "italian": "Penso che questo ristorante meriti una stella Michelin",
+    "spanish": "Creo que este restaurante merece una estrella Michelin",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 61,
+    "italian": "Sarebbe stato meglio prenotare con più anticipo",
+    "spanish": "Habría sido mejor reservar con más antelación",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 62,
+    "italian": "Se potessi, mangerei sushi tutte le sere",
+    "spanish": "Si pudiera, comería sushi todas las noches",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 63,
+    "italian": "Dubito che il ristorante sia aperto il lunedì",
+    "spanish": "Dudo que el restaurante esté abierto el lunes",
+    "difficulty": "b1",
+    "topic": "ristorante",
+    "grammarNote": "Dubito che sia = congiuntivo presente"
+  },
+  {
+    "id": 64,
+    "italian": "Nonostante il prezzo elevato, la cena è valsa la pena",
+    "spanish": "A pesar del precio elevado, la cena valió la pena",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 65,
+    "italian": "Credo che abbiano migliorato la qualità del servizio",
+    "spanish": "Creo que han mejorado la calidad del servicio",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 66,
+    "italian": "Il menu degustazione offre un'esperienza culinaria unica",
+    "spanish": "El menú de degustación ofrece una experiencia culinaria única",
+    "difficulty": "b1",
+    "topic": "ristorante"
+  },
+  {
+    "id": 67,
+    "italian": "Quanto costa quest'acqua?",
+    "spanish": "¿Cuánto cuesta esta agua?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 68,
+    "italian": "Vorrei un chilo di mele",
+    "spanish": "Quisiera un kilo de manzanas",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 69,
+    "italian": "Quanto costano le fragole?",
+    "spanish": "¿Cuánto cuestan las fresas?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 70,
+    "italian": "Prendo due etti di prosciutto",
+    "spanish": "Tomo doscientos gramos de jamón",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 71,
+    "italian": "La frutta è fresca?",
+    "spanish": "¿La fruta está fresca?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 72,
+    "italian": "Quanto fa in totale?",
+    "spanish": "¿Cuánto es en total?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 73,
+    "italian": "Avete delle buste?",
+    "spanish": "¿Tienen bolsas?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 74,
+    "italian": "Vorrei del pane fresco",
+    "spanish": "Quisiera pan fresco",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 75,
+    "italian": "Il mercato apre alle otto",
+    "spanish": "El mercado abre a las ocho",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 76,
+    "italian": "Quanto costano le uova?",
+    "spanish": "¿Cuánto cuestan los huevos?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 77,
+    "italian": "Prendo un litro di latte",
+    "spanish": "Tomo un litro de leche",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 78,
+    "italian": "Questo formaggio è buono?",
+    "spanish": "¿Este queso es bueno?",
+    "difficulty": "a1",
+    "topic": "mercato"
+  },
+  {
+    "id": 79,
+    "italian": "Ieri ho comprato la verdura al mercato",
+    "spanish": "Ayer compré verduras en el mercado",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 80,
+    "italian": "La frutta che abbiamo comprato era matura",
+    "spanish": "La fruta que compramos estaba madura",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 81,
+    "italian": "Di solito faccio la spesa il sabato mattina",
+    "spanish": "Normalmente hago la compra el sábado por la mañana",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 82,
+    "italian": "Il fruttivendolo mi ha consigliato le pesche",
+    "spanish": "El frutero me recomendó los melocotones",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 83,
+    "italian": "Abbiamo speso meno del solito al supermercato",
+    "spanish": "Gastamos menos de lo normal en el supermercado",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 84,
+    "italian": "Preferivo comprare al mercato quando abitavo in centro",
+    "spanish": "Prefería comprar en el mercado cuando vivía en el centro",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 85,
+    "italian": "Il prezzo della verdura è aumentato",
+    "spanish": "El precio de la verdura ha subido",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 86,
+    "italian": "Ho dimenticato la lista della spesa a casa",
+    "spanish": "Olvidé la lista de la compra en casa",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 87,
+    "italian": "Mentre facevo la spesa, ho incontrato un vecchio amico",
+    "spanish": "Mientras hacía la compra, me encontré con un viejo amigo",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 88,
+    "italian": "Al mercato vendono anche formaggi artigianali",
+    "spanish": "En el mercado también venden quesos artesanales",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 89,
+    "italian": "Quanti prodotti biologici ci sono al mercato?",
+    "spanish": "¿Cuántos productos ecológicos hay en el mercado?",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 90,
+    "italian": "Ogni volta che vado al mercato spendo troppo",
+    "spanish": "Cada vez que voy al mercado gasto demasiado",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 91,
+    "italian": "Il banco del pesce aveva un'ottima selezione",
+    "spanish": "El puesto de pescado tenía una excelente selección",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 92,
+    "italian": "Quest'anno la frutta estiva è particolarmente dolce",
+    "spanish": "Este año la fruta de verano es particularmente dulce",
+    "difficulty": "a2",
+    "topic": "mercato"
+  },
+  {
+    "id": 93,
+    "italian": "Preferirei comprare prodotti a chilometro zero",
+    "spanish": "Preferiría comprar productos de kilómetro cero",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 94,
+    "italian": "Credo che i prezzi al mercato siano più giusti",
+    "spanish": "Creo que los precios en el mercado son más justos",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 95,
+    "italian": "Sarebbe utile se il supermercato restasse aperto la domenica",
+    "spanish": "Sería útil si el supermercado permaneciera abierto el domingo",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 96,
+    "italian": "Nonostante l'aumento dei prezzi, il mercato è sempre affollato",
+    "spanish": "A pesar del aumento de precios, el mercado siempre está lleno",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 97,
+    "italian": "Bisognerebbe sostenere di più i produttori locali",
+    "spanish": "Habría que apoyar más a los productores locales",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 98,
+    "italian": "Penso che la spesa biologica sia un investimento per la salute",
+    "spanish": "Pienso que la compra ecológica es una inversión para la salud",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 99,
+    "italian": "Se avessi un orto, non dovrei comprare la verdura",
+    "spanish": "Si tuviera un huerto, no tendría que comprar verduras",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 100,
+    "italian": "Il mercato contadino del sabato offre prodotti eccellenti",
+    "spanish": "El mercado de agricultores del sábado ofrece productos excelentes",
+    "difficulty": "b1",
+    "topic": "mercato"
+  },
+  {
+    "id": 101,
+    "italian": "Scusi, dov'è la stazione?",
+    "spanish": "Disculpe, ¿dónde está la estación?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 102,
+    "italian": "Quanto costa il biglietto per Roma?",
+    "spanish": "¿Cuánto cuesta el billete a Roma?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 103,
+    "italian": "A che ora parte il treno?",
+    "spanish": "¿A qué hora sale el tren?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 104,
+    "italian": "Vorrei un biglietto di andata e ritorno",
+    "spanish": "Quisiera un billete de ida y vuelta",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 105,
+    "italian": "Devo cambiare treno?",
+    "spanish": "¿Tengo que cambiar de tren?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 106,
+    "italian": "Quanto tempo ci vuole per andare a Firenze?",
+    "spanish": "¿Cuánto tiempo se tarda en ir a Florencia?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 107,
+    "italian": "Dov'è il binario numero tre?",
+    "spanish": "¿Dónde está el andén número tres?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 108,
+    "italian": "L'albergo è lontano dal centro?",
+    "spanish": "¿El hotel está lejos del centro?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 109,
+    "italian": "Vorrei una camera singola per due notti",
+    "spanish": "Quisiera una habitación individual para dos noches",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 110,
+    "italian": "La colazione è inclusa?",
+    "spanish": "¿El desayuno está incluido?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 111,
+    "italian": "A che ora chiude la reception?",
+    "spanish": "¿A qué hora cierra la recepción?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 112,
+    "italian": "Posso avere la chiave della camera?",
+    "spanish": "¿Puedo tener la llave de la habitación?",
+    "difficulty": "a1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 113,
+    "italian": "L'anno scorso sono andato in vacanza in Sicilia",
+    "spanish": "El año pasado fui de vacaciones a Sicilia",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 114,
+    "italian": "Abbiamo visitato Firenze e siamo rimasti tre giorni",
+    "spanish": "Visitamos Florencia y nos quedamos tres días",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 115,
+    "italian": "Il volo è partito con due ore di ritardo",
+    "spanish": "El vuelo salió con dos horas de retraso",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 116,
+    "italian": "L'albergo che avevamo prenotato era bellissimo",
+    "spanish": "El hotel que habíamos reservado era precioso",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 117,
+    "italian": "Di solito viaggio in treno perché è più comodo",
+    "spanish": "Normalmente viajo en tren porque es más cómodo",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 118,
+    "italian": "Quando ero all'estero, usavo sempre i mezzi pubblici",
+    "spanish": "Cuando estaba en el extranjero, siempre usaba el transporte público",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 119,
+    "italian": "Abbiamo noleggiato una macchina per esplorare la campagna",
+    "spanish": "Alquilamos un coche para explorar el campo",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 120,
+    "italian": "Il museo era chiuso quando siamo arrivati",
+    "spanish": "El museo estaba cerrado cuando llegamos",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 121,
+    "italian": "Mentre ero in treno, ho conosciuto una persona interessante",
+    "spanish": "Mientras estaba en el tren, conocí a una persona interesante",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 122,
+    "italian": "Il viaggio in macchina è stato più lungo del previsto",
+    "spanish": "El viaje en coche fue más largo de lo previsto",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 123,
+    "italian": "Abbiamo perso il treno delle otto e trenta",
+    "spanish": "Perdimos el tren de las ocho y media",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 124,
+    "italian": "Le valigie non sono arrivate con il nostro volo",
+    "spanish": "Las maletas no llegaron con nuestro vuelo",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 125,
+    "italian": "Il passaporto mi è scaduto proprio prima del viaggio",
+    "spanish": "El pasaporte me caducó justo antes del viaje",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 126,
+    "italian": "Al check-in ci hanno dato una camera con vista",
+    "spanish": "En el check-in nos dieron una habitación con vista",
+    "difficulty": "a2",
+    "topic": "viaggio"
+  },
+  {
+    "id": 127,
+    "italian": "Se potessi, viaggerei in tutto il mondo",
+    "spanish": "Si pudiera, viajaría por todo el mundo",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 128,
+    "italian": "Credo che viaggiare sia la migliore forma di educazione",
+    "spanish": "Creo que viajar es la mejor forma de educación",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 129,
+    "italian": "Sarebbe stato meglio prenotare i biglietti con anticipo",
+    "spanish": "Habría sido mejor reservar los billetes con antelación",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 130,
+    "italian": "Nonostante il maltempo, il viaggio è stato fantastico",
+    "spanish": "A pesar del mal tiempo, el viaje fue fantástico",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 131,
+    "italian": "Penso che la compagnia aerea debba migliorare il servizio",
+    "spanish": "Pienso que la aerolínea debería mejorar el servicio",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 132,
+    "italian": "Preferirei viaggiare in treno piuttosto che in aereo",
+    "spanish": "Preferiría viajar en tren en lugar de en avión",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 133,
+    "italian": "Bisognerebbe visitare i musei quando c'è meno gente",
+    "spanish": "Habría que visitar los museos cuando hay menos gente",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 134,
+    "italian": "Se avessi più ferie, farei un viaggio in Giappone",
+    "spanish": "Si tuviera más vacaciones, haría un viaje a Japón",
+    "difficulty": "b1",
+    "topic": "viaggio"
+  },
+  {
+    "id": 135,
+    "italian": "Lavoro in un ufficio",
+    "spanish": "Trabajo en una oficina",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 136,
+    "italian": "Che lavoro fai?",
+    "spanish": "¿Qué trabajo haces?",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 137,
+    "italian": "Sono un ingegnere",
+    "spanish": "Soy ingeniero",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 138,
+    "italian": "L'ufficio apre alle nove",
+    "spanish": "La oficina abre a las nueve",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 139,
+    "italian": "Ho un appuntamento con il direttore",
+    "spanish": "Tengo una cita con el director",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 140,
+    "italian": "Il mio capo è molto severo",
+    "spanish": "Mi jefe es muy severo",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 141,
+    "italian": "Lavoro da casa il venerdì",
+    "spanish": "Trabajo desde casa los viernes",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 142,
+    "italian": "Ho molti colleghi simpatici",
+    "spanish": "Tengo muchos colegas simpáticos",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 143,
+    "italian": "Il contratto è a tempo indeterminato",
+    "spanish": "El contrato es indefinido",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 144,
+    "italian": "Quando finisci di lavorare?",
+    "spanish": "¿Cuándo terminas de trabajar?",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 145,
+    "italian": "Prendo il caffè con i colleghi",
+    "spanish": "Tomo café con los colegas",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 146,
+    "italian": "L'ufficio è al terzo piano",
+    "spanish": "La oficina está en el tercer piso",
+    "difficulty": "a1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 147,
+    "italian": "Ieri ho avuto una riunione lunga",
+    "spanish": "Ayer tuve una reunión larga",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 148,
+    "italian": "Il progetto è stato consegnato in tempo",
+    "spanish": "El proyecto fue entregado a tiempo",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 149,
+    "italian": "Ho lavorato fino a tardi ieri sera",
+    "spanish": "Trabajé hasta tarde anoche",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 150,
+    "italian": "Il mio collega si è dimesso la settimana scorsa",
+    "spanish": "Mi colega renunció la semana pasada",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 151,
+    "italian": "Di solito pranzo in ufficio con i colleghi",
+    "spanish": "Normalmente almuerzo en la oficina con los colegas",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 152,
+    "italian": "Quando lavoravo in quel ristorante, guadagnavo bene",
+    "spanish": "Cuando trabajaba en aquel restaurante, ganaba bien",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 153,
+    "italian": "L'azienda ha assunto dieci persone nuove",
+    "spanish": "La empresa ha contratado a diez personas nuevas",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 154,
+    "italian": "Abbiamo cambiato il sistema informatico",
+    "spanish": "Cambiamos el sistema informático",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 155,
+    "italian": "Mentre lavoravo da casa, ho guadagnato più tempo",
+    "spanish": "Mientras trabajaba desde casa, gané más tiempo",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 156,
+    "italian": "Il capo era contento del mio lavoro",
+    "spanish": "El jefe estaba contento con mi trabajo",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 157,
+    "italian": "Ho ricevuto un aumento di stipendio",
+    "spanish": "Recibí un aumento de sueldo",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 158,
+    "italian": "Il colloquio di lavoro è andato molto bene",
+    "spanish": "La entrevista de trabajo fue muy bien",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 159,
+    "italian": "Ho fatto domanda per una promozione interna",
+    "spanish": "Solicité una promoción interna",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 160,
+    "italian": "Il team ha raggiunto tutti gli obiettivi trimestrali",
+    "spanish": "El equipo alcanzó todos los objetivos trimestrales",
+    "difficulty": "a2",
+    "topic": "lavoro"
+  },
+  {
+    "id": 161,
+    "italian": "Se avessi più tempo, finirei il progetto entro venerdì",
+    "spanish": "Si tuviera más tiempo, terminaría el proyecto para el viernes",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 162,
+    "italian": "Penso che dovremmo rivedere la strategia",
+    "spanish": "Creo que deberíamos revisar la estrategia",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 163,
+    "italian": "Vorrei che il mio lavoro avesse più senso",
+    "spanish": "Me gustaría que mi trabajo tuviera más sentido",
+    "difficulty": "b1",
+    "topic": "lavoro",
+    "grammarNote": "Vorrei che avesse = congiuntivo imperfetto"
+  },
+  {
+    "id": 164,
+    "italian": "Nonostante lo stress, mi piace il mio lavoro",
+    "spanish": "A pesar del estrés, me gusta mi trabajo",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 165,
+    "italian": "Credo che il lavoro da remoto sia il futuro",
+    "spanish": "Creo que el trabajo remoto es el futuro",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 166,
+    "italian": "Bisognerebbe organizzare meglio le scadenze",
+    "spanish": "Habría que organizar mejor los plazos",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 167,
+    "italian": "Se fossi in te, chiederei un aumento",
+    "spanish": "Si estuviera en tu lugar, pediría un aumento",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 168,
+    "italian": "Dubito che l'azienda assuma quest'anno",
+    "spanish": "Dudo que la empresa contrate este año",
+    "difficulty": "b1",
+    "topic": "lavoro"
+  },
+  {
+    "id": 169,
+    "italian": "Il progetto è in scadenza",
+    "spanish": "El proyecto está por vencer",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 170,
+    "italian": "La riunione è alle tre",
+    "spanish": "La reunión es a las tres",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 171,
+    "italian": "Chi partecipa alla riunione?",
+    "spanish": "¿Quién participa en la reunión?",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 172,
+    "italian": "Preparo i documenti per la riunione",
+    "spanish": "Preparo los documentos para la reunión",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 173,
+    "italian": "La sala riunioni è al secondo piano",
+    "spanish": "La sala de reuniones está en el segundo piso",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 174,
+    "italian": "Dobbiamo parlare del budget",
+    "spanish": "Tenemos que hablar del presupuesto",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 175,
+    "italian": "Il direttore apre la riunione",
+    "spanish": "El director abre la reunión",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 176,
+    "italian": "Abbiamo un ordine del giorno",
+    "spanish": "Tenemos un orden del día",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 177,
+    "italian": "Firmo il contratto oggi",
+    "spanish": "Firmo el contrato hoy",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 178,
+    "italian": "La proposta è interessante",
+    "spanish": "La propuesta es interesante",
+    "difficulty": "a1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 179,
+    "italian": "La riunione di ieri è durata due ore",
+    "spanish": "La reunión de ayer duró dos horas",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 180,
+    "italian": "Abbiamo discusso il bilancio annuale",
+    "spanish": "Discutimos el balance anual",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 181,
+    "italian": "Il cliente ha accettato la nostra proposta",
+    "spanish": "El cliente aceptó nuestra propuesta",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 182,
+    "italian": "Durante la riunione, ho preso appunti",
+    "spanish": "Durante la reunión, tomé notas",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 183,
+    "italian": "Il nostro team ha raggiunto l'obiettivo",
+    "spanish": "Nuestro equipo alcanzó el objetivo",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 184,
+    "italian": "La presentazione è piaciuta a tutti",
+    "spanish": "La presentación gustó a todos",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 185,
+    "italian": "Prima della riunione, ho preparato le slide",
+    "spanish": "Antes de la reunión, preparé las diapositivas",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 186,
+    "italian": "I colleghi hanno votato la nuova strategia",
+    "spanish": "Los colegas votaron la nueva estrategia",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 187,
+    "italian": "L'investitore ha chiesto più dettagli sul progetto",
+    "spanish": "El inversor pidió más detalles sobre el proyecto",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 188,
+    "italian": "Mentre parlavo, il mio capo prendeva appunti",
+    "spanish": "Mientras hablaba, mi jefe tomaba notas",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 189,
+    "italian": "Abbiamo rimandato la decisione alla prossima settimana",
+    "spanish": "Aplazamos la decisión hasta la próxima semana",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 190,
+    "italian": "La riunione si è conclusa con un accordo",
+    "spanish": "La reunión concluyó con un acuerdo",
+    "difficulty": "a2",
+    "topic": "riunioni"
+  },
+  {
+    "id": 191,
+    "italian": "Penso che dovremmo negoziare i termini del contratto",
+    "spanish": "Creo que deberíamos negociar los términos del contrato",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 192,
+    "italian": "Se avessimo più risorse, potremmo espanderci",
+    "spanish": "Si tuviéramos más recursos, podríamos expandirnos",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 193,
+    "italian": "Credo che sia fondamentale investire in innovazione",
+    "spanish": "Creo que es fundamental invertir en innovación",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 194,
+    "italian": "Nonostante i tagli al budget, abbiamo raggiunto gli obiettivi",
+    "spanish": "A pesar de los recortes presupuestarios, alcanzamos los objetivos",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 195,
+    "italian": "Suggerirei di posticipare il lancio del prodotto",
+    "spanish": "Sugeriría posponer el lanzamiento del producto",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 196,
+    "italian": "Bisognerebbe analizzare i dati prima di prendere una decisione",
+    "spanish": "Habría que analizar los datos antes de tomar una decisión",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 197,
+    "italian": "Se fossi il manager, cambierei l'organizzazione del team",
+    "spanish": "Si fuera el gerente, cambiaría la organización del equipo",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 198,
+    "italian": "Ritengo che la concorrenza ci stia superando",
+    "spanish": "Considero que la competencia nos está superando",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 199,
+    "italian": "Propongo di fissare una scadenza chiara per il progetto",
+    "spanish": "Propongo fijar una fecha límite clara para el proyecto",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 200,
+    "italian": "A mio parere, dovremmo esternalizzare la produzione",
+    "spanish": "En mi opinión, deberíamos externalizar la producción",
+    "difficulty": "b1",
+    "topic": "riunioni"
+  },
+  {
+    "id": 201,
+    "italian": "Dove devo firmare?",
+    "spanish": "¿Dónde tengo que firmar?",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 202,
+    "italian": "Vorrei aprire un conto corrente",
+    "spanish": "Quisiera abrir una cuenta corriente",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 203,
+    "italian": "Qual è il tasso di interesse?",
+    "spanish": "¿Cuál es la tasa de interés?",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 204,
+    "italian": "Devo fare un bonifico",
+    "spanish": "Tengo que hacer una transferencia",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 205,
+    "italian": "La banca apre alle otto e mezza",
+    "spanish": "El banco abre a las ocho y media",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 206,
+    "italian": "Posso prelevare con il bancomat?",
+    "spanish": "¿Puedo retirar con el cajero?",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 207,
+    "italian": "Quanto costa un bonifico?",
+    "spanish": "¿Cuánto cuesta una transferencia?",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 208,
+    "italian": "Ho bisogno di un estratto conto",
+    "spanish": "Necesito un extracto de cuenta",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 209,
+    "italian": "La carta di credito è bloccata",
+    "spanish": "La tarjeta de crédito está bloqueada",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 210,
+    "italian": "Pago con la carta",
+    "spanish": "Pago con la tarjeta",
+    "difficulty": "a1",
+    "topic": "banca"
+  },
+  {
+    "id": 211,
+    "italian": "Ieri sono andato in banca per un prestito",
+    "spanish": "Ayer fui al banco por un préstamo",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 212,
+    "italian": "Ho chiuso il conto corrente",
+    "spanish": "Cerré la cuenta corriente",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 213,
+    "italian": "Il direttore della banca mi ha approvato il mutuo",
+    "spanish": "El director del banco me aprobó la hipoteca",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 214,
+    "italian": "Ho pagato le bollette con l'home banking",
+    "spanish": "Pagué las facturas con la banca online",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 215,
+    "italian": "La banca ha aumentato le commissioni",
+    "spanish": "El banco ha aumentado las comisiones",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 216,
+    "italian": "Quando lavoravo in banca, gestivo i prestiti",
+    "spanish": "Cuando trabajaba en el banco, gestionaba los préstamos",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 217,
+    "italian": "Abbiamo investito in azioni l'anno scorso",
+    "spanish": "Invertimos en acciones el año pasado",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 218,
+    "italian": "L'importo è stato accreditato sul conto",
+    "spanish": "El importe fue acreditado en la cuenta",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 219,
+    "italian": "Mentre aspettavo in fila, ho letto i fogli informativi",
+    "spanish": "Mientras esperaba en la fila, leí los folletos informativos",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 220,
+    "italian": "Il consulente finanziario mi ha dato buoni consigli",
+    "spanish": "El asesor financiero me dio buenos consejos",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 221,
+    "italian": "Ho fatto un investimento in fondi comuni",
+    "spanish": "Hice una inversión en fondos comunes",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 222,
+    "italian": "La rata del mutuo è aumentata",
+    "spanish": "La cuota de la hipoteca ha aumentado",
+    "difficulty": "a2",
+    "topic": "banca"
+  },
+  {
+    "id": 223,
+    "italian": "Penso che dovremmo diversificare gli investimenti",
+    "spanish": "Creo que deberíamos diversificar las inversiones",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 224,
+    "italian": "Se avessi risparmiato di più, ora avrei una casa",
+    "spanish": "Si hubiera ahorrado más, ahora tendría una casa",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 225,
+    "italian": "Credo che i tassi di interesse scenderanno",
+    "spanish": "Creo que las tasas de interés bajarán",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 226,
+    "italian": "Nonostante l'inflazione, il mio portafoglio è cresciuto",
+    "spanish": "A pesar de la inflación, mi cartera ha crecido",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 227,
+    "italian": "Bisognerebbe educare i giovani alla finanza personale",
+    "spanish": "Habría que educar a los jóvenes en finanzas personales",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 228,
+    "italian": "Ritengo che le criptovalute siano un rischio calcolato",
+    "spanish": "Considero que las criptomonedas son un riesgo calculado",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 229,
+    "italian": "Se potessi, investirei in immobili",
+    "spanish": "Si pudiera, invertiría en inmuebles",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 230,
+    "italian": "Preferirei un consulente finanziario indipendente",
+    "spanish": "Preferiría un asesor financiero independiente",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 231,
+    "italian": "A mio avviso, il mercato azionario è sottovalutato",
+    "spanish": "En mi opinión, el mercado de valores está infravalorado",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 232,
+    "italian": "Sarebbe saggio creare un fondo di emergenza",
+    "spanish": "Sería sabio crear un fondo de emergencia",
+    "difficulty": "b1",
+    "topic": "banca"
+  },
+  {
+    "id": 233,
+    "italian": "Ciao, come stai?",
+    "spanish": "Hola, ¿cómo estás?",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 234,
+    "italian": "Che fai stasera?",
+    "spanish": "¿Qué haces esta noche?",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 235,
+    "italian": "Vuoi uscire con noi?",
+    "spanish": "¿Quieres salir con nosotros?",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 236,
+    "italian": "La festa è sabato sera",
+    "spanish": "La fiesta es el sábado por la noche",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 237,
+    "italian": "Porta qualcosa da bere",
+    "spanish": "Trae algo de beber",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 238,
+    "italian": "Il concerto inizia alle nove",
+    "spanish": "El concierto empieza a las nueve",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 239,
+    "italian": "Ci vediamo al bar",
+    "spanish": "Nos vemos en el bar",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 240,
+    "italian": "Ti presento i miei amici",
+    "spanish": "Te presento a mis amigos",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 241,
+    "italian": "Che musica ti piace?",
+    "spanish": "¿Qué música te gusta?",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 242,
+    "italian": "La serata è stata bella",
+    "spanish": "La velada fue bonita",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 243,
+    "italian": "Arrivo tra dieci minuti",
+    "spanish": "Llego en diez minutos",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 244,
+    "italian": "Grazie per l'invito",
+    "spanish": "Gracias por la invitación",
+    "difficulty": "a1",
+    "topic": "social"
+  },
+  {
+    "id": 245,
+    "italian": "Sabato sono andato a una festa bellissima",
+    "spanish": "El sábado fui a una fiesta preciosa",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 246,
+    "italian": "Abbiamo ballato fino alle tre di notte",
+    "spanish": "Bailamos hasta las tres de la noche",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 247,
+    "italian": "La festa era a casa di Luca",
+    "spanish": "La fiesta era en casa de Luca",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 248,
+    "italian": "Ho conosciuto molte persone nuove",
+    "spanish": "Conocí a muchas personas nuevas",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 249,
+    "italian": "La musica era troppo alta",
+    "spanish": "La música estaba demasiado alta",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 250,
+    "italian": "Di solito esco con gli amici il venerdì",
+    "spanish": "Normalmente salgo con los amigos el viernes",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 251,
+    "italian": "Quando vivevo a Milano, uscivo sempre",
+    "spanish": "Cuando vivía en Milán, siempre salía",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 252,
+    "italian": "L'aperitivo era incluso nel prezzo",
+    "spanish": "El aperitivo estaba incluido en el precio",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 253,
+    "italian": "Abbiamo organizzato una cena tra amici",
+    "spanish": "Organizamos una cena entre amigos",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 254,
+    "italian": "Mentre chiacchieravamo, il tempo volava",
+    "spanish": "Mientras charlábamos, el tiempo volaba",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 255,
+    "italian": "Il locale era pieno di gente",
+    "spanish": "El local estaba lleno de gente",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 256,
+    "italian": "La serata è stata un successo",
+    "spanish": "La velada fue un éxito",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 257,
+    "italian": "Al dopocena siamo andati a bere qualcosa",
+    "spanish": "Después de cenar fuimos a tomar algo",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 258,
+    "italian": "L'organizzatore ha scelto una musica fantastica",
+    "spanish": "El organizador eligió una música fantástica",
+    "difficulty": "a2",
+    "topic": "social"
+  },
+  {
+    "id": 259,
+    "italian": "Penso che uscire con gli amici sia importante per la salute mentale",
+    "spanish": "Creo que salir con amigos es importante para la salud mental",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 260,
+    "italian": "Se avessi saputo, sarei venuto alla festa",
+    "spanish": "Si lo hubiera sabido, habría venido a la fiesta",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 261,
+    "italian": "Credo che si debba socializzare per stare bene",
+    "spanish": "Creo que hay que socializar para estar bien",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 262,
+    "italian": "Nonostante l'imbarazzo iniziale, mi sono divertito",
+    "spanish": "A pesar de la vergüenza inicial, me divertí",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 263,
+    "italian": "Bisognerebbe organizzare più eventi sociali al lavoro",
+    "spanish": "Habría que organizar más eventos sociales en el trabajo",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 264,
+    "italian": "Sarebbe interessante conoscere gente di altre culture",
+    "spanish": "Sería interesante conocer gente de otras culturas",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 265,
+    "italian": "Preferirei un incontro più tranquillo la prossima volta",
+    "spanish": "Preferiría un encuentro más tranquilo la próxima vez",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 266,
+    "italian": "Ritengo che i social media stiano rovinando le relazioni reali",
+    "spanish": "Considero que las redes sociales están arruinando las relaciones reales",
+    "difficulty": "b1",
+    "topic": "social"
+  },
+  {
+    "id": 267,
+    "italian": "Cosa fai nel tempo libero?",
+    "spanish": "¿Qué haces en tu tiempo libre?",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 268,
+    "italian": "Mi piace leggere",
+    "spanish": "Me gusta leer",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 269,
+    "italian": "Gioco a calcio il sabato",
+    "spanish": "Juego al fútbol el sábado",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 270,
+    "italian": "Vado in palestra tre volte a settimana",
+    "spanish": "Voy al gimnasio tres veces por semana",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 271,
+    "italian": "Guardo film in italiano",
+    "spanish": "Veo películas en italiano",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 272,
+    "italian": "Il mio hobby è cucinare",
+    "spanish": "Mi hobby es cocinar",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 273,
+    "italian": "Leggo il giornale la mattina",
+    "spanish": "Leo el periódico por la mañana",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 274,
+    "italian": "Nuoto in piscina",
+    "spanish": "Nado en la piscina",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 275,
+    "italian": "Suono la chitarra",
+    "spanish": "Toco la guitarra",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 276,
+    "italian": "Faccio yoga il mercoledì",
+    "spanish": "Hago yoga los miércoles",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 277,
+    "italian": "Esco a correre la mattina presto",
+    "spanish": "Salgo a correr temprano por la mañana",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 278,
+    "italian": "Colleziono vinili",
+    "spanish": "Colecciono vinilos",
+    "difficulty": "a1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 279,
+    "italian": "Domenica ho fatto una lunga passeggiata in montagna",
+    "spanish": "El domingo hice una larga caminata por la montaña",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 280,
+    "italian": "Ho visto un film bellissimo ieri sera",
+    "spanish": "Vi una película preciosa anoche",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 281,
+    "italian": "Da ragazzo giocavo a tennis ogni giorno",
+    "spanish": "De niño jugaba al tenis todos los días",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 282,
+    "italian": "Il libro che ho letto era molto coinvolgente",
+    "spanish": "El libro que leí era muy absorbente",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 283,
+    "italian": "Di solito passo il weekend a leggere e riposarmi",
+    "spanish": "Normalmente paso el fin de semana leyendo y descansando",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 284,
+    "italian": "Quando avevo tempo, dipingevo spesso",
+    "spanish": "Cuando tenía tiempo, pintaba a menudo",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 285,
+    "italian": "Ho cominciato a fare fotografia come hobby",
+    "spanish": "Empecé a hacer fotografía como hobby",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 286,
+    "italian": "Abbiamo passato il pomeriggio a giocare a carte",
+    "spanish": "Pasamos la tarde jugando a las cartas",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 287,
+    "italian": "Mentre correvo, ascoltavo podcast interessanti",
+    "spanish": "Mientras corría, escuchaba podcasts interesantes",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 288,
+    "italian": "La mia squadra di calcio ha vinto la partita",
+    "spanish": "Mi equipo de fútbol ganó el partido",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 289,
+    "italian": "Ho comprato un nuovo album di jazz",
+    "spanish": "Compré un nuevo álbum de jazz",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 290,
+    "italian": "Il corso di ceramica mi ha rilassato molto",
+    "spanish": "El curso de cerámica me relajó mucho",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 291,
+    "italian": "Sto imparando a suonare il pianoforte",
+    "spanish": "Estoy aprendiendo a tocar el piano",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 292,
+    "italian": "Iscrivermi in palestra è stata la decisione giusta",
+    "spanish": "Apuntarme al gimnasio fue la decisión correcta",
+    "difficulty": "a2",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 293,
+    "italian": "Penso che gli hobby siano essenziali per l'equilibrio della vita",
+    "spanish": "Creo que los hobbies son esenciales para el equilibrio de la vida",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 294,
+    "italian": "Se avessi più tempo libero, suonerei il pianoforte",
+    "spanish": "Si tuviera más tiempo libre, tocaría el piano",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 295,
+    "italian": "Credo che leggere libri in lingua originale sia il metodo migliore",
+    "spanish": "Creo que leer libros en el idioma original es el mejor método",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 296,
+    "italian": "Nonostante l'età, continuo a praticare sport",
+    "spanish": "A pesar de la edad, sigo practicando deporte",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 297,
+    "italian": "Bisognerebbe dedicare più tempo alla lettura",
+    "spanish": "Habría que dedicar más tiempo a la lectura",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 298,
+    "italian": "Preferirei fare volontariato piuttosto che stare inattivo",
+    "spanish": "Preferiría hacer voluntariado en lugar de estar inactivo",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 299,
+    "italian": "Ritengo che viaggiare sia il mio hobby preferito",
+    "spanish": "Considero que viajar es mi hobby favorito",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 300,
+    "italian": "Sarebbe bello organizzare un torneo di scacchi al lavoro",
+    "spanish": "Sería bueno organizar un torneo de ajedrez en el trabajo",
+    "difficulty": "b1",
+    "topic": "tempo_libero"
+  },
+  {
+    "id": 301,
+    "italian": "Lui è il mio migliore amico",
+    "spanish": "Él es mi mejor amigo",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 302,
+    "italian": "Lei è la mia amica del cuore",
+    "spanish": "Ella es mi amiga íntima",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 303,
+    "italian": "Esco con i miei amici il sabato",
+    "spanish": "Salgo con mis amigos el sábado",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 304,
+    "italian": "Maria è una persona gentile",
+    "spanish": "María es una persona amable",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 305,
+    "italian": "Giovanni è un amico sincero",
+    "spanish": "Giovanni es un amigo sincero",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 306,
+    "italian": "Ci conosciamo da tanto tempo",
+    "spanish": "Nos conocemos desde hace mucho tiempo",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 307,
+    "italian": "Chiamo un amico per andare al cinema",
+    "spanish": "Llamo a un amigo para ir al cine",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 308,
+    "italian": "I miei amici sono come una famiglia",
+    "spanish": "Mis amigos son como una familia",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 309,
+    "italian": "Oggi vedo i miei amici",
+    "spanish": "Hoy veo a mis amigos",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 310,
+    "italian": "Lei è una brava persona",
+    "spanish": "Ella es una buena persona",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 311,
+    "italian": "Loro sono i miei amici dell'università",
+    "spanish": "Ellos son mis amigos de la universidad",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 312,
+    "italian": "Marco è una persona affidabile",
+    "spanish": "Marco es una persona confiable",
+    "difficulty": "a1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 313,
+    "italian": "Il mio amico mi ha aiutato a traslocare",
+    "spanish": "Mi amigo me ayudó a mudarme",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 314,
+    "italian": "Ci siamo conosciuti durante un viaggio",
+    "spanish": "Nos conocimos durante un viaje",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 315,
+    "italian": "La mia amica mi ha prestato dei soldi",
+    "spanish": "Mi amiga me prestó dinero",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 316,
+    "italian": "Quando ero all'università, avevo molti amici",
+    "spanish": "Cuando estaba en la universidad, tenía muchos amigos",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 317,
+    "italian": "Abbiamo festeggiato il compleanno insieme",
+    "spanish": "Celebramos el cumpleaños juntos",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 318,
+    "italian": "Il mio amico si è trasferito all'estero",
+    "spanish": "Mi amigo se mudó al extranjero",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 319,
+    "italian": "Da bambini giocavamo sempre insieme",
+    "spanish": "De niños jugábamos siempre juntos",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 320,
+    "italian": "Ho incontrato un vecchio amico per caso",
+    "spanish": "Me encontré con un viejo amigo por casualidad",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 321,
+    "italian": "La nostra amicizia è nata al lavoro",
+    "spanish": "Nuestra amistad nació en el trabajo",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 322,
+    "italian": "Mentre parlavamo, abbiamo ricordato i vecchi tempi",
+    "spanish": "Mientras hablábamos, recordamos los viejos tiempos",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 323,
+    "italian": "I miei amici mi hanno organizzato una festa a sorpresa",
+    "spanish": "Mis amigos me organizaron una fiesta sorpresa",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 324,
+    "italian": "Mi fido ciecamente del mio migliore amico",
+    "spanish": "Confío ciegamente en mi mejor amigo",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 325,
+    "italian": "Dopo anni ci siamo ritrovati come se nulla fosse",
+    "spanish": "Después de años nos reencontramos como si nada",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 326,
+    "italian": "La sera prima della partenza siamo usciti insieme",
+    "spanish": "La noche antes de la partida salimos juntos",
+    "difficulty": "a2",
+    "topic": "amicizie"
+  },
+  {
+    "id": 327,
+    "italian": "Penso che le amicizie vere siano rare",
+    "spanish": "Creo que las amistades verdaderas son raras",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 328,
+    "italian": "Se potessi, vedrei i miei amici più spesso",
+    "spanish": "Si pudiera, vería a mis amigos más a menudo",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 329,
+    "italian": "Nonostante la distanza, siamo rimasti in contatto",
+    "spanish": "A pesar de la distancia, seguimos en contacto",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 330,
+    "italian": "Credo che l'amicizia vada coltivata ogni giorno",
+    "spanish": "Creo que la amistad hay que cultivarla cada día",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 331,
+    "italian": "Sarebbe bello se i miei amici vivessero più vicini",
+    "spanish": "Sería bonito si mis amigos vivieran más cerca",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 332,
+    "italian": "Bisognerebbe fare più attenzione alle amicizie vere",
+    "spanish": "Habría que prestar más atención a las amistades verdaderas",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 333,
+    "italian": "Ritengo che condividere esperienze rafforzi l'amicizia",
+    "spanish": "Considero que compartir experiencias fortalece la amistad",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 334,
+    "italian": "Preferirei avere pochi amici veri piuttosto che molte conoscenze",
+    "spanish": "Preferiría tener pocos amigos verdaderos que muchos conocidos",
+    "difficulty": "b1",
+    "topic": "amicizie"
+  },
+  {
+    "id": 335,
+    "italian": "Lei è bellissima",
+    "spanish": "Ella es bellísima",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 336,
+    "italian": "Lui è molto simpatico",
+    "spanish": "Él es muy simpático",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 337,
+    "italian": "Ti va di uscire con me?",
+    "spanish": "¿Te apetece salir conmigo?",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 338,
+    "italian": "Sei una persona speciale",
+    "spanish": "Eres una persona especial",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 339,
+    "italian": "Posso offrirti un caffè?",
+    "spanish": "¿Puedo invitarte a un café?",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 340,
+    "italian": "Mi piaci molto",
+    "spanish": "Me gustas mucho",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 341,
+    "italian": "Andiamo al cinema stasera?",
+    "spanish": "¿Vamos al cine esta noche?",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 342,
+    "italian": "Sei molto gentile",
+    "spanish": "Eres muy amable",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 343,
+    "italian": "Ti aspetto alle otto",
+    "spanish": "Te espero a las ocho",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 344,
+    "italian": "Che profumo indossi?",
+    "spanish": "¿Qué perfume llevas?",
+    "difficulty": "a1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 345,
+    "italian": "Il primo appuntamento è andato bene",
+    "spanish": "La primera cita fue bien",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 346,
+    "italian": "Ci siamo baciati alla fine della serata",
+    "spanish": "Nos besamos al final de la velada",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 347,
+    "italian": "Il ristorante che hai scelto era perfetto",
+    "spanish": "El restaurante que elegiste era perfecto",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 348,
+    "italian": "Ho conosciuto la sua famiglia ieri",
+    "spanish": "Conocí a su familia ayer",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 349,
+    "italian": "Quando ci siamo incrociati, ho sentito una scintilla",
+    "spanish": "Cuando nos cruzamos, sentí una chispa",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 350,
+    "italian": "Di solito mi innamoro lentamente",
+    "spanish": "Normalmente me enamoro lentamente",
+    "difficulty": "a2",
+    "topic": "appuntamenti",
+    "grammarNote": "Innamorarsi = verbo riflessivo (to fall in love)"
+  },
+  {
+    "id": 351,
+    "italian": "La nostra relazione è iniziata un anno fa",
+    "spanish": "Nuestra relación empezó hace un año",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 352,
+    "italian": "Mentre camminavamo, ci tenevamo per mano",
+    "spanish": "Mientras caminábamos, nos cogíamos de la mano",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 353,
+    "italian": "Abbiamo litigato per una sciocchezza",
+    "spanish": "Peleamos por una tontería",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 354,
+    "italian": "Lui mi ha regalato dei fiori",
+    "spanish": "Él me regaló flores",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 355,
+    "italian": "Penso che sia la persona giusta per me",
+    "spanish": "Creo que es la persona adecuada para mí",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 356,
+    "italian": "Dopo tre mesi di relazione, siamo andati a convivere",
+    "spanish": "Después de tres meses de relación, fuimos a vivir juntos",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 357,
+    "italian": "Ieri sera abbiamo fatto una cena romantica",
+    "spanish": "Anoche hicimos una cena romántica",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 358,
+    "italian": "Mi ha presentato i suoi genitori la settimana scorsa",
+    "spanish": "Me presentó a sus padres la semana pasada",
+    "difficulty": "a2",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 359,
+    "italian": "Penso che la comunicazione sia la base di una relazione",
+    "spanish": "Creo que la comunicación es la base de una relación",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 360,
+    "italian": "Se fossi innamorato, lo direi subito",
+    "spanish": "Si estuviera enamorado, lo diría enseguida",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 361,
+    "italian": "Credo che sia importante mantenere la propria indipendenza",
+    "spanish": "Creo que es importante mantener la propia independencia",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 362,
+    "italian": "Nonostante le difficoltà, la nostra relazione è forte",
+    "spanish": "A pesar de las dificultades, nuestra relación es fuerte",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 363,
+    "italian": "Bisognerebbe parlare apertamente dei propri sentimenti",
+    "spanish": "Habría que hablar abiertamente de los propios sentimientos",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 364,
+    "italian": "Ritengo che la fiducia sia più importante dell'amore",
+    "spanish": "Considero que la confianza es más importante que el amor",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 365,
+    "italian": "Se avessi incontrato Marco prima, la mia vita sarebbe diversa",
+    "spanish": "Si hubiera conocido a Marco antes, mi vida sería diferente",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 366,
+    "italian": "Preferirei una relazione stabile a un'avventura",
+    "spanish": "Preferiría una relación estable a una aventura",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 367,
+    "italian": "Non bisognerebbe mai andare a letto arrabbiati",
+    "spanish": "Nunca habría que irse a la cama enfadados",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 368,
+    "italian": "A mio parere, l'amore vero richiede sacrificio",
+    "spanish": "En mi opinión, el amor verdadero requiere sacrificio",
+    "difficulty": "b1",
+    "topic": "appuntamenti"
+  },
+  {
+    "id": 369,
+    "italian": "Dove fa male?",
+    "spanish": "¿Dónde le duele?",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 370,
+    "italian": "Ho mal di testa",
+    "spanish": "Tengo dolor de cabeza",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 371,
+    "italian": "Devo prendere la medicina",
+    "spanish": "Tengo que tomar la medicina",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 372,
+    "italian": "La farmacia è aperta",
+    "spanish": "La farmacia está abierta",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 373,
+    "italian": "Ho la febbre",
+    "spanish": "Tengo fiebre",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 374,
+    "italian": "Il medico mi visita oggi",
+    "spanish": "El médico me visita hoy",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 375,
+    "italian": "Prendo le gocce per la tosse",
+    "spanish": "Tomo las gotas para la tos",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 376,
+    "italian": "Mi sento stanco",
+    "spanish": "Me siento cansado",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 377,
+    "italian": "Quanto costa la visita?",
+    "spanish": "¿Cuánto cuesta la consulta?",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 378,
+    "italian": "Devo fare le analisi del sangue",
+    "spanish": "Tengo que hacerme análisis de sangre",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 379,
+    "italian": "Ho l'appuntamento dal dentista",
+    "spanish": "Tengo cita con el dentista",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 380,
+    "italian": "Sto male, ho bisogno di un medico",
+    "spanish": "Estoy mal, necesito un médico",
+    "difficulty": "a1",
+    "topic": "salute"
+  },
+  {
+    "id": 381,
+    "italian": "Ieri sono stato dal dottore per un controllo",
+    "spanish": "Ayer fui al médico para un chequeo",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 382,
+    "italian": "Il medico mi ha prescritto un antibiotico",
+    "spanish": "El médico me recetó un antibiótico",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 383,
+    "italian": "Quando ero malato, bevevo molta acqua",
+    "spanish": "Cuando estaba enfermo, bebía mucha agua",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 384,
+    "italian": "L'ospedale era pieno di pazienti",
+    "spanish": "El hospital estaba lleno de pacientes",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 385,
+    "italian": "Mi sono rotto una gamba sciando",
+    "spanish": "Me rompí una pierna esquiando",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 386,
+    "italian": "Ho aspettato due ore al pronto soccorso",
+    "spanish": "Esperé dos horas en urgencias",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 387,
+    "italian": "La fisioterapia mi ha aiutato a recuperare",
+    "spanish": "La fisioterapia me ayudó a recuperarme",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 388,
+    "italian": "Di solito faccio una visita medica all'anno",
+    "spanish": "Normalmente me hago un chequeo médico al año",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 389,
+    "italian": "Mentre ero in sala d'attesa, leggevo un libro",
+    "spanish": "Mientras estaba en la sala de espera, leía un libro",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 390,
+    "italian": "Il dentista mi ha tolto un dente del giudizio",
+    "spanish": "El dentista me sacó una muela del juicio",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 391,
+    "italian": "Dopo l'operazione mi sono ripreso velocemente",
+    "spanish": "Después de la operación me recuperé rápidamente",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 392,
+    "italian": "Ho dovuto fare una radiografia alla caviglia",
+    "spanish": "Tuve que hacerme una radiografía del tobillo",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 393,
+    "italian": "L'ambulanza è arrivata in pochi minuti",
+    "spanish": "La ambulancia llegó en pocos minutos",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 394,
+    "italian": "Le analisi hanno confermato che è solo un raffreddore",
+    "spanish": "Los análisis confirmaron que es solo un resfriado",
+    "difficulty": "a2",
+    "topic": "salute"
+  },
+  {
+    "id": 395,
+    "italian": "Penso che la prevenzione sia fondamentale per la salute",
+    "spanish": "Creo que la prevención es fundamental para la salud",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 396,
+    "italian": "Se mangiassi meglio, starei molto meglio",
+    "spanish": "Si comiera mejor, estaría mucho mejor",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 397,
+    "italian": "Credo che la sanità pubblica vada protetta",
+    "spanish": "Creo que la sanidad pública hay que protegerla",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 398,
+    "italian": "Nonostante l'età, mi tengo in forma con lo sport",
+    "spanish": "A pesar de la edad, me mantengo en forma con el deporte",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 399,
+    "italian": "Bisognerebbe fare più attività fisica durante la settimana",
+    "spanish": "Habría que hacer más actividad física durante la semana",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 400,
+    "italian": "Ritengo che la salute mentale sia importante quanto quella fisica",
+    "spanish": "Considero que la salud mental es tan importante como la física",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 401,
+    "italian": "Sarebbe meglio ridurre lo stress quotidiano",
+    "spanish": "Sería mejor reducir el estrés diario",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 402,
+    "italian": "Se avessi seguito i consigli del medico, non mi sarei ammalato",
+    "spanish": "Si hubiera seguido los consejos del médico, no me habría enfermado",
+    "difficulty": "b1",
+    "topic": "salute"
+  },
+  {
+    "id": 403,
+    "italian": "Il computer non funziona",
+    "spanish": "El ordenador no funciona",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 404,
+    "italian": "Accendo il computer",
+    "spanish": "Enciendo el ordenador",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 405,
+    "italian": "Uso il telefono per lavorare",
+    "spanish": "Uso el teléfono para trabajar",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 406,
+    "italian": "Il caricabatterie è rotto",
+    "spanish": "El cargador está roto",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 407,
+    "italian": "Scarico un'applicazione",
+    "spanish": "Descargo una aplicación",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 408,
+    "italian": "La password è sbagliata",
+    "spanish": "La contraseña es incorrecta",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 409,
+    "italian": "Il WiFi non funziona",
+    "spanish": "El WiFi no funciona",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 410,
+    "italian": "Controllo la posta elettronica",
+    "spanish": "Reviso el correo electrónico",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 411,
+    "italian": "Clicco sul link",
+    "spanish": "Hago clic en el enlace",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 412,
+    "italian": "Stampo il documento",
+    "spanish": "Imprimo el documento",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 413,
+    "italian": "Il sito internet è in manutenzione",
+    "spanish": "El sitio web está en mantenimiento",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 414,
+    "italian": "Salvo il file sul desktop",
+    "spanish": "Guardo el archivo en el escritorio",
+    "difficulty": "a1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 415,
+    "italian": "Ieri il computer si è bloccato di nuovo",
+    "spanish": "Ayer el ordenador se bloqueó de nuevo",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 416,
+    "italian": "Ho aggiornato il sistema operativo",
+    "spanish": "Actualicé el sistema operativo",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 417,
+    "italian": "Il tecnico ha riparato il mio portatile",
+    "spanish": "El técnico reparó mi portátil",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 418,
+    "italian": "Ho perso tutti i dati con il crash del disco",
+    "spanish": "Perdí todos los datos con el fallo del disco",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 419,
+    "italian": "Di solito uso un antivirus per proteggere il pc",
+    "spanish": "Normalmente uso un antivirus para proteger el pc",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 420,
+    "italian": "Quando ero al college, programmavo in Python",
+    "spanish": "Cuando estaba en la universidad, programaba en Python",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 421,
+    "italian": "Mi hanno hackerato l'account di posta",
+    "spanish": "Me hackearon la cuenta de correo",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 422,
+    "italian": "L'aggiornamento ha risolto il problema",
+    "spanish": "La actualización resolvió el problema",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 423,
+    "italian": "Mentre scaricavo il file, il computer si è spento",
+    "spanish": "Mientras descargaba el archivo, el ordenador se apagó",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 424,
+    "italian": "Ho installato un nuovo programma di editing",
+    "spanish": "Instalé un nuevo programa de edición",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 425,
+    "italian": "La connessione a internet era molto lenta ieri",
+    "spanish": "La conexión a internet era muy lenta ayer",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 426,
+    "italian": "Ho fatto un backup dei dati importanti",
+    "spanish": "Hice una copia de seguridad de los datos importantes",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 427,
+    "italian": "L'applicazione si blocca ogni volta che la apro",
+    "spanish": "La aplicación se bloquea cada vez que la abro",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 428,
+    "italian": "Ho reimpostato il telefono alle impostazioni di fabbrica",
+    "spanish": "Restablecí el teléfono a los ajustes de fábrica",
+    "difficulty": "a2",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 429,
+    "italian": "Penso che l'intelligenza artificiale cambierà il mondo",
+    "spanish": "Creo que la inteligencia artificial cambiará el mundo",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 430,
+    "italian": "Credo che la privacy online sia a rischio",
+    "spanish": "Creo que la privacidad online está en riesgo",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 431,
+    "italian": "Se potessi, creerei una startup tecnologica",
+    "spanish": "Si pudiera, crearía una startup tecnológica",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 432,
+    "italian": "Nonostante i progressi, la tecnologia crea dipendenza",
+    "spanish": "A pesar de los avances, la tecnología crea adicción",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 433,
+    "italian": "Bisognerebbe insegnare l'informatica nelle scuole",
+    "spanish": "Habría que enseñar informática en las escuelas",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 434,
+    "italian": "Ritengo che i social media influenzino troppo le nostre vite",
+    "spanish": "Considero que las redes sociales influyen demasiado en nuestras vidas",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 435,
+    "italian": "Sarebbe opportuno limitare l'uso dello smartphone",
+    "spanish": "Sería oportuno limitar el uso del smartphone",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 436,
+    "italian": "Dubito che la blockchain risolva tutti i problemi di sicurezza",
+    "spanish": "Dudo que la blockchain resuelva todos los problemas de seguridad",
+    "difficulty": "b1",
+    "topic": "tecnologia"
+  },
+  {
+    "id": 437,
+    "italian": "Apro la finestra, per favore",
+    "spanish": "Abro la ventana, por favor",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 438,
+    "italian": "La cucina è piccola",
+    "spanish": "La cocina es pequeña",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 439,
+    "italian": "Il bagno è al primo piano",
+    "spanish": "El baño está en el primer piso",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 440,
+    "italian": "Pulisco la casa il sabato",
+    "spanish": "Limpio la casa el sábado",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 441,
+    "italian": "La camera da letto è grande",
+    "spanish": "La habitación es grande",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 442,
+    "italian": "Il salotto è luminoso",
+    "spanish": "El salón es luminoso",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 443,
+    "italian": "Faccio la lavatrice",
+    "spanish": "Hago la lavandería",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 444,
+    "italian": "Spolvero i mobili",
+    "spanish": "Quito el polvo de los muebles",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 445,
+    "italian": "Apparecchio la tavola",
+    "spanish": "Pongo la mesa",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 446,
+    "italian": "Il condizionatore è rotto",
+    "spanish": "El aire acondicionado está roto",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 447,
+    "italian": "L'affitto è molto caro",
+    "spanish": "El alquiler es muy caro",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 448,
+    "italian": "Il vicino di casa è simpatico",
+    "spanish": "El vecino de casa es simpático",
+    "difficulty": "a1",
+    "topic": "casa"
+  },
+  {
+    "id": 449,
+    "italian": "Ieri ho pulito tutta la casa",
+    "spanish": "Ayer limpié toda la casa",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 450,
+    "italian": "Abbiamo ristrutturato la cucina",
+    "spanish": "Renovamos la cocina",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 451,
+    "italian": "Il riscaldamento non funzionava durante l'inverno",
+    "spanish": "La calefacción no funcionaba durante el invierno",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 452,
+    "italian": "Ho cambiato i mobili del soggiorno",
+    "spanish": "Cambié los muebles del salón",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 453,
+    "italian": "Di solito faccio le pulizie la domenica mattina",
+    "spanish": "Normalmente hago la limpieza el domingo por la mañana",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 454,
+    "italian": "Quando abitavo in centro, l'appartamento era più piccolo",
+    "spanish": "Cuando vivía en el centro, el apartamento era más pequeño",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 455,
+    "italian": "La lavastoviglie si è rotta ieri",
+    "spanish": "El lavavajillas se rompió ayer",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 456,
+    "italian": "Mentre pulivo, ho trovato una vecchia foto",
+    "spanish": "Mientras limpiaba, encontré una vieja foto",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 457,
+    "italian": "Il proprietario di casa ha aumentato l'affitto",
+    "spanish": "El propietario de la casa ha aumentado el alquiler",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 458,
+    "italian": "Abbiamo dipinto le pareti di bianco",
+    "spanish": "Pintamos las paredes de blanco",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 459,
+    "italian": "Ho ordinato una nuova libreria su misura",
+    "spanish": "Pedí una nueva estantería a medida",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 460,
+    "italian": "La casa aveva un giardino bellissimo",
+    "spanish": "La casa tenía un jardín precioso",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 461,
+    "italian": "Il rubinetto perdeva acqua da giorni",
+    "spanish": "El grifo perdía agua desde hacía días",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 462,
+    "italian": "Dopo la ristrutturazione, la casa è molto più moderna",
+    "spanish": "Después de la reforma, la casa es mucho más moderna",
+    "difficulty": "a2",
+    "topic": "casa"
+  },
+  {
+    "id": 463,
+    "italian": "Penso che la casa sia un investimento sicuro",
+    "spanish": "Creo que la casa es una inversión segura",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 464,
+    "italian": "Se avessi più soldi, comprerei una casa in campagna",
+    "spanish": "Si tuviera más dinero, compraría una casa en el campo",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 465,
+    "italian": "Credo che una casa dovrebbe essere un rifugio",
+    "spanish": "Creo que una casa debería ser un refugio",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 466,
+    "italian": "Nonostante le dimensioni, la casa è molto accogliente",
+    "spanish": "A pesar del tamaño, la casa es muy acogedora",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 467,
+    "italian": "Bisognerebbe investire nell'efficienza energetica della casa",
+    "spanish": "Habría que invertir en la eficiencia energética de la casa",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 468,
+    "italian": "Preferirei una casa con un terrazzo ampio",
+    "spanish": "Preferiría una casa con una terraza amplia",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 469,
+    "italian": "Ritengo che l'arredamento minimalista sia più funzionale",
+    "spanish": "Considero que la decoración minimalista es más funcional",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 470,
+    "italian": "Sarebbe bello avere una casa con camino",
+    "spanish": "Sería bonito tener una casa con chimenea",
+    "difficulty": "b1",
+    "topic": "casa"
+  },
+  {
+    "id": 471,
+    "italian": "Che film hai visto?",
+    "spanish": "¿Qué película has visto?",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 472,
+    "italian": "Leggo un libro interessante",
+    "spanish": "Leo un libro interesante",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 473,
+    "italian": "La mostra è al museo",
+    "spanish": "La exposición está en el museo",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 474,
+    "italian": "Ascolto la radio la mattina",
+    "spanish": "Escucho la radio por la mañana",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 475,
+    "italian": "Il giornale esce la domenica",
+    "spanish": "El periódico sale el domingo",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 476,
+    "italian": "La musica classica è rilassante",
+    "spanish": "La música clásica es relajante",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 477,
+    "italian": "Il teatro è in centro",
+    "spanish": "El teatro está en el centro",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 478,
+    "italian": "Mi piace la pittura moderna",
+    "spanish": "Me gusta la pintura moderna",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 479,
+    "italian": "Il libro è in italiano",
+    "spanish": "El libro está en italiano",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 480,
+    "italian": "La mostra è gratis",
+    "spanish": "La exposición es gratis",
+    "difficulty": "a1",
+    "topic": "cultura"
+  },
+  {
+    "id": 481,
+    "italian": "Abbiamo parlato di politica",
+    "spanish": "Hablamos de política",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 482,
+    "italian": "Il dibattito è stato molto acceso",
+    "spanish": "El debate fue muy acalorado",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 483,
+    "italian": "Ho letto un articolo interessante sul cambiamento climatico",
+    "spanish": "Leí un artículo interesante sobre el cambio climático",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 484,
+    "italian": "Il documentario parlava della mafia",
+    "spanish": "El documental hablaba de la mafia",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 485,
+    "italian": "La canzone che hai messo è bellissima",
+    "spanish": "La canción que pusiste es preciosa",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 486,
+    "italian": "Quando ero giovane, leggevo molti fumetti",
+    "spanish": "Cuando era joven, leía muchos cómics",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 487,
+    "italian": "L'ultimo libro di Baricco è fantastico",
+    "spanish": "El último libro de Baricco es fantástico",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 488,
+    "italian": "Il film ha vinto un premio importante",
+    "spanish": "La película ganó un premio importante",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 489,
+    "italian": "Mentre leggevo il giornale, ho visto la notizia",
+    "spanish": "Mientras leía el periódico, vi la noticia",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 490,
+    "italian": "L'articolo di fondo era molto critico",
+    "spanish": "El editorial era muy crítico",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 491,
+    "italian": "Abbiamo visitato la mostra di Caravaggio",
+    "spanish": "Visitamos la exposición de Caravaggio",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 492,
+    "italian": "La cultura italiana è ricca di storia e arte",
+    "spanish": "La cultura italiana es rica en historia y arte",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 493,
+    "italian": "Al cinema davano un film premio Oscar",
+    "spanish": "En el cine ponían una película ganadora del Oscar",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 494,
+    "italian": "Il festival del cinema si tiene a Venezia ogni anno",
+    "spanish": "El festival de cine se celebra en Venecia cada año",
+    "difficulty": "a2",
+    "topic": "cultura"
+  },
+  {
+    "id": 495,
+    "italian": "Penso che la cultura sia fondamentale per una società civile",
+    "spanish": "Creo que la cultura es fundamental para una sociedad civil",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 496,
+    "italian": "Se potessi, andrei a tutti i concerti",
+    "spanish": "Si pudiera, iría a todos los conciertos",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 497,
+    "italian": "Credo che il cinema italiano stia vivendo un rinascimento",
+    "spanish": "Creo que el cine italiano está viviendo un renacimiento",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 498,
+    "italian": "Ritengo che sia importante preservare i beni culturali",
+    "spanish": "Considero que es importante preservar los bienes culturales",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 499,
+    "italian": "Nonostante la digitalizzazione, i libri cartacei rimangono insostituibili",
+    "spanish": "A pesar de la digitalización, los libros en papel siguen siendo insustituibles",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 500,
+    "italian": "Bisognerebbe investire di più nella cultura",
+    "spanish": "Habría que invertir más en cultura",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 501,
+    "italian": "Sarebbe interessante vedere più film in lingua originale",
+    "spanish": "Sería interesante ver más películas en versión original",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 502,
+    "italian": "Dubito che la televisione offra programmi di qualità",
+    "spanish": "Dudo que la televisión ofrezca programas de calidad",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 503,
+    "italian": "Secondo me, l'arte contemporanea è spesso fraintesa",
+    "spanish": "Según yo, el arte contemporáneo es a menudo malinterpretado",
+    "difficulty": "b1",
+    "topic": "cultura"
+  },
+  {
+    "id": 504,
+    "italian": "Leggere i classici della letteratura italiana è formativo",
+    "spanish": "Leer los clásicos de la literatura italiana es formativo",
+    "difficulty": "b1",
+    "topic": "cultura"
+  }
+]

@@ -1,0 +1,15 @@
+caffè|Caffè e Bar
+ristorante|Ristorante e Cibo
+mercato|Mercato e Spesa
+viaggio|Viaggio e Trasporti
+lavoro|Lavoro e Ufficio
+riunioni|Riunioni e Business
+banca|Banca e Finanza
+social|Vita Sociale
+tempo_libero|Tempo Libero e Hobby
+amicizie|Amicizie
+appuntamenti|Appuntamenti e Relazioni
+salute|Salute e Benessere
+tecnologia|Tecnologia
+casa|Casa e Vita Domestica
+cultura|Cultura e Attualità

@@ -1,0 +1,6 @@
+.build/
+Parla.app/
+.DS_Store
+*.xcbkptlist
+*.xcuserdata
+*.xcuserstate
