@@ -4,3 +4,6 @@ Parla.app/
 *.xcbkptlist
 *.xcuserdata
 *.xcuserstate
+**/xcuserdata/
+fill_phrases.py
+Parla.dmg
