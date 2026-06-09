@@ -1,3 +1,4 @@
+import AVFoundation
 import SwiftUI
 
 struct PronunciationView: View {
@@ -8,6 +9,7 @@ struct PronunciationView: View {
     @State private var transcribedText: String = ""
     @State private var submitted = false
     @State private var recordingURL: URL?
+    @State private var audioPlayer: AVAudioPlayer?
     @State private var taggedWords: [TaggedWord] = []
     @State private var pulse = false
 
@@ -248,6 +250,11 @@ struct PronunciationView: View {
                         Label("Ascolta", systemImage: "speaker.wave.2")
                     }
                     .buttonStyle(SecondaryButtonStyle())
+                    Button(action: playRecording) {
+                        Label("La mia voce", systemImage: "waveform.path.mic")
+                    }
+                    .buttonStyle(SecondaryButtonStyle())
+                    .disabled(recordingURL == nil)
                     Button(action: nextPhrase) {
                         Label("Prossima", systemImage: "arrow.right")
                     }
@@ -301,6 +308,8 @@ struct PronunciationView: View {
     }
 
     private func retry() {
+        audioPlayer?.stop()
+        audioPlayer = nil
         engine.retryCurrent()
         transcribedText = ""
         submitted = false
@@ -308,10 +317,19 @@ struct PronunciationView: View {
     }
 
     private func nextPhrase() {
+        audioPlayer?.stop()
+        audioPlayer = nil
         engine.nextPhrase()
         transcribedText = ""
         submitted = false
         taggedWords = []
+    }
+
+    private func playRecording() {
+        guard let url = recordingURL else { return }
+        audioPlayer?.stop()
+        audioPlayer = try? AVAudioPlayer(contentsOf: url)
+        audioPlayer?.play()
     }
 
     private func playCurrentPhrase(rate: Float = 0.45) {
