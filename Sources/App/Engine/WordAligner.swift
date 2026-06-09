@@ -50,6 +50,5 @@ struct WordAligner: Sendable {
     private static func normalize(_ word: String) -> String {
         word.lowercased()
             .trimmingCharacters(in: .punctuationCharacters)
-            .folding(options: .diacriticInsensitive, locale: nil)
     }
 }

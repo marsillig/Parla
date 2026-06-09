@@ -165,15 +165,6 @@ struct PronunciationView: View {
                         }
                     }
 
-                    ControlBar(
-                        canReplay: false,
-                        isRevealed: false,
-                        onReplay: {},
-                        onSlow: {},
-                        onReveal: {},
-                        onNext: nextPhrase,
-                        onSubmit: nil
-                    )
                 } else {
                     feedbackArea
                         .transition(.opacity.combined(with: .move(edge: .bottom)))
@@ -240,12 +231,10 @@ struct PronunciationView: View {
                 }
 
                 HStack(spacing: Design.Spacing.sm) {
-                    if !lastResult.isCorrect {
-                        Button(action: retry) {
-                            Label("Riprova", systemImage: "arrow.counterclockwise")
-                        }
-                        .buttonStyle(SecondaryButtonStyle())
+                    Button(action: retry) {
+                        Label("Riprova", systemImage: "arrow.counterclockwise")
                     }
+                    .buttonStyle(SecondaryButtonStyle())
                     Button(action: { playCurrentPhrase() }) {
                         Label("Ascolta", systemImage: "speaker.wave.2")
                     }
