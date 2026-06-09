@@ -54,13 +54,15 @@ enum ExerciseMode: String, Codable, Sendable {
 struct Phrase: Codable, Identifiable, Equatable, Sendable {
     let id: Int
     let italian: String
+    let spanish: String
     let difficulty: Difficulty
     let topic: Topic
     let grammarNote: String?
 
-    init(id: Int, italian: String, difficulty: Difficulty, topic: Topic, grammarNote: String? = nil) {
+    init(id: Int, italian: String, spanish: String, difficulty: Difficulty, topic: Topic, grammarNote: String? = nil) {
         self.id = id
         self.italian = italian
+        self.spanish = spanish
         self.difficulty = difficulty
         self.topic = topic
         self.grammarNote = grammarNote

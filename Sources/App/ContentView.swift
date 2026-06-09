@@ -1,9 +1,13 @@
 import SwiftUI
 
+private let kSelectedMicUID = "selectedMicUID"
+
 struct ContentView: View {
     @Environment(SessionEngine.self) private var engine
     @State private var selectedDifficulty: Difficulty = .a1
     @State private var selectedTopic: Topic? = nil
+    @State private var mics: [MicDevice] = AudioCaptureService.availableInputDevices()
+    @AppStorage("selectedMicUID") private var selectedMicUID: String = ""
 
     var body: some View {
         VStack(spacing: 0) {
@@ -56,6 +60,21 @@ struct ContentView: View {
                 .pickerStyle(.menu)
                 .frame(width: 140)
                 .labelsHidden()
+
+            if !mics.isEmpty {
+                Picker(selection: $selectedMicUID) {
+                    Text("Microfono predefinito").tag("")
+                    ForEach(mics, id: \.id) { mic in
+                        Text(mic.name).tag(mic.id)
+                    }
+                } label: {
+                    Image(systemName: "mic.fill")
+                }
+                .pickerStyle(.menu)
+                .frame(width: 180)
+                .labelsHidden()
+                .tint(.white)
+            }
 
             Spacer()
 

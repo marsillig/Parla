@@ -116,24 +116,18 @@ struct DictationView: View {
     private var feedbackArea: some View {
         VStack(spacing: Design.Spacing.md) {
             if let lastResult = engine.phraseResults.last {
+                if let phrase = engine.currentPhrase {
+                    Text(phrase.spanish)
+                        .font(.system(size: 16, weight: .regular))
+                        .foregroundColor(.white.opacity(0.7))
+                        .padding(.horizontal, 24)
+                }
+
                 WordHighlightView(wordResults: lastResult.wordResults)
 
                 if !taggedWords.isEmpty {
                     GrammarBreakdownView(taggedWords: taggedWords)
                         .transition(.opacity)
-                }
-
-                if !lastResult.isCorrect, let phrase = engine.currentPhrase {
-                    VStack(spacing: Design.Spacing.xs) {
-                        Text("Corretto:")
-                            .font(Design.Typography.caption)
-                            .foregroundColor(.white.opacity(0.85))
-                        Text(phrase.italian)
-                            .font(Design.Typography.phraseSmall)
-                            .foregroundColor(.white)
-                    }
-                    .padding(.top, Design.Spacing.xs)
-                    .transition(.opacity.combined(with: .move(edge: .bottom)))
                 }
 
                 HStack(spacing: Design.Spacing.sm) {
