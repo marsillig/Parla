@@ -1,6 +1,7 @@
 import Foundation
 
 @Observable
+@MainActor
 final class SessionEngine {
     private let phraseStore: PhraseStore
     private let progressStore: ProgressStore
