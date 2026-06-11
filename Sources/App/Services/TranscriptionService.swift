@@ -16,7 +16,8 @@ enum TranscriptionError: Error, LocalizedError {
 }
 
 @Observable
-final class TranscriptionService: @unchecked Sendable {
+@MainActor
+final class TranscriptionService {
     private var whisperKit: WhisperKit?
     private(set) var isLoaded = false
     private(set) var isLoading = false

@@ -8,7 +8,8 @@ struct MicDevice: Identifiable, Equatable {
 }
 
 @Observable
-final class AudioCaptureService: @unchecked Sendable {
+@MainActor
+final class AudioCaptureService {
     private var audioRecorder: AVAudioRecorder?
     private var recordingURL: URL?
     private var levelTimer: Timer?

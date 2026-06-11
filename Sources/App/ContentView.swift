@@ -1,7 +1,5 @@
 import SwiftUI
 
-private let kSelectedMicUID = "selectedMicUID"
-
 struct ContentView: View {
     @Environment(SessionEngine.self) private var engine
     @State private var selectedDifficulty: Difficulty = .a1
@@ -42,25 +40,6 @@ struct ContentView: View {
 
     private var topBar: some View {
         HStack(spacing: 14) {
-            Picker(selection: $selectedDifficulty) {
-                ForEach(Difficulty.allCases, id: \.self) { d in
-                    Text(d.label).tag(d)
-                }
-            } label: {}
-                .pickerStyle(.menu)
-                .frame(width: 120)
-                .labelsHidden()
-
-            Picker(selection: $selectedTopic) {
-                Text("Tutti").tag(Optional<Topic>.none)
-                ForEach(engine.allTopics, id: \.self) { t in
-                    Text(t.label).tag(Optional.some(t))
-                }
-            } label: {}
-                .pickerStyle(.menu)
-                .frame(width: 140)
-                .labelsHidden()
-
             if !mics.isEmpty {
                 Picker(selection: $selectedMicUID) {
                     Text("Microfono predefinito").tag("")
