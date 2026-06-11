@@ -11,3 +11,6 @@ audiomass-output.mp3
 Parla.dmg
 
 docs/superpowers/
+
+# Xcode workspace metadata
+.swiftpm/xcode/
