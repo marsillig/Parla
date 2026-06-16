@@ -6,25 +6,28 @@ struct ControlBar: View {
     let onReplay: () -> Void
     let onSlow: () -> Void
     let onReveal: () -> Void
-    let onNext: () -> Void
+    let onNext: (() -> Void)?
     let onSubmit: (() -> Void)?
 
     var body: some View {
         HStack(spacing: 20) {
             Button(action: onReplay) {
-                Label("Ascolta", systemImage: "speaker.wave.2")
+                Label("Ascolta (A)", systemImage: "speaker.wave.2")
             }
             .disabled(!canReplay)
+            .keyboardShortcut("a", modifiers: [])
 
             Button(action: onSlow) {
-                Label("Lento", systemImage: "speaker.wave.1")
+                Label("Lento (L)", systemImage: "speaker.wave.1")
             }
             .disabled(!canReplay)
+            .keyboardShortcut("l", modifiers: [])
 
             if !isRevealed {
                 Button(action: onReveal) {
-                    Label("Risposta", systemImage: "eye")
+                    Label("Risposta (R)", systemImage: "eye")
                 }
+                .keyboardShortcut("r", modifiers: [])
             }
 
             Spacer()
@@ -36,11 +39,13 @@ struct ControlBar: View {
                 .buttonStyle(PrimaryButtonStyle())
             }
 
-            Button(action: onNext) {
-                Label("Prossima", systemImage: "arrow.right")
+            if let onNext {
+                Button(action: onNext) {
+                    Label("Prossima", systemImage: "arrow.right")
+                }
+                .buttonStyle(SecondaryButtonStyle())
+                .keyboardShortcut(.return, modifiers: [])
             }
-            .buttonStyle(SecondaryButtonStyle())
-            .keyboardShortcut(.return, modifiers: [])
         }
         .padding(.horizontal, Design.Spacing.md)
         .padding(.vertical, Design.Spacing.sm)
