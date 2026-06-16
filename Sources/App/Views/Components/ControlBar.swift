@@ -12,22 +12,22 @@ struct ControlBar: View {
     var body: some View {
         HStack(spacing: 20) {
             Button(action: onReplay) {
-                Label("Ascolta (A)", systemImage: "speaker.wave.2")
+                Label("Ascolta (⌘A)", systemImage: "speaker.wave.2")
             }
             .disabled(!canReplay)
-            .keyboardShortcut("a", modifiers: [])
+            .keyboardShortcut("a", modifiers: .command)
 
             Button(action: onSlow) {
-                Label("Lento (L)", systemImage: "speaker.wave.1")
+                Label("Lento (⌘L)", systemImage: "speaker.wave.1")
             }
             .disabled(!canReplay)
-            .keyboardShortcut("l", modifiers: [])
+            .keyboardShortcut("l", modifiers: .command)
 
             if !isRevealed {
                 Button(action: onReveal) {
-                    Label("Risposta (R)", systemImage: "eye")
+                    Label("Risposta (⌘R)", systemImage: "eye")
                 }
-                .keyboardShortcut("r", modifiers: [])
+                .keyboardShortcut("r", modifiers: .command)
             }
 
             Spacer()
