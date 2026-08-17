@@ -146,24 +146,24 @@ struct DictationView: View {
 
                 HStack(spacing: Design.Spacing.sm) {
                     Button(action: { playCurrentPhrase() }) {
-                        Label("Ascolta", systemImage: "speaker.wave.2")
+                        ShortcutButtonLabel(title: "Ascolta", systemImage: "speaker.wave.2", hint: DictationShortcut.listen.hint)
                     }
                     .buttonStyle(SecondaryButtonStyle())
-                    .keyboardShortcut("a", modifiers: .command)
+                    .keyboardShortcut(DictationShortcut.listen.key, modifiers: DictationShortcut.listen.modifiers)
                     .accessibilityLabel("Ascolta")
                     if !lastResult.isCorrect {
                         Button(action: retry) {
-                            Label("Riprova", systemImage: "arrow.counterclockwise")
+                            ShortcutButtonLabel(title: "Riprova", systemImage: "arrow.counterclockwise", hint: DictationShortcut.retry.hint)
                         }
                         .buttonStyle(SecondaryButtonStyle())
-                        .keyboardShortcut("r", modifiers: .command)
+                        .keyboardShortcut(DictationShortcut.retry.key, modifiers: DictationShortcut.retry.modifiers)
                         .accessibilityLabel("Riprova")
                     }
                     Button(action: nextPhrase) {
-                        Label("Prossima", systemImage: "arrow.right")
+                        ShortcutButtonLabel(title: "Prossima", systemImage: "arrow.right", hint: DictationShortcut.next.hint)
                     }
                     .buttonStyle(PrimaryButtonStyle())
-                    .keyboardShortcut(.return, modifiers: [])
+                    .keyboardShortcut(DictationShortcut.next.key, modifiers: DictationShortcut.next.modifiers)
                     .accessibilityLabel("Prossima frase")
                 }
             }

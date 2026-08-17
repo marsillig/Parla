@@ -1,6 +1,57 @@
 import AVFoundation
 import SwiftUI
 
+enum PronunciationShortcut: CaseIterable {
+    case retry
+    case listen
+    case recording
+    case next
+
+    var title: String {
+        switch self {
+        case .retry: return "Riprova"
+        case .listen: return "Ascolta"
+        case .recording: return "La mia voce"
+        case .next: return "Prossima"
+        }
+    }
+
+    var systemImage: String {
+        switch self {
+        case .retry: return "arrow.counterclockwise"
+        case .listen: return "speaker.wave.2"
+        case .recording: return "waveform.path.mic"
+        case .next: return "arrow.right"
+        }
+    }
+
+    var hint: String {
+        switch self {
+        case .retry: return "⌘R"
+        case .listen: return "⌘A"
+        case .recording: return "⌘V"
+        case .next: return "↩"
+        }
+    }
+
+    var usesCommand: Bool {
+        self != .next
+    }
+
+    var key: KeyEquivalent {
+        switch self {
+        case .retry: return "r"
+        case .listen: return "a"
+        case .recording: return "v"
+        case .next: return .return
+        }
+    }
+
+    var modifiers: EventModifiers {
+        usesCommand ? .command : []
+    }
+}
+
 struct PronunciationView: View {
     @Environment(SessionEngine.self) private var engine
     @State private var audioCapture = AudioCaptureService()
@@ -267,29 +318,45 @@ struct PronunciationView: View {
 
                 HStack(spacing: Design.Spacing.sm) {
                     Button(action: retry) {
-                        Label("Riprova", systemImage: "arrow.counterclockwise")
+                        ShortcutButtonLabel(
+                            title: PronunciationShortcut.retry.title,
+                            systemImage: PronunciationShortcut.retry.systemImage,
+                            hint: PronunciationShortcut.retry.hint
+                        )
                     }
                     .buttonStyle(SecondaryButtonStyle())
-                    .keyboardShortcut("r", modifiers: .command)
+                    .keyboardShortcut(PronunciationShortcut.retry.key, modifiers: PronunciationShortcut.retry.modifiers)
                     .accessibilityLabel("Riprova")
                     Button(action: { playCurrentPhrase() }) {
-                        Label("Ascolta", systemImage: "speaker.wave.2")
+                        ShortcutButtonLabel(
+                            title: PronunciationShortcut.listen.title,
+                            systemImage: PronunciationShortcut.listen.systemImage,
+                            hint: PronunciationShortcut.listen.hint
+                        )
                     }
                     .buttonStyle(SecondaryButtonStyle())
-                    .keyboardShortcut("a", modifiers: .command)
+                    .keyboardShortcut(PronunciationShortcut.listen.key, modifiers: PronunciationShortcut.listen.modifiers)
                     .accessibilityLabel("Ascolta")
                     Button(action: playRecording) {
-                        Label("La mia voce", systemImage: "waveform.path.mic")
+                        ShortcutButtonLabel(
+                            title: PronunciationShortcut.recording.title,
+                            systemImage: PronunciationShortcut.recording.systemImage,
+                            hint: PronunciationShortcut.recording.hint
+                        )
                     }
                     .buttonStyle(SecondaryButtonStyle())
                     .disabled(recordingURL == nil)
-                    .keyboardShortcut("v", modifiers: .command)
+                    .keyboardShortcut(PronunciationShortcut.recording.key, modifiers: PronunciationShortcut.recording.modifiers)
                     .accessibilityLabel("La mia voce")
                     Button(action: nextPhrase) {
-                        Label("Prossima", systemImage: "arrow.right")
+                        ShortcutButtonLabel(
+                            title: PronunciationShortcut.next.title,
+                            systemImage: PronunciationShortcut.next.systemImage,
+                            hint: PronunciationShortcut.next.hint
+                        )
                     }
                     .buttonStyle(PrimaryButtonStyle())
-                    .keyboardShortcut(.return, modifiers: [])
+                    .keyboardShortcut(PronunciationShortcut.next.key, modifiers: PronunciationShortcut.next.modifiers)
                     .accessibilityLabel("Prossima frase")
                 }
             }
