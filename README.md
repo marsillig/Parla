@@ -1,60 +1,64 @@
 # Parla
 
-Parla is a macOS app for practicing Italian with short phrases.
+Parla es una aplicación para macOS que ayuda a hispanohablantes a practicar italiano con ejercicios breves de escucha, pronunciación y vocabulario.
 
-## Features
+![Pantalla principal de Parla](docs/viewport.png)
 
-- **Dettato** — listen to an Italian phrase and type what you hear
-- **Pronuncia** — read the phrase out loud and compare your pronunciation
-- Grammar breakdown with part-of-speech tagging
-- Word-by-word accuracy feedback
-- Progress tracking across sessions
-- 500+ phrases across 15 topics at A1–B1 levels
+## Descargar e instalar
 
-## Requirements
+Parla requiere **macOS 14 o posterior** y un Mac con **Apple Silicon**.
 
-- macOS 14+
-- Xcode Command Line Tools / Swift 5.9+
-- Microphone permission (Pronuncia mode)
-- Internet connection on first use (downloads speech model)
+1. Descarga `Parla.dmg` desde la [última versión publicada](https://github.com/marsillig/Parla/releases/latest).
+2. Abre el archivo DMG y arrastra **Parla** a **Aplicaciones**.
+3. La primera vez, haz clic derecho sobre Parla y selecciona **Abrir**.
 
-## Quick start
+La aplicación todavía no está notarizada por Apple. Si macOS vuelve a bloquearla, abre **Ajustes del Sistema → Privacidad y seguridad** y selecciona **Abrir igualmente**.
+
+## Modos de práctica
+
+- **Dettato:** escucha una frase en italiano y escribe lo que oyes.
+- **Pronuncia:** graba tu voz y recibe una comparación palabra por palabra.
+- **Abbina:** relaciona imágenes con 300 palabras de emociones, comida, viajes, lugares, objetos y animales.
+
+Incluye 2.400 frases distribuidas entre los niveles A1, A2 y B1 y 16 temas cotidianos. El progreso se guarda localmente en el Mac.
+
+## Atajos de teclado
+
+### Dettato
+
+| Acción | Atajo |
+|---|---|
+| Escuchar | `⌘A` |
+| Escuchar lentamente | `⌘L` |
+| Mostrar la respuesta | `⌘R` |
+| Confirmar o continuar | `↩` |
+
+### Pronuncia
+
+| Acción | Atajo |
+|---|---|
+| Iniciar o detener la grabación | `Espacio` |
+| Repetir el ejercicio | `⌘R` |
+| Escuchar la frase | `⌘A` |
+| Escuchar mi grabación | `⌘V` |
+| Continuar | `↩` |
+
+## Privacidad y conexión
+
+El audio y el progreso se procesan y almacenan localmente. **Pronuncia** necesita acceso al micrófono y una conexión a internet durante el primer uso para descargar el modelo de reconocimiento de voz.
+
+## Desarrollo
+
+Requisitos: macOS 14, Swift 5.9 o posterior y Xcode Command Line Tools.
 
 ```bash
+swift test
 ./build-app.sh
 open Parla.app
 ```
 
-Or run directly:
+También puedes ejecutar el proyecto directamente:
 
 ```bash
 swift run Parla
 ```
-
-## How to use
-
-1. Choose a difficulty (**A1**, **A2**, **B1**) and topic.
-2. Pick **Dettato** or **Pronuncia**.
-3. Complete each phrase, then advance with **Prossima**.
-4. Review your session results and repeated errors.
-
-### Dettato controls
-
-| Button | Shortcut | Action |
-|--------|----------|--------|
-| Ascolta | ⌘A | Play the phrase |
-| Lento | ⌘L | Play at slower speed |
-| Risposta | ⌘R | Reveal the answer |
-| Conferma | ↩ | Submit your answer |
-
-### Pronuncia controls
-
-| Button | Action |
-|--------|--------|
-| 🎤 (space) | Start / stop recording |
-| Riprova | Try the phrase again |
-| Ascolta | Hear the correct pronunciation |
-| La mia voce | Play back your recording |
-| Prossima | Move to the next phrase |
-
-Parla saves completed phrases locally on your Mac.

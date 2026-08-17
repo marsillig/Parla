@@ -2,14 +2,17 @@
 set -euo pipefail
 
 APP_NAME="Parla"
-BUILD_DIR=".build/arm64-apple-macosx/debug"
+APP_VERSION="${APP_VERSION:-1.1}"
+BUILD_NUMBER="${BUILD_NUMBER:-2}"
+CONFIGURATION="${CONFIGURATION:-release}"
 APP_BUNDLE="${APP_NAME}.app"
 CONTENTS="${APP_BUNDLE}/Contents"
 MACOS_DIR="${CONTENTS}/MacOS"
 RESOURCES_DIR="${CONTENTS}/Resources"
 
 echo "Building..."
-swift build
+swift build -c "$CONFIGURATION"
+BUILD_DIR="$(swift build -c "$CONFIGURATION" --show-bin-path)"
 
 echo "Creating app bundle..."
 rm -rf "$APP_BUNDLE"
@@ -59,17 +62,17 @@ cat > "$CONTENTS/Info.plist" << EOF
     <key>CFBundleName</key>
     <string>${APP_NAME}</string>
     <key>CFBundleVersion</key>
-    <string>1</string>
+    <string>${BUILD_NUMBER}</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0</string>
+    <string>${APP_VERSION}</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>LSMinimumSystemVersion</key>
     <string>14.0</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>Parla needs microphone access for pronunciation practice.</string>
+    <string>Parla necesita acceso al micrófono para practicar la pronunciación.</string>
     <key>NSSpeechRecognitionUsageDescription</key>
-    <string>Parla needs speech recognition for pronunciation practice.</string>
+    <string>Parla necesita reconocer tu voz para evaluar la pronunciación.</string>
 </dict>
 </plist>
 EOF
