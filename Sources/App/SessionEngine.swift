@@ -22,7 +22,7 @@ final class SessionEngine {
     var selectedTopic: Topic?
 
     var completedCount: Int {
-        progressStore.completedCount
+        progressStore.completedCount(in: Set(phraseStore.phrases(for: selectedDifficulty, topic: selectedTopic).map(\.id)))
     }
 
     var totalPhrases: Int {
@@ -39,7 +39,7 @@ final class SessionEngine {
         self.transcriptionService = TranscriptionService()
     }
 
-    func startSession(difficulty: Difficulty? = nil, topic: Topic? = nil, mode: ExerciseMode = .dictation) {
+    func startSession(count: Int = 10, difficulty: Difficulty? = nil, topic: Topic? = nil, mode: ExerciseMode = .dictation) {
         self.mode = mode
         self.selectedDifficulty = difficulty
         self.selectedTopic = topic
@@ -51,10 +51,10 @@ final class SessionEngine {
 
         // If all completed, reset and use full pool
         if remaining.isEmpty {
-            progressStore.resetCompleted()
-            phrases = pool.shuffled()
+            progressStore.resetCompleted(ids: Set(pool.map(\.id)))
+            phrases = Array(pool.shuffled().prefix(count))
         } else {
-            phrases = remaining.shuffled()
+            phrases = Array(remaining.shuffled().prefix(count))
         }
 
         currentIndex = 0
@@ -72,7 +72,7 @@ final class SessionEngine {
         let accuracy = totalCount > 0 ? Double(correctCount) / Double(totalCount) : 0
 
         let wordResults = alignment.map { aligned in
-            WordResult(word: aligned.word, status: aligned.status)
+            WordResult(word: aligned.word, expectedWord: aligned.expectedWord, status: aligned.status)
         }
 
         let result = PhraseResult(
@@ -123,15 +123,9 @@ final class SessionEngine {
     var allWordErrors: [WordError] {
         var errors: [String: (correct: String, count: Int)] = [:]
         for result in phraseResults {
-            for wordResult in result.wordResults where wordResult.status == .incorrect {
-                let expectedWords = result.phrase.italian.lowercased()
-                    .trimmingCharacters(in: .punctuationCharacters)
-                    .components(separatedBy: .whitespaces)
-                if let index = result.wordResults.firstIndex(where: { $0.id == wordResult.id }),
-                   index < expectedWords.count {
-                    let correct = expectedWords[index]
-                    errors[wordResult.word, default: (correct, 0)].count += 1
-                }
+            for wordResult in result.wordResults where wordResult.status == .incorrect || wordResult.status == .missing {
+                guard let correct = wordResult.expectedWord else { continue }
+                errors[wordResult.word, default: (correct, 0)].count += 1
             }
         }
         return errors.map { WordError(word: $0.key, correctWord: $0.value.correct, count: $0.value.count) }

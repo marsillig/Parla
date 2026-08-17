@@ -10,24 +10,27 @@ struct ControlBar: View {
     let onSubmit: (() -> Void)?
 
     var body: some View {
-        HStack(spacing: 20) {
+        HStack(spacing: 8) {
             Button(action: onReplay) {
-                Label("Ascolta (⌘A)", systemImage: "speaker.wave.2")
+                Label("Ascolta", systemImage: "speaker.wave.2")
             }
             .disabled(!canReplay)
             .keyboardShortcut("a", modifiers: .command)
+            .accessibilityLabel("Ascolta")
 
             Button(action: onSlow) {
-                Label("Lento (⌘L)", systemImage: "speaker.wave.1")
+                Label("Lento", systemImage: "speaker.wave.1")
             }
             .disabled(!canReplay)
             .keyboardShortcut("l", modifiers: .command)
+            .accessibilityLabel("Riproduci lentamente")
 
             if !isRevealed {
                 Button(action: onReveal) {
-                    Label("Risposta (⌘R)", systemImage: "eye")
+                    Label("Risposta", systemImage: "eye")
                 }
                 .keyboardShortcut("r", modifiers: .command)
+                .accessibilityLabel("Mostra risposta")
             }
 
             Spacer()
@@ -35,8 +38,10 @@ struct ControlBar: View {
             if let onSubmit {
                 Button(action: onSubmit) {
                     Label("Conferma", systemImage: "checkmark")
+                        .fixedSize()
                 }
                 .buttonStyle(PrimaryButtonStyle())
+                .accessibilityLabel("Conferma risposta")
             }
 
             if let onNext {
@@ -45,6 +50,7 @@ struct ControlBar: View {
                 }
                 .buttonStyle(SecondaryButtonStyle())
                 .keyboardShortcut(.return, modifiers: [])
+                .accessibilityLabel("Prossima frase")
             }
         }
         .padding(.horizontal, Design.Spacing.md)

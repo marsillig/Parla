@@ -4,8 +4,6 @@ struct ContentView: View {
     @Environment(SessionEngine.self) private var engine
     @State private var selectedDifficulty: Difficulty = .a1
     @State private var selectedTopic: Topic? = nil
-    @State private var mics: [MicDevice] = AudioCaptureService.availableInputDevices()
-    @AppStorage("selectedMicUID") private var selectedMicUID: String = ""
 
     var body: some View {
         VStack(spacing: 0) {
@@ -30,6 +28,9 @@ struct ContentView: View {
                     case .pronunciation:
                         PronunciationView()
                             .transition(.opacity.combined(with: .move(edge: .trailing)))
+                    case .matching:
+                        MatchingGameView()
+                            .transition(.opacity.combined(with: .move(edge: .trailing)))
                     }
                 }
             }
@@ -40,21 +41,6 @@ struct ContentView: View {
 
     private var topBar: some View {
         HStack(spacing: 14) {
-            if !mics.isEmpty {
-                Picker(selection: $selectedMicUID) {
-                    Text("Microfono predefinito").tag("")
-                    ForEach(mics, id: \.id) { mic in
-                        Text(mic.name).tag(mic.id)
-                    }
-                } label: {
-                    Image(systemName: "mic.fill")
-                }
-                .pickerStyle(.menu)
-                .frame(width: 180)
-                .labelsHidden()
-                .tint(.white)
-            }
-
             Spacer()
 
             if engine.isSessionActive || engine.isFinished {
@@ -78,6 +64,7 @@ struct ContentView: View {
                         .shadow(color: .black.opacity(0.15), radius: 4, x: 0, y: 2)
                 }
                 .buttonStyle(.plain)
+                .accessibilityLabel("Torna alla home")
                 .transition(.opacity)
             }
         }

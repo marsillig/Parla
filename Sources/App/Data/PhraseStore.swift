@@ -19,7 +19,8 @@ final class PhraseStore {
             allPhrases = []
             return
         }
-        allPhrases = phrases
+        var seenItalian: Set<String> = []
+        allPhrases = phrases.filter { seenItalian.insert($0.italian).inserted }
     }
 
     func phrases(for difficulty: Difficulty? = nil, topic: Topic? = nil) -> [Phrase] {

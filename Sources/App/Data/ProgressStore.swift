@@ -27,9 +27,17 @@ final class ProgressStore {
         completedPhraseIds.contains(id)
     }
 
-    func resetCompleted() {
-        completedPhraseIds = []
+    func resetCompleted(ids: Set<Int>? = nil) {
+        if let ids {
+            completedPhraseIds.subtract(ids)
+        } else {
+            completedPhraseIds = []
+        }
         persistCompleted()
+    }
+
+    func completedCount(in phraseIDs: Set<Int>) -> Int {
+        completedPhraseIds.intersection(phraseIDs).count
     }
 
     var completedCount: Int {

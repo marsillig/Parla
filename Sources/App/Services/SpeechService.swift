@@ -26,6 +26,9 @@ final class SpeechService: NSObject {
     }
 
     func speak(_ text: String, rate: Float = 0.5) {
+        if synthesizer.isSpeaking {
+            synthesizer.stopSpeaking(at: .immediate)
+        }
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = Self.bestVoice
         utterance.rate = rate
@@ -42,7 +45,7 @@ final class SpeechService: NSObject {
     }
 }
 
-extension SpeechService: AVSpeechSynthesizerDelegate {
+extension SpeechService: @preconcurrency AVSpeechSynthesizerDelegate {
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
         isSpeaking = false
     }

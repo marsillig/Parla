@@ -15751,5 +15751,1055 @@
     "difficulty": "b1",
     "topic": "viaggio",
     "spanish": "Hubiera preferido un hotel más céntrico para la visita."
+  },
+  {
+    "id": 3200,
+    "italian": "Uso il cloud per salvare i file",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Uso la nube para guardar archivos"
+  },
+  {
+    "id": 3201,
+    "italian": "Scrivo un programma per computer",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Escribo un programa de computadora"
+  },
+  {
+    "id": 3202,
+    "italian": "Il server è spento",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El servidor está apagado"
+  },
+  {
+    "id": 3203,
+    "italian": "Carico i dati sul cloud",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Subo los datos a la nube"
+  },
+  {
+    "id": 3204,
+    "italian": "Eseguo un test del software",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Ejecuto una prueba del software"
+  },
+  {
+    "id": 3205,
+    "italian": "Uso Git per il codice",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Uso Git para el código"
+  },
+  {
+    "id": 3206,
+    "italian": "Apro il terminale per digitare un comando",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Abro la terminal para escribir un comando"
+  },
+  {
+    "id": 3207,
+    "italian": "Il database è connesso al sito",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "La base de datos está conectada al sitio"
+  },
+  {
+    "id": 3208,
+    "italian": "Creo una macchina virtuale",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Creo una máquina virtual"
+  },
+  {
+    "id": 3209,
+    "italian": "Distribuisco l'applicazione sul server",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Despliego la aplicación en el servidor"
+  },
+  {
+    "id": 3210,
+    "italian": "L'API restituisce un errore",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "La API devuelve un error"
+  },
+  {
+    "id": 3211,
+    "italian": "Controllo i log del sistema",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Reviso los registros del sistema"
+  },
+  {
+    "id": 3212,
+    "italian": "Il container Docker è in esecuzione",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El contenedor Docker está en ejecución"
+  },
+  {
+    "id": 3213,
+    "italian": "Eseguo il backup del database ogni notte",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Hago una copia de seguridad de la base de datos cada noche"
+  },
+  {
+    "id": 3214,
+    "italian": "Faccio il deploy con un click",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Hago el despliegue con un clic"
+  },
+  {
+    "id": 3215,
+    "italian": "Il codice ha un bug",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El código tiene un error"
+  },
+  {
+    "id": 3216,
+    "italian": "Uso un framework per sviluppare",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Uso un framework para desarrollar"
+  },
+  {
+    "id": 3217,
+    "italian": "La build fallisce per un errore",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "La compilación falla por un error"
+  },
+  {
+    "id": 3218,
+    "italian": "Configuro un load balancer",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Configuro un balanceador de carga"
+  },
+  {
+    "id": 3219,
+    "italian": "Il repository è su GitHub",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El repositorio está en GitHub"
+  },
+  {
+    "id": 3220,
+    "italian": "Modifico il file di configurazione",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Modifico el archivo de configuración"
+  },
+  {
+    "id": 3221,
+    "italian": "La pipeline CI/CD è attiva",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El pipeline CI/CD está activo"
+  },
+  {
+    "id": 3222,
+    "italian": "Curo un repository Git",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Gestiono un repositorio Git"
+  },
+  {
+    "id": 3223,
+    "italian": "Riavvio il servizio sul server",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Reinicio el servicio en el servidor"
+  },
+  {
+    "id": 3224,
+    "italian": "Autentico l'utente con OAuth",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Autentico al usuario con OAuth"
+  },
+  {
+    "id": 3225,
+    "italian": "L'endpoint risponde con JSON",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El endpoint responde con JSON"
+  },
+  {
+    "id": 3226,
+    "italian": "Aggiorno le dipendenze del progetto",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Actualizo las dependencias del proyecto"
+  },
+  {
+    "id": 3227,
+    "italian": "Eseguo un benchmark delle prestazioni",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Ejecuto una evaluación comparativa del rendimiento"
+  },
+  {
+    "id": 3228,
+    "italian": "Il certificato SSL è scaduto",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El certificado SSL ha expirado"
+  },
+  {
+    "id": 3229,
+    "italian": "Compilo il codice sorgente",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Compilo el código fuente"
+  },
+  {
+    "id": 3230,
+    "italian": "Scrivo test per il mio modulo",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Escribo pruebas para mi módulo"
+  },
+  {
+    "id": 3231,
+    "italian": "Faccio una pull request",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Hago una solicitud de extracción"
+  },
+  {
+    "id": 3232,
+    "italian": "Il microservizio non risponde",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El microservicio no responde"
+  },
+  {
+    "id": 3233,
+    "italian": "Uso Redis per la cache",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Uso Redis para el caché"
+  },
+  {
+    "id": 3234,
+    "italian": "Monitoro la CPU del server",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Monitoreo la CPU del servidor"
+  },
+  {
+    "id": 3235,
+    "italian": "Il deploy va in staging",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El despliegue va a staging"
+  },
+  {
+    "id": 3236,
+    "italian": "Creo un bucket su S3",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Creo un bucket en S3"
+  },
+  {
+    "id": 3237,
+    "italian": "Eseguo una query sul database",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Ejecuto una consulta en la base de datos"
+  },
+  {
+    "id": 3238,
+    "italian": "Il nodo del cluster è offline",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El nodo del clúster está fuera de línea"
+  },
+  {
+    "id": 3239,
+    "italian": "Resetto la password di root",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Restablezco la contraseña de root"
+  },
+  {
+    "id": 3240,
+    "italian": "Il firewall blocca la richiesta",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El cortafuegos bloquea la solicitud"
+  },
+  {
+    "id": 3241,
+    "italian": "Automatizzo il processo con uno script",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Automatizo el proceso con un script"
+  },
+  {
+    "id": 3242,
+    "italian": "Monto il volume nel container",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Montamos el volumen en el contenedor"
+  },
+  {
+    "id": 3243,
+    "italian": "La latenza della rete è alta",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "La latencia de la red es alta"
+  },
+  {
+    "id": 3244,
+    "italian": "Debuggo il codice con breakpoint",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Depuro el código con puntos de interrupción"
+  },
+  {
+    "id": 3245,
+    "italian": "Refattorizzo una funzione",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Refactorizo una función"
+  },
+  {
+    "id": 3246,
+    "italian": "Il log mostra un warning",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El registro muestra una advertencia"
+  },
+  {
+    "id": 3247,
+    "italian": "Migro i dati su un nuovo server",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Migro los datos a un nuevo servidor"
+  },
+  {
+    "id": 3248,
+    "italian": "Ridimensiono l'istanza cloud",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "Redimensiono la instancia en la nube"
+  },
+  {
+    "id": 3249,
+    "italian": "Il deployment è andato a buon fine",
+    "difficulty": "a1",
+    "topic": "informatica",
+    "spanish": "El despliegue se completó con éxito"
+  },
+  {
+    "id": 3250,
+    "italian": "Ho migrato il database sul cloud",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Migré la base de datos a la nube"
+  },
+  {
+    "id": 3251,
+    "italian": "Ieri ho configurato un nuovo server",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Ayer configuré un nuevo servidor"
+  },
+  {
+    "id": 3252,
+    "italian": "Ho scritto uno script per automatizzare il backup",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Escribí un script para automatizar la copia de seguridad"
+  },
+  {
+    "id": 3253,
+    "italian": "La pipeline CI/CD si è bloccata durante il test",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El pipeline CI/CD se bloqueó durante la prueba"
+  },
+  {
+    "id": 3254,
+    "italian": "Ho fatto il deploy di un container su Kubernetes",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Desplegué un contenedor en Kubernetes"
+  },
+  {
+    "id": 3255,
+    "italian": "Il repository Git aveva un conflitto",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El repositorio Git tenía un conflicto"
+  },
+  {
+    "id": 3256,
+    "italian": "Ho risolto il bug dopo ore di debug",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Resolví el error después de horas de depuración"
+  },
+  {
+    "id": 3257,
+    "italian": "Mentre facevo il deploy, il server è andato giù",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Mientras hacía el despliegue, el servidor se cayó"
+  },
+  {
+    "id": 3258,
+    "italian": "Abbiamo configurato un cluster Kubernetes",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Configuramos un clúster de Kubernetes"
+  },
+  {
+    "id": 3259,
+    "italian": "L'amministratore ha riavviato il database",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El administrador reinició la base de datos"
+  },
+  {
+    "id": 3260,
+    "italian": "Ho creato una nuova API REST",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Creé una nueva API REST"
+  },
+  {
+    "id": 3261,
+    "italian": "L'ultimo aggiornamento ha introdotto un bug",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La última actualización introdujo un error"
+  },
+  {
+    "id": 3262,
+    "italian": "Ho dovuto scalare le risorse del cloud",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Tuve que escalar los recursos de la nube"
+  },
+  {
+    "id": 3263,
+    "italian": "Il team ha rilasciato una nuova versione del software",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El equipo lanzó una nueva versión del software"
+  },
+  {
+    "id": 3264,
+    "italian": "Ho clonato il repository per lavorare in locale",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Cloné el repositorio para trabajar localmente"
+  },
+  {
+    "id": 3265,
+    "italian": "Il monitoraggio ha rilevato un picco di traffico",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El monitoreo detectó un pico de tráfico"
+  },
+  {
+    "id": 3266,
+    "italian": "Ho integrato il pagamento con Stripe",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Integré el pago con Stripe"
+  },
+  {
+    "id": 3267,
+    "italian": "Il certificato TLS era configurato male",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El certificado TLS estaba mal configurado"
+  },
+  {
+    "id": 3268,
+    "italian": "Ho ottimizzato le query del database",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Optimicé las consultas de la base de datos"
+  },
+  {
+    "id": 3269,
+    "italian": "La pipeline di build impiegava troppo tempo",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El pipeline de compilación tomaba demasiado tiempo"
+  },
+  {
+    "id": 3270,
+    "italian": "Ho refattorizzato il codice ereditato",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Refactorice el código heredado"
+  },
+  {
+    "id": 3271,
+    "italian": "L'infrastruttura cloud è crollata per un errore umano",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La infraestructura en la nube colapsó por un error humano"
+  },
+  {
+    "id": 3272,
+    "italian": "Ho impostato un alert per la CPU",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Configuré una alerta para la CPU"
+  },
+  {
+    "id": 3273,
+    "italian": "Il deploy manuale era soggetto a errori",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El despliegue manual estaba sujeto a errores"
+  },
+  {
+    "id": 3274,
+    "italian": "Ho aggiunto un indice al database",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Agregué un índice a la base de datos"
+  },
+  {
+    "id": 3275,
+    "italian": "La build è fallita per una dipendenza mancante",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La compilación falló por una dependencia faltante"
+  },
+  {
+    "id": 3276,
+    "italian": "Ho configurato un ambiente di staging",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Configuré un entorno de staging"
+  },
+  {
+    "id": 3277,
+    "italian": "Il microservizio è andato in timeout",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El microservicio se agotó el tiempo de espera"
+  },
+  {
+    "id": 3278,
+    "italian": "Ho migrato il codice da SVN a Git",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Migré el código de SVN a Git"
+  },
+  {
+    "id": 3279,
+    "italian": "Il test di carico ha superato la soglia",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La prueba de carga superó el umbral"
+  },
+  {
+    "id": 3280,
+    "italian": "Ho messo in produzione la nuova funzionalità",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Puse en producción la nueva funcionalidad"
+  },
+  {
+    "id": 3281,
+    "italian": "Il database è andato in crash alle tre di notte",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La base de datos se estrelló a las tres de la mañana"
+  },
+  {
+    "id": 3282,
+    "italian": "Ho rimosso il deploy dopo aver visto l'errore",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Revertí el despliegue después de ver el error"
+  },
+  {
+    "id": 3283,
+    "italian": "L'API gateway instradava male le richieste",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El API gateway enrutaba mal las solicitudes"
+  },
+  {
+    "id": 3284,
+    "italian": "Ho testato l'applicazione su tre browser diversi",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Probé la aplicación en tres navegadores diferentes"
+  },
+  {
+    "id": 3285,
+    "italian": "Il deployment automation ha ridotto gli errori",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La automatización del despliegue redujo los errores"
+  },
+  {
+    "id": 3286,
+    "italian": "Ho dovuto rieseguire la pipeline per un fallimento",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Tuve que volver a ejecutar el pipeline por un fallo"
+  },
+  {
+    "id": 3287,
+    "italian": "Il container non partiva per un errore di configurazione",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El contenedor no arrancaba por un error de configuración"
+  },
+  {
+    "id": 3288,
+    "italian": "Ho impostato un trigger per il deploy automatico",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Configuré un disparador para el despliegue automático"
+  },
+  {
+    "id": 3289,
+    "italian": "Il codice è stato revisionato dal team",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El código fue revisado por el equipo"
+  },
+  {
+    "id": 3290,
+    "italian": "Ho eseguito una migrazione dei dati senza perdite",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Ejecuté una migración de datos sin pérdidas"
+  },
+  {
+    "id": 3291,
+    "italian": "Il sistema di logging ha registrato l'errore",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El sistema de registro registró el error"
+  },
+  {
+    "id": 3292,
+    "italian": "Ho configurato un certificato SSL con Let's Encrypt",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Configuré un certificado SSL con Let's Encrypt"
+  },
+  {
+    "id": 3293,
+    "italian": "La queue dei messaggi era piena",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La cola de mensajes estaba llena"
+  },
+  {
+    "id": 3294,
+    "italian": "Ho scritto test unitari per il nuovo modulo",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Escribí pruebas unitarias para el nuevo módulo"
+  },
+  {
+    "id": 3295,
+    "italian": "Abbiamo dovuto ridimensionare il cluster",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Tuvimos que redimensionar el clúster"
+  },
+  {
+    "id": 3296,
+    "italian": "Il deploy è stato annullato per un test fallito",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "El despliegue fue cancelado por una prueba fallida"
+  },
+  {
+    "id": 3297,
+    "italian": "Ho reindirizzato il traffico a un nuovo server",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Redirigí el tráfico a un nuevo servidor"
+  },
+  {
+    "id": 3298,
+    "italian": "L'architettura del software è migliorata dopo il refactoring",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "La arquitectura del software mejoró después de la refactorización"
+  },
+  {
+    "id": 3299,
+    "italian": "Ho automatizzato il processo di rilascio con uno script",
+    "difficulty": "a2",
+    "topic": "informatica",
+    "spanish": "Automaticé el proceso de lanzamiento con un script"
+  },
+  {
+    "id": 3300,
+    "italian": "Se avessimo usato container, il deploy sarebbe più semplice",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si hubiéramos usado contenedores, el despliegue sería más sencillo"
+  },
+  {
+    "id": 3301,
+    "italian": "Penso che l'infrastruttura cloud sia più scalabile",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que la infraestructura en la nube es más escalable"
+  },
+  {
+    "id": 3302,
+    "italian": "Nonostante l'automazione, ci sono ancora deploy manuali",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de la automatización, todavía hay despliegues manuales"
+  },
+  {
+    "id": 3303,
+    "italian": "Se il microservizio non risponde, il sistema cade",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si el microservicio no responde, el sistema cae"
+  },
+  {
+    "id": 3304,
+    "italian": "Bisognerebbe implementare test automatici per ogni modulo",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Deberían implementarse pruebas automáticas para cada módulo"
+  },
+  {
+    "id": 3305,
+    "italian": "Credo che la containerizzazione semplifichi il deployment",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que la containerización simplifica el despliegue"
+  },
+  {
+    "id": 3306,
+    "italian": "Avrei dovuto testare meglio il codice prima del rilascio",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Debería haber probado mejor el código antes del lanzamiento"
+  },
+  {
+    "id": 3307,
+    "italian": "Pur avendo scalato le risorse, il sito era lento",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de haber escalado los recursos, el sitio estaba lento"
+  },
+  {
+    "id": 3308,
+    "italian": "Sarebbe opportuno adottare un'architettura a microservizi",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Sería oportuno adoptar una arquitectura de microservicios"
+  },
+  {
+    "id": 3309,
+    "italian": "Dubito che il monolito regga con mille utenti simultanei",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Dudo que el monolito soporte mil usuarios simultáneos"
+  },
+  {
+    "id": 3310,
+    "italian": "Se il database fosse indicizzato, le query sarebbero più veloci",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si la base de datos estuviera indexada, las consultas serían más rápidas"
+  },
+  {
+    "id": 3311,
+    "italian": "Nonostante il budget limitato, abbiamo scelto il cloud",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar del presupuesto limitado, elegimos la nube"
+  },
+  {
+    "id": 3312,
+    "italian": "Ritengo che la sicurezza informatica sia una priorità",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Considero que la seguridad informática es una prioridad"
+  },
+  {
+    "id": 3313,
+    "italian": "Se avessi usato Terraform, l'infrastruttura sarebbe riproducibile",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si hubiera usado Terraform, la infraestructura sería reproducible"
+  },
+  {
+    "id": 3314,
+    "italian": "Bisognerebbe monitorare la latenza in tempo reale",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Habría que monitorear la latencia en tiempo real"
+  },
+  {
+    "id": 3315,
+    "italian": "Pur essendo stabile, il sistema ha bisogno di aggiornamenti",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Aunque es estable, el sistema necesita actualizaciones"
+  },
+  {
+    "id": 3316,
+    "italian": "Sarebbe stato meglio automatizzare fin dall'inizio",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Hubiera sido mejor automatizar desde el principio"
+  },
+  {
+    "id": 3317,
+    "italian": "Penso che la cultura devops migliori la qualità del software",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que la cultura devops mejora la calidad del software"
+  },
+  {
+    "id": 3318,
+    "italian": "Se potessi, riscriverei l'intero sistema da zero",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si pudiera, reescribiría todo el sistema desde cero"
+  },
+  {
+    "id": 3319,
+    "italian": "Nonostante il codice fosse testato, il bug è sfuggito",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de que el código estaba probado, el error escapó"
+  },
+  {
+    "id": 3320,
+    "italian": "Avrei voluto che il team adottasse metodologie agili prima",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Hubiera deseado que el equipo adoptara metodologías ágiles antes"
+  },
+  {
+    "id": 3321,
+    "italian": "Credo che Kubernetes sia lo standard per l'orchestrazione",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que Kubernetes es el estándar para la orquestración"
+  },
+  {
+    "id": 3322,
+    "italian": "Se il certificato fosse valido, HTTPS funzionerebbe",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si el certificado fuera válido, HTTPS funcionaría"
+  },
+  {
+    "id": 3323,
+    "italian": "Pur avendo testato in staging, il problema è emerso in produzione",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de haber probado en staging, el problema surgió en producción"
+  },
+  {
+    "id": 3324,
+    "italian": "Sarebbe utile avere un ambiente di sviluppo riproducibile",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Sería útil tener un entorno de desarrollo reproducible"
+  },
+  {
+    "id": 3325,
+    "italian": "Dubito che un singolo server basti per il traffico attuale",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Dudo que un solo servidor baste para el tráfico actual"
+  },
+  {
+    "id": 3326,
+    "italian": "Nonostante l'API sia documentata, mancano esempi pratici",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de que la API está documentada, faltan ejemplos prácticos"
+  },
+  {
+    "id": 3327,
+    "italian": "Ritengo che il pair programming migliori la qualità del codice",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Considero que la programación en pareja mejora la calidad del código"
+  },
+  {
+    "id": 3328,
+    "italian": "Se avessimo usato code review, avremmo evitato il bug",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si hubiéramos usado revisiones de código, habríamos evitado el error"
+  },
+  {
+    "id": 3329,
+    "italian": "Bisognerebbe ridurre il debito tecnico prima del rilascio",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Habría que reducir la deuda técnica antes del lanzamiento"
+  },
+  {
+    "id": 3330,
+    "italian": "Pur essendo un buon framework, ha una curva di apprendimento ripida",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Aunque es un buen framework, tiene una curva de aprendizaje pronunciada"
+  },
+  {
+    "id": 3331,
+    "italian": "Penso che l'infrastruttura come codice sia il futuro",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que la infraestructura como código es el futuro"
+  },
+  {
+    "id": 3332,
+    "italian": "Sarebbe stato più sicuro usare una VPN per l'accesso al server",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Habría sido más seguro usar una VPN para acceder al servidor"
+  },
+  {
+    "id": 3333,
+    "italian": "Se la pipeline fosse ottimizzata, il deploy richiederebbe secondi",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si el pipeline estuviera optimizado, el despliegue tomaría segundos"
+  },
+  {
+    "id": 3334,
+    "italian": "Nonostante le difficoltà, abbiamo rispettato la deadline",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de las dificultades, cumplimos con la fecha límite"
+  },
+  {
+    "id": 3335,
+    "italian": "Credo che la documentazione tecnica sia spesso trascurata",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que la documentación técnica a menudo se descuida"
+  },
+  {
+    "id": 3336,
+    "italian": "Avrei voluto che il database fosse più performante",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Hubiera deseado que la base de datos fuera más eficiente"
+  },
+  {
+    "id": 3337,
+    "italian": "Se potessi scegliere, userei un'architettura event-driven",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si pudiera elegir, usaría una arquitectura basada en eventos"
+  },
+  {
+    "id": 3338,
+    "italian": "Bisognerebbe fare load testing prima di ogni rilascio",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Habría que hacer pruebas de carga antes de cada lanzamiento"
+  },
+  {
+    "id": 3339,
+    "italian": "Pur avendo ridotto i costi, il servizio cloud è ancora caro",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Aunque redujimos costos, el servicio en la nube sigue siendo caro"
+  },
+  {
+    "id": 3340,
+    "italian": "Ritengo che l'open source sia fondamentale per l'innovazione",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Considero que el código abierto es fundamental para la innovación"
+  },
+  {
+    "id": 3341,
+    "italian": "Nonostante la complessità, il sistema è affidabile",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "A pesar de la complejidad, el sistema es confiable"
+  },
+  {
+    "id": 3342,
+    "italian": "Sarebbe stato più semplice usare un servizio serverless",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Habría sido más simple usar un servicio serverless"
+  },
+  {
+    "id": 3343,
+    "italian": "Penso che il caching migliori drasticamente le prestazioni",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que el almacenamiento en caché mejora drásticamente el rendimiento"
+  },
+  {
+    "id": 3344,
+    "italian": "Se il logging fosse strutturato, debugging sarebbe più facile",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si el registro estuviera estructurado, la depuración sería más fácil"
+  },
+  {
+    "id": 3345,
+    "italian": "Dubito che il vendor lock-in sia una buona strategia",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Dudo que el vendor lock-in sea una buena estrategia"
+  },
+  {
+    "id": 3346,
+    "italian": "Avrei dovuto documentare meglio l'architettura",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Debería haber documentado mejor la arquitectura"
+  },
+  {
+    "id": 3347,
+    "italian": "Pur essendo più costoso, il cloud offre maggiore flessibilità",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Aunque es más caro, la nube ofrece mayor flexibilidad"
+  },
+  {
+    "id": 3348,
+    "italian": "Credo che la qualità del codice sia più importante della velocità",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Creo que la calidad del código es más importante que la velocidad"
+  },
+  {
+    "id": 3349,
+    "italian": "Se potessi tornare indietro, sceglierei un cloud diverso",
+    "difficulty": "b1",
+    "topic": "informatica",
+    "spanish": "Si pudiera volver atrás, elegiría una nube diferente"
   }
 ]

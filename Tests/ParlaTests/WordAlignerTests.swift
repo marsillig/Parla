@@ -30,6 +30,21 @@ final class WordAlignerTests: XCTestCase {
         XCTAssertEqual(result[1].status, .extra)
     }
 
+    func testExtraWordDoesNotCascadeIntoFalseErrors() {
+        let result = WordAligner.align(expected: "Io sono pronto", actual: "Io davvero sono pronto")
+
+        XCTAssertEqual(result.map(\.status), [.correct, .extra, .correct, .correct])
+        XCTAssertEqual(result[1].word, "davvero")
+        XCTAssertNil(result[1].expectedWord)
+    }
+
+    func testMissingWordKeepsRemainingWordsAligned() {
+        let result = WordAligner.align(expected: "Io sono molto pronto", actual: "Io sono pronto")
+
+        XCTAssertEqual(result.map(\.status), [.correct, .correct, .missing, .correct])
+        XCTAssertEqual(result[2].expectedWord, "molto")
+    }
+
     func testEmptyExpected() {
         let result = WordAligner.align(expected: "", actual: "qualcosa")
         XCTAssertTrue(result.allSatisfy { $0.status == .extra })

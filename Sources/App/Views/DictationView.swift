@@ -29,6 +29,8 @@ struct DictationView: View {
             progressBar
 
             VStack(spacing: Design.Spacing.lg) {
+                domainHeader
+
                 PhraseDisplayView(phrase: nil, isRevealed: isRevealed)
 
                 if isRevealed, let phrase = engine.currentPhrase {
@@ -74,7 +76,7 @@ struct DictationView: View {
                             playCurrentPhrase(rate: slowRate ? 0.3 : 0.45)
                         },
                         onReveal: { isRevealed = true },
-                        onNext: nextPhrase,
+                        onNext: nil,
                         onSubmit: submit
                     )
                 } else {
@@ -94,6 +96,18 @@ struct DictationView: View {
             if !speaking {
                 inputFocused = true
             }
+        }
+    }
+
+    @ViewBuilder
+    private var domainHeader: some View {
+        if let topic = engine.currentPhrase?.topic {
+            Text(topic.label.uppercased())
+                .font(.system(size: 11, weight: .bold, design: .monospaced))
+                .foregroundColor(.white.opacity(0.5))
+                .padding(.horizontal, 12)
+                .padding(.vertical, 4)
+                .background(.white.opacity(0.1), in: Capsule())
         }
     }
 
@@ -135,17 +149,22 @@ struct DictationView: View {
                         Label("Ascolta", systemImage: "speaker.wave.2")
                     }
                     .buttonStyle(SecondaryButtonStyle())
+                    .keyboardShortcut("a", modifiers: .command)
+                    .accessibilityLabel("Ascolta")
                     if !lastResult.isCorrect {
                         Button(action: retry) {
                             Label("Riprova", systemImage: "arrow.counterclockwise")
                         }
                         .buttonStyle(SecondaryButtonStyle())
+                        .keyboardShortcut("r", modifiers: .command)
+                        .accessibilityLabel("Riprova")
                     }
                     Button(action: nextPhrase) {
                         Label("Prossima", systemImage: "arrow.right")
                     }
                     .buttonStyle(PrimaryButtonStyle())
                     .keyboardShortcut(.return, modifiers: [])
+                    .accessibilityLabel("Prossima frase")
                 }
             }
         }

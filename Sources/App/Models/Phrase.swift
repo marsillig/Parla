@@ -23,6 +23,7 @@ enum Topic: String, Codable, CaseIterable, Sendable {
     case salute
     case tecnologia
     case casa
+    case informatica
     case cultura
 
     var label: String {
@@ -40,6 +41,7 @@ enum Topic: String, Codable, CaseIterable, Sendable {
         case .appuntamenti: return "Appuntamenti"
         case .salute: return "Salute e Benessere"
         case .tecnologia: return "Tecnologia"
+        case .informatica: return "Informatica e Cloud"
         case .casa: return "Casa"
         case .cultura: return "Cultura e Attualità"
         }
@@ -49,6 +51,7 @@ enum Topic: String, Codable, CaseIterable, Sendable {
 enum ExerciseMode: String, Codable, Sendable {
     case dictation
     case pronunciation
+    case matching
 }
 
 struct Phrase: Codable, Identifiable, Equatable, Sendable {

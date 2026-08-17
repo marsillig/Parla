@@ -27,7 +27,7 @@ struct GrammarBreakdownView: View {
         }
         .padding(.horizontal, 28)
         .padding(.vertical, 14)
-        .background(.white.opacity(0.06), in: RoundedRectangle(cornerRadius: Design.Radius.sm))
+        .background(.black.opacity(0.35), in: RoundedRectangle(cornerRadius: Design.Radius.sm))
     }
 
     private func wordColumn(_ tw: TaggedWord) -> some View {
@@ -40,11 +40,11 @@ struct GrammarBreakdownView: View {
 
             Text(tw.tag)
                 .font(.system(size: 12, weight: .medium))
-                .foregroundColor(Color(white: 0.15))
+                .foregroundColor(.white)
                 .padding(.horizontal, 6)
                 .padding(.vertical, 2)
                 .background(
-                    (posColors[tw.tag] ?? .white).opacity(0.45),
+                    (posColors[tw.tag] ?? .white).opacity(0.65),
                     in: RoundedRectangle(cornerRadius: 4)
                 )
                 .lineLimit(1)

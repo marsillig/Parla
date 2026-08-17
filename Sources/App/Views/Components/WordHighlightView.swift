@@ -19,14 +19,14 @@ struct WordHighlightView: View {
         }
         .multilineTextAlignment(.center)
         .padding(Design.Spacing.sm)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: Design.Radius.sm))
+        .background(.black.opacity(0.35), in: RoundedRectangle(cornerRadius: Design.Radius.sm))
     }
 
     private func color(for status: WordStatus) -> Color {
         switch status {
         case .correct: return Design.Color.success
         case .incorrect: return Design.Color.error
-        case .missing: return Design.Color.textSecondary.opacity(0.5)
+        case .missing: return Design.Color.error
         case .extra: return Design.Color.warning
         }
     }

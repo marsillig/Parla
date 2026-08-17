@@ -4,27 +4,73 @@ struct WelcomeView: View {
     @Environment(SessionEngine.self) private var engine
     @Binding var selectedDifficulty: Difficulty
     @Binding var selectedTopic: Topic?
-    @State private var pulse = false
 
     var body: some View {
         VStack(spacing: 32) {
             Spacer()
 
-            VStack(spacing: 12) {
-                Text("Benvenuto in Parla")
-                    .font(.system(size: 32, weight: .bold))
-                    .foregroundColor(.white)
+            Text("Parla")
+                .font(.system(size: 26, weight: .bold))
+                .foregroundColor(.white)
 
-                Text("Scegli come vuoi practicare l'italiano")
-                    .font(.system(size: 18, weight: .medium))
-                    .foregroundColor(.white.opacity(0.7))
+            VStack(spacing: 16) {
+                Text("Seleziona il livello")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundColor(.white.opacity(0.8))
+
+                HStack(spacing: 12) {
+                    ForEach(Difficulty.allCases, id: \.self) { d in
+                        Button(action: { selectedDifficulty = d }) {
+                            Text(d.label)
+                                .font(.system(size: 16, weight: .bold))
+                                .foregroundColor(.white)
+                                .frame(width: 64, height: 44)
+                                .background(
+                                    RoundedRectangle(cornerRadius: Design.Radius.sm)
+                                        .fill(selectedDifficulty == d
+                                              ? Design.Color.accent
+                                              : .white.opacity(0.1))
+                                )
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: Design.Radius.sm)
+                                        .stroke(selectedDifficulty == d
+                                                ? Design.Color.accentLight.opacity(0.6)
+                                                : .white.opacity(0.15), lineWidth: 1)
+                                )
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+
+                HStack(spacing: 8) {
+                    Text("Argomento:")
+                        .font(.system(size: 13, weight: .medium))
+                        .foregroundColor(.white.opacity(0.6))
+
+                    Picker(selection: $selectedTopic) {
+                        Text("Tutti").tag(Optional<Topic>.none)
+                        ForEach(engine.allTopics, id: \.self) { t in
+                            Text(t.label).tag(Optional.some(t))
+                        }
+                    } label: {}
+                        .pickerStyle(.menu)
+                        .frame(width: 160)
+                        .labelsHidden()
+                        .tint(.white)
+                }
             }
+            .padding(.vertical, 16)
+            .padding(.horizontal, 24)
+            .background(.black.opacity(0.5), in: RoundedRectangle(cornerRadius: Design.Radius.lg))
+            .overlay(
+                RoundedRectangle(cornerRadius: Design.Radius.lg)
+                    .stroke(.white.opacity(0.08), lineWidth: 1)
+            )
 
-            HStack(spacing: 24) {
+            HStack(spacing: 16) {
                 modeCard(
                     icon: "ear.fill",
-                    title: "Dettato",
-                    description: "Ascolta e scrivi ciò che senti"
+                    title: "Dettato"
                 ) {
                     withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
                         engine.mode = .dictation
@@ -34,18 +80,23 @@ struct WelcomeView: View {
 
                 modeCard(
                     icon: "mic.fill",
-                    title: "Pronuncia",
-                    description: "Leggi ad alta voce e controlla"
+                    title: "Pronuncia"
                 ) {
                     withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
                         engine.mode = .pronunciation
                     }
                     startSession()
                 }
-            }
-            .onAppear {
-                withAnimation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true)) {
-                    pulse = true
+
+                modeCard(
+                    icon: "square.grid.2x2.fill",
+                    title: "Abbina"
+                ) {
+                    withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
+                        engine.mode = .matching
+                        engine.isFinished = false
+                        engine.isSessionActive = true
+                    }
                 }
             }
 
@@ -53,75 +104,31 @@ struct WelcomeView: View {
         }
     }
 
-    private func modeCard(icon: String, title: String, description: String, action: @escaping () -> Void) -> some View {
+    private func modeCard(icon: String, title: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
-            VStack(spacing: 16) {
-                ZStack {
-                    Circle()
-                        .fill(
-                            RadialGradient(
-                                colors: [
-                                    Design.Color.accent.opacity(0.25),
-                                    Design.Color.accent.opacity(0.0)
-                                ],
-                                center: .center,
-                                startRadius: 20,
-                                endRadius: 40
-                            )
-                        )
-                        .frame(width: 80, height: 80)
-                        .scaleEffect(pulse ? 1.15 : 1.0)
+            VStack(spacing: 14) {
+                Image(systemName: icon)
+                    .font(.system(size: 24, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 48, height: 48)
+                    .background(Design.Color.accent, in: RoundedRectangle(cornerRadius: Design.Radius.sm))
 
-                    Circle()
-                        .fill(
-                            LinearGradient(
-                                colors: [
-                                    Design.Color.accent.opacity(0.9),
-                                    Design.Color.accentDim.opacity(0.95)
-                                ],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                        )
-                        .frame(width: 64, height: 64)
-                        .shadow(color: Design.Color.accent.opacity(0.4), radius: 12, x: 0, y: 6)
-
-                    LinearGradient(
-                        colors: [.white.opacity(0.25), .clear],
-                        startPoint: .topLeading,
-                        endPoint: .center
-                    )
-                    .frame(width: 64, height: 64)
-                    .clipShape(Circle())
-
-                    Image(systemName: icon)
-                        .font(.system(size: 28, weight: .medium))
-                        .foregroundColor(.white)
-                        .shadow(color: .black.opacity(0.2), radius: 1, x: 0, y: 1)
-                }
-
-                VStack(spacing: 4) {
-                    Text(title)
-                        .font(.system(size: 18, weight: .semibold))
-                        .foregroundColor(.white)
-                    Text(description)
-                        .font(.system(size: 13, weight: .medium))
-                        .foregroundColor(.white.opacity(0.6))
-                        .multilineTextAlignment(.center)
-                }
+                Text(title)
+                    .font(.system(size: 17, weight: .semibold))
+                    .foregroundColor(.white)
             }
-            .frame(width: 160, height: 180)
+            .frame(width: 150, height: 126)
             .background(
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(Color(red: 0, green: 0.133, blue: 0.2))
-                    .opacity(0.5)
+                RoundedRectangle(cornerRadius: Design.Radius.md)
+                    .fill(.black.opacity(0.58))
             )
             .overlay(
-                RoundedRectangle(cornerRadius: 20)
-                    .stroke(.white.opacity(0.1), lineWidth: 1)
+                RoundedRectangle(cornerRadius: Design.Radius.md)
+                    .stroke(.white.opacity(0.16), lineWidth: 1)
             )
         }
-        .buttonStyle(GlassButtonStyle())
+        .buttonStyle(.plain)
+        .accessibilityLabel(title)
     }
 
     private func startSession() {

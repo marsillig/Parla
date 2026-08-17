@@ -21,22 +21,29 @@ final class TranscriptionService {
     private var whisperKit: WhisperKit?
     private(set) var isLoaded = false
     private(set) var isLoading = false
+    private(set) var loadError: String?
 
     func loadModel() async throws {
         guard !isLoaded else { return }
         guard !isLoading else { return }
 
         isLoading = true
+        loadError = nil
         defer { isLoading = false }
 
-        whisperKit = try await WhisperKit(
-            model: "base",
-            verbose: false,
-            prewarm: true,
-            load: true,
-            download: true
-        )
-        isLoaded = true
+        do {
+            whisperKit = try await WhisperKit(
+                model: "base",
+                verbose: false,
+                prewarm: true,
+                load: true,
+                download: true
+            )
+            isLoaded = true
+        } catch {
+            loadError = "Impossibile caricare il modello vocale. Verifica la connessione e riprova."
+            throw error
+        }
     }
 
     func transcribe(audioURL: URL) async throws -> String {

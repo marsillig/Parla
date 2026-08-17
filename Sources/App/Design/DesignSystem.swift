@@ -72,7 +72,7 @@ struct GlassCard: ViewModifier {
     func body(content: Content) -> some View {
         content
             .padding(padding)
-            .background(.thinMaterial, in: RoundedRectangle(cornerRadius: radius))
+            .background(.black.opacity(0.7), in: RoundedRectangle(cornerRadius: radius))
             .shadow(color: Design.Shadow.card, radius: 8, y: 2)
     }
 }
@@ -102,12 +102,12 @@ struct SecondaryButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(Design.Typography.label)
-            .foregroundColor(Design.Color.accent)
+            .foregroundColor(.white)
             .padding(.horizontal, 16)
             .padding(.vertical, 8)
             .background(
                 RoundedRectangle(cornerRadius: Design.Radius.sm)
-                    .stroke(Design.Color.accent.opacity(0.3), lineWidth: 1)
+                    .stroke(.white.opacity(0.35), lineWidth: 1)
             )
             .opacity(configuration.isPressed ? 0.5 : 1)
             .scaleEffect(configuration.isPressed ? 0.93 : 1)

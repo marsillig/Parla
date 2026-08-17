@@ -12,6 +12,7 @@ struct PronunciationView: View {
     @State private var audioPlayer: AVAudioPlayer?
     @State private var taggedWords: [TaggedWord] = []
     @State private var pulse = false
+    @State private var errorMessage: String?
 
     var body: some View {
         VStack(spacing: Design.Spacing.lg) {
@@ -26,7 +27,11 @@ struct PronunciationView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .animation(.easeInOut(duration: 0.3), value: engine.isFinished)
         .task {
-            try? await engine.transcriptionService.loadModel()
+            await loadModel()
+        }
+        .onDisappear {
+            audioCapture.cancelRecording()
+            speechService.stop()
         }
     }
 
@@ -35,6 +40,8 @@ struct PronunciationView: View {
             progressBar
 
             VStack(spacing: Design.Spacing.lg) {
+                domainHeader
+
                 PhraseDisplayView(phrase: engine.currentPhrase?.italian, isRevealed: true, textColor: .white)
 
                 if let phrase = engine.currentPhrase {
@@ -47,13 +54,25 @@ struct PronunciationView: View {
 
                 if !submitted {
                     VStack(spacing: Design.Spacing.sm) {
-                        if !engine.transcriptionService.isLoaded {
+                        if engine.transcriptionService.isLoading {
                             HStack(spacing: 8) {
                                 ProgressView()
                                     .scaleEffect(0.8)
                                 Text("Scaricando modello vocale...")
                                     .font(Design.Typography.caption)
                                     .foregroundColor(Design.Color.textSecondary)
+                            }
+                            .padding()
+                        } else if let loadError = engine.transcriptionService.loadError {
+                            VStack(spacing: Design.Spacing.sm) {
+                                Text(loadError)
+                                    .font(Design.Typography.caption)
+                                    .foregroundColor(.white.opacity(0.85))
+                                    .multilineTextAlignment(.center)
+                                Button("Riprova") {
+                                    Task { await loadModel() }
+                                }
+                                .buttonStyle(SecondaryButtonStyle())
                             }
                             .padding()
                         }
@@ -136,9 +155,10 @@ struct PronunciationView: View {
                             }
                         }
                         .buttonStyle(.plain)
-                        .disabled(isProcessing)
-                        .opacity(isProcessing ? 0.4 : 1)
+                        .disabled(isProcessing || !engine.transcriptionService.isLoaded)
+                        .opacity(isProcessing || !engine.transcriptionService.isLoaded ? 0.4 : 1)
                         .keyboardShortcut(.space, modifiers: [])
+                        .accessibilityLabel(audioCapture.isRecording ? "Ferma registrazione" : "Inizia registrazione")
 
                         if audioCapture.isRecording {
                             AudioLevelIndicator(level: audioCapture.audioLevel)
@@ -154,7 +174,7 @@ struct PronunciationView: View {
                             }
                         }
 
-                        if !audioCapture.isRecording && !engine.transcriptionService.isLoaded {
+                        if !audioCapture.isRecording && !engine.transcriptionService.isLoaded && engine.transcriptionService.loadError == nil {
                             Text("Il primo utilizzo scarica il\nmodello di riconoscimento vocale")
                                 .font(Design.Typography.caption)
                                 .foregroundColor(Design.Color.textSecondary)
@@ -170,6 +190,14 @@ struct PronunciationView: View {
                                     .foregroundColor(Design.Color.textSecondary)
                             }
                             .padding(.top, Design.Spacing.xs)
+                        }
+
+                        if let errorMessage {
+                            Text(errorMessage)
+                                .font(Design.Typography.caption)
+                                .foregroundColor(.white.opacity(0.9))
+                                .multilineTextAlignment(.center)
+                                .padding(.top, Design.Spacing.xs)
                         }
                     }
 
@@ -191,6 +219,18 @@ struct PronunciationView: View {
             } else {
                 pulse = false
             }
+        }
+    }
+
+    @ViewBuilder
+    private var domainHeader: some View {
+        if let topic = engine.currentPhrase?.topic {
+            Text(topic.label.uppercased())
+                .font(.system(size: 11, weight: .bold, design: .monospaced))
+                .foregroundColor(.white.opacity(0.5))
+                .padding(.horizontal, 12)
+                .padding(.vertical, 4)
+                .background(.white.opacity(0.1), in: Capsule())
         }
     }
 
@@ -230,19 +270,27 @@ struct PronunciationView: View {
                         Label("Riprova", systemImage: "arrow.counterclockwise")
                     }
                     .buttonStyle(SecondaryButtonStyle())
+                    .keyboardShortcut("r", modifiers: .command)
+                    .accessibilityLabel("Riprova")
                     Button(action: { playCurrentPhrase() }) {
                         Label("Ascolta", systemImage: "speaker.wave.2")
                     }
                     .buttonStyle(SecondaryButtonStyle())
+                    .keyboardShortcut("a", modifiers: .command)
+                    .accessibilityLabel("Ascolta")
                     Button(action: playRecording) {
                         Label("La mia voce", systemImage: "waveform.path.mic")
                     }
                     .buttonStyle(SecondaryButtonStyle())
                     .disabled(recordingURL == nil)
+                    .keyboardShortcut("v", modifiers: .command)
+                    .accessibilityLabel("La mia voce")
                     Button(action: nextPhrase) {
                         Label("Prossima", systemImage: "arrow.right")
                     }
                     .buttonStyle(PrimaryButtonStyle())
+                    .keyboardShortcut(.return, modifiers: [])
+                    .accessibilityLabel("Prossima frase")
                 }
             }
         }
@@ -259,15 +307,26 @@ struct PronunciationView: View {
 
     private func startRecording() async {
         let granted = await audioCapture.requestPermission()
-        guard granted else { return }
+        guard granted else {
+            errorMessage = "Consenti l'accesso al microfono nelle Impostazioni di Sistema per esercitare la pronuncia."
+            return
+        }
         recordingURL = nil
         transcribedText = ""
-        try? audioCapture.startRecording()
+        errorMessage = nil
+        do {
+            try audioCapture.startRecording()
+        } catch {
+            errorMessage = error.localizedDescription
+        }
     }
 
     private func stopAndTranscribe() {
         recordingURL = audioCapture.stopRecording()
-        guard let url = recordingURL else { return }
+        guard let url = recordingURL else {
+            errorMessage = "La registrazione deve durare almeno mezzo secondo."
+            return
+        }
 
         isProcessing = true
         Task {
@@ -284,7 +343,7 @@ struct PronunciationView: View {
                 }
             } catch {
                 await MainActor.run {
-                    transcribedText = "[errore]"
+                    errorMessage = error.localizedDescription
                     isProcessing = false
                 }
             }
@@ -298,6 +357,7 @@ struct PronunciationView: View {
         transcribedText = ""
         submitted = false
         taggedWords = []
+        errorMessage = nil
     }
 
     private func nextPhrase() {
@@ -307,6 +367,7 @@ struct PronunciationView: View {
         transcribedText = ""
         submitted = false
         taggedWords = []
+        errorMessage = nil
     }
 
     private func playRecording() {
@@ -319,6 +380,14 @@ struct PronunciationView: View {
     private func playCurrentPhrase(rate: Float = 0.45) {
         guard let phrase = engine.currentPhrase else { return }
         speechService.speak(phrase.italian, rate: rate)
+    }
+
+    private func loadModel() async {
+        do {
+            try await engine.transcriptionService.loadModel()
+        } catch {
+            // The service exposes a localized, actionable loading state in the view.
+        }
     }
 }
 

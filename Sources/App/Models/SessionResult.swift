@@ -40,10 +40,11 @@ struct PhraseResult: Codable, Equatable {
 struct WordResult: Codable, Equatable, Identifiable {
     let id = UUID()
     let word: String
+    let expectedWord: String?
     let status: WordStatus
 
     enum CodingKeys: String, CodingKey {
-        case word, status
+        case word, expectedWord, status
     }
 }
 
